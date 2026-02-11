@@ -50,4 +50,3 @@ Aquí se consolida, versiona y estructura todo el conocimiento técnico generado
 ## 🔗 Acceso Rápido
 
 - **URL SSH:** `git@github.com:AnaBHernandez/confeccion-web-2026.git`
-- **Wiki Técnica:** [Acceder a la Wiki](https://github.com/AnaBHernandez/confeccion-web-2026/wiki)
