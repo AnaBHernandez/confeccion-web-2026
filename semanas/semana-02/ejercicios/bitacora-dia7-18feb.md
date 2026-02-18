@@ -48,4 +48,14 @@ ejemplo-tablas.html (código de ejemplo con horarios y fusión de celdas)
 Enlace directo: Investigación tablas
 
 🧠 Reflexión
-Hoy aprendí a no rendirme ante los problemas técnicos. Empezamos con errores de conexión entre VS Code y WSL, y en lugar de bloquearme, aprendí a cambiar de terminal, usar Ubuntu para Git, y entender por qué a veces las cosas fallan. También descubrí la diferencia entre HTTPS y SSH, y cómo arreglar un repositorio clonado con la URL incorrecta. En cuanto a HTML, dimos los primeros pasos sólidos con etiquetas semánticas, creamos dos proyectos funcionales (Primera-app y the-good-breakfast) y los publicamos con GitHub Pages. Además, preparé una investigación completa sobre tablas HTML para mi presentación de mañana. Y lo más importante: todo lo que hicimos quedó documentado en mi repositorio de apuntes, con estructura profesional y subido a GitHub. Me llevo la confianza de que puedo buscar soluciones, preguntar y aprender haciendo, incluso cuando las cosas no salen a la primera.
+Hoy aprendí a no rendirme ante los problemas técnicos.
+ Empezamos con errores de conexión entre VS Code y WSL, y en lugar de bloquearme,
+ aprendí a cambiar de terminal, usar Ubuntu para Git, y entender por qué a veces las cosas fallan.
+ También descubrí la diferencia entre HTTPS y SSH, y cómo arreglar un repositorio clonado
+ con la URL incorrecta. En cuanto a HTML, dimos los primeros pasos sólidos con etiquetas semánticas,
+ creamos dos proyectos funcionales (Primera-app y the-good-breakfast) y los publicamos
+ con GitHub Pages. Además, preparé una investigación completa sobre tablas HTML
+ para mi presentación de mañana. Y lo más importante: todo lo que hicimos quedó documentado
+ en mi repositorio de apuntes, con estructura profesional y subido a GitHub.
+ Me llevo la confianza de que puedo buscar soluciones, preguntar y aprender haciendo,
+ incluso cuando las cosas no salen a la primera.
