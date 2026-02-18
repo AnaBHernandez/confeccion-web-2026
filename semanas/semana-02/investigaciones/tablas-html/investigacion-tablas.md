@@ -31,8 +31,8 @@ Son esenciales para mostrar datos tabulares como horarios, comparativas, resulta
   </tr>
 </table>
 
-
 🧪 Ejemplo práctico (horario de clases)
+html
 <table>
   <caption>Horario semanal</caption>
   <thead>
@@ -80,118 +80,3 @@ Añadir un <caption> descriptivo.
 MDN: Tablas HTML
 
 W3Schools: HTML Tables
-
-
-
-### 6. **Guarda y cierra nano**
-- `Ctrl + O` → Enter
-- `Ctrl + X`
-
----
-
-## 🌐 **Crear el archivo HTML de ejemplo (para mostrar en vivo)**
-
-### 7. **Crea el archivo `ejemplo-tablas.html`**
-```bash
-nano ejemplo-tablas.html
-
-8. Pega este código HTML completo
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Ejemplo de Tablas HTML</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        caption {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Ejemplo práctico: Horario de clases</h1>
-    
-    <table>
-        <caption>Horario semanal</caption>
-        <thead>
-            <tr>
-                <th>Hora</th>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miércoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>9:00 - 10:00</td>
-                <td>Matemáticas</td>
-                <td>Lengua</td>
-                <td>Inglés</td>
-                <td>Ciencias</td>
-                <td>Historia</td>
-            </tr>
-            <tr>
-                <td>10:00 - 11:00</td>
-                <td>Física</td>
-                <td>Química</td>
-                <td>Deporte</td>
-                <td>Arte</td>
-                <td>Música</td>
-            </tr>
-            <tr>
-                <td>11:00 - 12:00</td>
-                <td colspan="5" style="background-color: #d3d3d3;">Recreo</td>
-            </tr>
-            <tr>
-                <td>12:00 - 13:00</td>
-                <td>Historia</td>
-                <td>Matemáticas</td>
-                <td>Lengua</td>
-                <td>Inglés</td>
-                <td>Ciencias</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="6">Total de horas: 20</td>
-            </tr>
-        </tfoot>
-    </table>
-
-    <h2>Ejemplo con rowspan</h2>
-    <table>
-        <caption>Fusión de filas</caption>
-        <tr>
-            <th>Producto</th>
-            <th>Categoría</th>
-            <th>Precio</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Manzanas</td>
-            <td>Frescas</td>
-            <td>2€</td>
-        </tr>
-        <tr>
-            <td>Ecológicas</td>
-            <td>2.5€</td>
-        </tr>
-        <tr>
-            <td>Plátanos</td>
-            <td>Frescos</td>
-            <td>1.8€</td>
-        </tr>
-    </table>
-</body>
-</html>
