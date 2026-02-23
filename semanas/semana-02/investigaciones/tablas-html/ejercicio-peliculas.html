@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio: Tabla de películas (en directo)</title>
+    <style>
+        /* Un poco de CSS para que se vea más claro durante la explicación */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tfoot td {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .nota {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎬 Ejercicio guiado: Tabla de películas</h1>
+    <p><em>Vamos a construir esta tabla paso a paso. Abre las herramientas de desarrollo (F12) para ver los comentarios en el código.</em></p>
+
+    <!-- ================================================================== -->
+    <!-- COMIENZA LA TABLA (vacía, la iremos rellenando)                   -->
+    <!-- ================================================================== -->
+
+    <!-- 
+        PASO 1: Crear la etiqueta <table> que envuelve toda la tabla.
+        PASO 2: Añadir un <caption> opcional para darle un título.
+    -->
+    <table>
+        <caption>Listado de películas favoritas</caption>
+
+        <!-- 
+            PASO 3: Encabezado de la tabla con <thead>.
+            Dentro, una fila <tr> y celdas de encabezado <th>.
+        -->
+        <thead>
+            <tr>
+                <th>Título</th>      <!-- Columna 1 -->
+                <th>Director</th>     <!-- Columna 2 -->
+                <th>Año</th>          <!-- Columna 3 -->
+                <th>Género</th>       <!-- Columna 4 -->
+                <th>Puntuación</th>   <!-- Columna 5 -->
+            </tr>
+        </thead>
+
+        <!-- 
+            PASO 4: Cuerpo de la tabla con <tbody>.
+            Aquí van las filas de datos (<tr>) con sus celdas <td>.
+            Iremos añadiendo película por película.
+        -->
+        <tbody>
+            <!-- Primera película: El Padrino -->
+            <tr>
+                <td>El Padrino</td>
+                <td>Francis Ford Coppola</td>
+                <td>1972</td>
+                <td>Drama</td>
+                <td>9.2</td>
+            </tr>
+
+            <!-- Segunda película: Star Wars -->
+            <tr>
+                <td>Star Wars: Episodio IV</td>
+                <td>George Lucas</td>
+                <td>1977</td>
+                <td>Ciencia ficción</td>
+                <td>8.6</td>
+            </tr>
+
+            <!-- Tercera película: Toy Story -->
+            <tr>
+                <td>Toy Story</td>
+                <td>John Lasseter</td>
+                <td>1995</td>
+                <td>Animación</td>
+                <td>8.3</td>
+            </tr>
+
+            <!-- Podríamos añadir más películas si quisiéramos -->
+        </tbody>
+
+        <!-- 
+            PASO 5: Pie de tabla con <tfoot>.
+            Aquí usaremos colspan para que la celda de texto ocupe varias columnas.
+            Queremos una fila que ponga "Mejor puntuada:" en las primeras 4 columnas
+            y la nota (9.2) en la quinta columna.
+        -->
+        <tfoot>
+            <tr>
+                <!-- 
+                    colspan="4" hace que esta celda ocupe el espacio de 4 columnas.
+                    Las columnas que fusiona son: Título, Director, Año, Género.
+                -->
+                <td colspan="4" style="text-align: right;"><strong>Mejor puntuada:</strong></td>
+                <!-- Esta celda es la quinta columna (Puntuación) -->
+                <td><strong>9.2</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Explicación adicional después de la tabla -->
+    <div class="nota">
+        <h3>📝 Explicación de lo que hemos hecho:</h3>
+        <ul>
+            <li><strong>&lt;table&gt;</strong>: Contenedor principal.</li>
+            <li><strong>&lt;caption&gt;</strong>: Título de la tabla (opcional).</li>
+            <li><strong>&lt;thead&gt;</strong>: Agrupa los encabezados. Dentro, &lt;th&gt; define cada título de columna.</li>
+            <li><strong>&lt;tbody&gt;</strong>: Agrupa los datos. Cada &lt;tr&gt; es una película, con &lt;td&gt; para cada dato.</li>
+            <li><strong>&lt;tfoot&gt;</strong>: Pie de tabla. Usamos <code>colspan="4"</code> para que la primera celda ocupe cuatro columnas.</li>
+        </ul>
+    </div>
+
+    <!-- ================================================================== -->
+    <!-- GUION PARA LA PRESENTACIÓN (esto no se ve en el navegador)        -->
+    <!-- ================================================================== -->
+    <!--
+        🎤 INSTRUCCIONES PARA ANA (solo para ti, no se ve en la página):
+
+        Durante la presentación, sigue estos pasos en orden:
+
+        1. Abre este archivo en el navegador para que todos vean el resultado final.
+        2. Luego, abre el archivo en el editor (nano) y muestra el código.
+        3. Explica cada etiqueta señalándola con el cursor:
+            - <table>, <caption>, <thead>, <tr>, <th>, <tbody>, <td>, <tfoot>, colspan.
+        4. Destaca especialmente el uso de colspan en <tfoot>:
+            "Aquí queremos que 'Mejor puntuada:' ocupe las cuatro primeras columnas,
+            por eso ponemos colspan='4' en esa celda."
+        5. Si quieres, puedes modificar algún dato sobre la marcha (por ejemplo,
+           añadir otra película) y mostrar cómo se actualiza la tabla.
+
+        ¡Tú puedes! Habla despacio y pregunta si hay dudas.
+    -->
+    <!-- FIN DEL GUION OCULTO -->
+
+</body>
+</html>
