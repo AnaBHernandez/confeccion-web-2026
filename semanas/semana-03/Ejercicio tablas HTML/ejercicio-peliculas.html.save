@@ -1,0 +1,53 @@
+<!DOCTYPE html>                     <!-- 1. Indica que es un documento HTML5 -->
+<html>                              <!-- 2. Aquí empieza la página web -->
+<head>                              <!-- 3. Cabecera: info no visible -->
+ <meta charset="UTF-8">          <!-- 4. Permite tildes y eñ
+es -->
+ <title>Ejercicio Tabla de Películas</title>  <!-- 5. Título de la pestaña -->
+</head>                             <!-- 6. Cierre de cabecera -->
+<body>                              <!-- 7. Cuerpo visible de la página -->
+ <h1>Mi tabla de películas</h1>  <!-- 8. Título principal -->
+ <table>                         <!-- 9. Empieza la tabla -->
+     <thead>                     <!-- 10. Encabezados de la tabla -->
+         <tr>                    <!-- 11. Fila de encabezado -->
+             <th>Título</th>     <!-- 12. Columna Título (negrita) -->
+             <th>Director</th>   <!-- 13. Columna Director -->
+             <th>Año</th>        <!-- 14. Columna Año -->
+             <th>Género</th>     <!-- 15. Columna Género -->
+             <th>Puntuación</th> <!-- 16. Columna Puntuación -->
+         </tr>                   <!-- 17. Cierre fila -->
+     </thead>                    <!-- 18. Cierre thead -->
+
+     <tbody>                     <!-- 19. Cuerpo de la tabla (datos) -->
+         <tr>                    <!-- 20. Primera película -->
+             <td>El Padrino</td>               <!-- 21. Título -->
+             <td>Francis Ford Coppola</td>     <!-- 22. Director -->
+             <td>1972</td>                     <!-- 23. Año -->
+             <td>Drama</td>                    <!-- 24. Género -->
+             <td>9.2</td>                      <!-- 25. Puntuación -->
+         </tr>                   <!-- 26. Cierre primera fila -->
+         <tr>                    <!-- 27. Segunda película -->
+             <td>Star Wars</td>                 <!-- 28. Título -->
+             <td>George Lucas</td>              <!-- 29. Director -->
+             <td>1977</td>                      <!-- 30. Año -->
+             <td>Ciencia ficción</td>           <!-- 31. Género -->
+             <td>8.6</td>                       <!-- 32. Puntuación -->
+         </tr>                   <!-- 33. Cierre segunda fila -->
+         <tr>                    <!-- 34. Tercera película -->
+             <td>Toy Story</td>                 <!-- 35. Título -->
+             <td>John Lasseter</td>             <!-- 36. Director -->
+             <td>1995</td>                      <!-- 37. Año -->
+             <td>Animación</td>                 <!-- 38. Género -->
+             <td>8.3</td>                       <!-- 39. Puntuación -->
+         </tr>                   <!-- 40. Cierre tercera fila -->
+     </tbody>                    <!-- 41. Cierre tbody -->
+
+     <tfoot>                     <!-- 42. Pie de tabla -->
+         <tr>                    <!-- 43. Fila del pie -->
+             <td colspan="4"><strong>Mejor puntuada:</strong></td> <!-- 44. Celda que ocupa 4 columnas -->
+             <td><strong>9.2</strong></td>      <!-- 45. Puntuación más alta -->
+         </tr>                   <!-- 46. Cierre fila pie -->
+     </tfoot>                    <!-- 47. Cierre tfoot -->
+ </table>                        <!-- 48. Cierre tabla -->
+</body>                             <!-- 49. Cierre body -->
+</html>                             <!-- 50. Cierre html -->

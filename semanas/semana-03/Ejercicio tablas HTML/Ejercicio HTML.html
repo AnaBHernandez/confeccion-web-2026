@@ -1,0 +1,52 @@
+<!DOCTYPE html>                     <!-- 1. Indica que es un documento HTML5 (la versión moderna) -->
+<html>                              <!-- 2. Aquí empieza toda la página web -->
+<head>                              <!-- 3. Cabecera: información que no se ve en la página -->
+    <meta charset="UTF-8">          <!-- 4. Permite usar tildes, eñes y símbolos especiales -->
+    <title>Ejercicio Tabla de Películas</title>  <!-- 5. Título que aparece en la pestaña del navegador -->
+</head>                             <!-- 6. Cierre de la cabecera -->
+<body>                              <!-- 7. Cuerpo: todo lo que se ve en la página empieza aquí -->
+    <h1>Mi tabla de películas</h1>  <!-- 8. Título principal de la página (encabezado grande) -->
+    <table>                         <!-- 9. Empieza la tabla -->
+        <thead>                     <!-- 10. Inicio de la sección de encabezados de la tabla -->
+            <tr>                    <!-- 11. Fila (table row) del encabezado -->
+                <th>Título</th>     <!-- 12. Celda de encabezado (negrita) para la columna Título -->
+                <th>Director</th>   <!-- 13. Celda de encabezado para Director -->
+                <th>Año</th>        <!-- 14. Celda de encabezado para Año -->
+                <th>Género</th>     <!-- 15. Celda de encabezado para Género -->
+                <th>Puntuación</th> <!-- 16. Celda de encabezado para Puntuación -->
+            </tr>                   <!-- 17. Cierre de la fila de encabezados -->
+        </thead>                    <!-- 18. Cierre de la sección de encabezados -->
+
+        <tbody>                     <!-- 19. Inicio del cuerpo de la tabla (datos) -->
+            <tr>                    <!-- 20. Primera fila de datos (primera película) -->
+                <td>El Padrino</td>               <!-- 21. Dato: Título -->
+                <td>Francis Ford Coppola</td>     <!-- 22. Dato: Director -->
+                <td>1972</td>                     <!-- 23. Dato: Año -->
+                <td>Drama</td>                    <!-- 24. Dato: Género -->
+                <td>9.2</td>                      <!-- 25. Dato: Puntuación -->
+            </tr>                   <!-- 26. Cierre de la primera fila de datos -->
+            <tr>                    <!-- 27. Segunda fila de datos (segunda película) -->
+                <td>Star Wars</td>                 <!-- 28. Título -->
+                <td>George Lucas</td>              <!-- 29. Director -->
+                <td>1977</td>                      <!-- 30. Año -->
+                <td>Ciencia ficción</td>           <!-- 31. Género -->
+                <td>8.6</td>                       <!-- 32. Puntuación -->
+            </tr>                   <!-- 33. Cierre de la segunda fila -->
+            <tr>                    <!-- 34. Tercera fila de datos (tercera película) -->
+                <td>Toy Story</td>                 <!-- 35. Título -->
+                <td>John Lasseter</td>             <!-- 36. Director -->
+                <td>1995</td>                      <!-- 37. Año -->
+                <td>Animación</td>                 <!-- 38. Género -->
+                <td>8.3</td>                       <!-- 39. Puntuación -->
+            </tr>                   <!-- 40. Cierre de la tercera fila -->
+        </tbody>                    <!-- 41. Cierre del cuerpo de la tabla -->
+
+        <tfoot>                     <!-- 42. Inicio del pie de tabla -->
+            <tr>                    <!-- 43. Fila del pie -->
+                <td colspan="4"><strong>Mejor puntuada:</strong></td> <!-- 44. Celda que ocupa 4 columnas (Título, Director, Año, Género) -->
+                <td><strong>9.2</strong></td>      <!-- 45. Celda para la puntuación más alta -->
+            </tr>                   <!-- 46. Cierre de la fila del pie -->
+        </tfoot>                    <!-- 47. Cierre del pie de tabla -->
+    </table>                        <!-- 48. Cierre de la tabla -->
+</body>                             <!-- 49. Cierre del cuerpo de la página -->
+</html>                             <!-- 50. Cierre del documento HTML -->

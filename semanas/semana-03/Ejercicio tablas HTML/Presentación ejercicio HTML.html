@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>📘 Tablas HTML · Explicación para novatas</title>
+    <style>
+        /* Estilos básicos para que sea legible */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px auto;
+            max-width: 1000px;
+            padding: 0 20px;
+            background: #f9f9f9;
+            color: #222;
+        }
+        h1 {
+            font-size: 2.2em;
+            color: #0a3b5c;
+            border-bottom: 3px solid #0a3b5c;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #1f6e8c;
+            margin-top: 40px;
+            border-left: 8px solid #1f6e8c;
+            padding-left: 15px;
+        }
+        h3 {
+            font-size: 1.4em;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        p, li {
+            font-size: 1.2em;
+        }
+        pre {
+            background: #e8e8e8;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            overflow-x: auto;
+            border: 1px solid #ccc;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            width: 100%;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: left;
+            font-size: 1.1em;
+        }
+        th {
+            background-color: #d4e6f1;
+            font-weight: bold;
+        }
+        .nota-para-ana {
+            background: #fcf8e7;
+            border-left: 6px solid #e6b800;
+            padding: 15px;
+            margin: 40px 0;
+            font-size: 1.1em;
+        }
+        hr {
+            border: 1px solid #ccc;
+            margin: 40px 0;
+        }
+        .advertencia {
+            background: #ffeeee;
+            border-left: 6px solid #cc0000;
+            padding: 15px;
+            font-size: 1.1em;
+        }
+        .ejemplo-pequeno {
+            background: #f0f7ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- PORTADA                                       -->
+    <!-- ============================================ -->
+    <h1>📘 HTML TABLES (TABLAS)</h1>
+    <p style="font-size:1.3em;"><strong>Ana Belén Hernández</strong> · Factoría F5 · 19 febrero 2026</p>
+    <p style="font-size:1.2em;">Explicación para empezar desde cero · 5 minutos teoría + 2 minutos ejercicio</p>
+    <hr>
+
+    <!-- ============================================ -->
+    <!-- 1. QUÉ ES UNA TABLA (nivel super básico)     -->
+    <!-- ============================================ -->
+    <h2>🔹 1. ¿Qué es una tabla en HTML?</h2>
+    <p>Una tabla es una forma de ordenar información en <strong>filas</strong> (de izquierda a derecha) y <strong>columnas</strong> (de arriba a abajo). Por ejemplo:</p>
+    <ul>
+        <li>Un horario de clases.</li>
+        <li>Una lista de precios.</li>
+        <li>Los resultados de un campeonato.</li>
+    </ul>
+    <p>En HTML usamos <strong>etiquetas</strong> para construir la tabla. Una etiqueta es una palabra entre &lt; &gt; que le dice al navegador qué tipo de contenido es.</p>
+
+    <div class="ejemplo-pequeno">
+        <p><strong>Etiquetas básicas (las más importantes):</strong></p>
+        <ul>
+            <li><code>&lt;table&gt;</code> → envuelve toda la tabla.</li>
+            <li><code>&lt;tr&gt;</code> → una fila (table row).</li>
+            <li><code>&lt;td&gt;</code> → una celda con datos (table data).</li>
+            <li><code>&lt;th&gt;</code> → una celda de encabezado (table header). El texto sale en negrita.</li>
+        </ul>
+    </div>
+
+    <h3>📌 Ejemplo mínimo (copia esto y pruébalo)</h3>
+    <pre>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Nombre&lt;/th&gt;   &lt;!-- encabezado columna 1 --&gt;
+    &lt;th&gt;Edad&lt;/th&gt;     &lt;!-- encabezado columna 2 --&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ana&lt;/td&gt;      &lt;!-- fila 1, dato columna 1 --&gt;
+    &lt;td&gt;30&lt;/td&gt;       &lt;!-- fila 1, dato columna 2 --&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+
+    <p><strong>Lo que se ve en el navegador (con bordes para que lo veas claro):</strong></p>
+    <table>
+        <tr><th>Nombre</th><th>Edad</th></tr>
+        <tr><td>Ana</td><td>30</td></tr>
+    </table>
+    <hr>
+
+    <!-- ============================================ -->
+    <!-- 2. EXPANDIR FILAS (rowspan) Y COLUMNAS (colspan) -->
+    <!-- ============================================ -->
+    <h2>🔹 2. Expandir filas y columnas</h2>
+    <p>A veces queremos que una celda ocupe más de un espacio. Para eso usamos <code>colspan</code> (para columnas) y <code>rowspan</code> (para filas).</p>
+
+    <h3>🔸 <code>colspan</code> → una celda ocupa VARIAS COLUMNAS</h3>
+    <p>Se escribe dentro de la celda. Ejemplo: <code>&lt;td colspan="2"&gt;</code> ocupará dos columnas.</p>
+    <pre>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Producto&lt;/th&gt;
+    &lt;th&gt;Precio&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Manzanas&lt;/td&gt;
+    &lt;td&gt;2€&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td colspan="2"&gt;Oferta especial&lt;/td&gt;  &lt;!-- esta celda ocupa 2 columnas --&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+    <p><strong>Resultado:</strong></p>
+    <table>
+        <tr><th>Producto</th><th>Precio</th></tr>
+        <tr><td>Manzanas</td><td>2€</td></tr>
+        <tr><td colspan="2">Oferta especial</td></tr>
+    </table>
+    <p>La celda "Oferta especial" ocupa el espacio de las dos columnas.</p>
+
+    <h3>🔸 <code>rowspan</code> → una celda ocupa VARIAS FILAS</h3>
+    <p>Ejemplo: <code>&lt;td rowspan="2"&gt;</code> ocupará dos filas.</p>
+    <pre>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Categoría&lt;/th&gt;
+    &lt;th&gt;Producto&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="2"&gt;Frutas&lt;/td&gt;  &lt;!-- esta celda ocupa 2 filas --&gt;
+    &lt;td&gt;Manzanas&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Plátanos&lt;/td&gt;  &lt;!-- en esta fila ya no hay celda para categoría, la de arriba se estira --&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+    <p><strong>Resultado:</strong></p>
+    <table>
+        <tr><th>Categoría</th><th>Producto</th></tr>
+        <tr><td rowspan="2">Frutas</td><td>Manzanas</td></tr>
+        <tr><td>Plátanos</td></tr>
+    </table>
+    <p>La celda "Frutas" abarca dos filas.</p>
+    <hr>
+
+    <!-- ============================================ -->
+    <!-- 3. USO DE thead, tbody Y tfoot (ACTUALIZADO) -->
+    <!-- ============================================ -->
+    <h2>🔹 3. Organizar la tabla con <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code> y <code>&lt;tfoot&gt;</code></h2>
+    <p>Estas etiquetas ayudan a dividir la tabla en tres partes, aunque no cambian cómo se ve:</p>
+    <ul>
+        <li><code><strong>&lt;thead&gt;</strong></code> → para las filas de encabezado (los títulos de las columnas).</li>
+        <li><code><strong>&lt;tbody&gt;</strong></code> → para las filas con los datos.</li>
+        <li><code><strong>&lt;tfoot&gt;</strong></code> → para el pie (totales, resúmenes).</li>
+    </ul>
+    <p>Ejemplo con 5 columnas y 3 películas (muy parecido al ejercicio):</p>
+    <pre>
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Título&lt;/th&gt;
+      &lt;th&gt;Director&lt;/th&gt;
+      &lt;th&gt;Año&lt;/th&gt;
+      &lt;th&gt;Género&lt;/th&gt;
+      &lt;th&gt;Puntuación&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;El Padrino&lt;/td&gt;
+      &lt;td&gt;Francis Ford Coppola&lt;/td&gt;
+      &lt;td&gt;1972&lt;/td&gt;
+      &lt;td&gt;Drama&lt;/td&gt;
+      &lt;td&gt;9.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Star Wars&lt;/td&gt;
+      &lt;td&gt;George Lucas&lt;/td&gt;
+      &lt;td&gt;1977&lt;/td&gt;
+      &lt;td&gt;Ciencia ficción&lt;/td&gt;
+      &lt;td&gt;8.6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Toy Story&lt;/td&gt;
+      &lt;td&gt;John Lasseter&lt;/td&gt;
+      &lt;td&gt;1995&lt;/td&gt;
+      &lt;td&gt;Animación&lt;/td&gt;
+      &lt;td&gt;8.3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td colspan="4"&gt;&lt;strong&gt;Mejor puntuada:&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;9.2&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+    </pre>
+
+    <p><strong>Resultado visual de este ejemplo:</strong></p>
+    <table>
+        <thead>
+            <tr><th>Título</th><th>Director</th><th>Año</th><th>Género</th><th>Puntuación</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>El Padrino</td><td>Francis Ford Coppola</td><td>1972</td><td>Drama</td><td>9.2</td></tr>
+            <tr><td>Star Wars</td><td>George Lucas</td><td>1977</td><td>Ciencia ficción</td><td>8.6</td></tr>
+            <tr><td>Toy Story</td><td>John Lasseter</td><td>1995</td><td>Animación</td><td>8.3</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="4"><strong>Mejor puntuada:</strong></td><td><strong>9.2</strong></td></tr>
+        </tfoot>
+    </table>
+    <p>Observa cómo el pie usa <code>colspan="4"</code> para que el texto ocupe las primeras cuatro columnas, dejando la quinta para la puntuación.</p>
+    <hr>
+
+    <!-- ============================================ -->
+    <!-- 4. EJERCICIO PRÁCTICO                        -->
+    <!-- ============================================ -->
+    <h2>🎯 EJERCICIO PRÁCTICO (10 minutos)</h2>
+    <p><strong>Enunciado:</strong> Crear una tabla con los siguientes datos de películas.</p>
+
+    <p><strong>Columnas (encabezados):</strong> Título, Director, Año, Género, Puntuación.</p>
+    <p><strong>Películas (datos):</strong></p>
+    <ul>
+        <li>El Padrino · Francis Ford Coppola · 1972 · Drama · 9.2</li>
+        <li>Star Wars · George Lucas · 1977 · Ciencia ficción · 8.6</li>
+        <li>Toy Story · John Lasseter · 1995 · Animación · 8.3</li>
+    </ul>
+    <p><strong>Requisitos extra:</strong></p>
+    <ul>
+        <li>Usar <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code> y <code>&lt;tfoot&gt;</code>.</li>
+        <li>En el pie (<code>&lt;tfoot&gt;</code>), añadir una fila que ponga <strong>"Mejor puntuada: 9.2"</strong>, pero usando <code>colspan</code> para que el texto ocupe las primeras 4 columnas y la nota quede en la quinta.</li>
+    </ul>
+    <div class="advertencia">
+        <p><strong>💡 Pista importante:</strong> En la celda del pie, escribe <code>&lt;td colspan="4"&gt;Mejor puntuada:&lt;/td&gt;</code> y luego otra celda con <code>&lt;td&gt;9.2&lt;/td&gt;</code>.</p>
+    </div>
+    <p style="font-size:1.3em;"><strong>⏳ Tiempo: 10 minutos. ¡Intentadlo!</strong></p>
+    <hr>
+
+    <!-- ============================================ -->
+    <!-- 5. SOLUCIÓN DEL EJERCICIO                    -->
+    <!-- ============================================ -->
+    <h2>🔍 SOLUCIÓN (código completo)</h2>
+    <p>Aquí tienes el código de la tabla resuelta, con explicaciones en comentarios.</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Solución: Tabla de películas&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;🎬 Películas favoritas&lt;/h1&gt;
+    &lt;table&gt;
+        &lt;!-- ENCABEZADO (títulos de columnas) --&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Título&lt;/th&gt;
+                &lt;th&gt;Director&lt;/th&gt;
+                &lt;th&gt;Año&lt;/th&gt;
+                &lt;th&gt;Género&lt;/th&gt;
+                &lt;th&gt;Puntuación&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+
+        &lt;!-- CUERPO (datos de cada película) --&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;El Padrino&lt;/td&gt;
+                &lt;td&gt;Francis Ford Coppola&lt;/td&gt;
+                &lt;td&gt;1972&lt;/td&gt;
+                &lt;td&gt;Drama&lt;/td&gt;
+                &lt;td&gt;9.2&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Star Wars&lt;/td&gt;
+                &lt;td&gt;George Lucas&lt;/td&gt;
+                &lt;td&gt;1977&lt;/td&gt;
+                &lt;td&gt;Ciencia ficción&lt;/td&gt;
+                &lt;td&gt;8.6&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Toy Story&lt;/td&gt;
+                &lt;td&gt;John Lasseter&lt;/td&gt;
+                &lt;td&gt;1995&lt;/td&gt;
+                &lt;td&gt;Animación&lt;/td&gt;
+                &lt;td&gt;8.3&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+
+        &lt;!-- PIE (resumen, con colspan) --&gt;
+        &lt;tfoot&gt;
+            &lt;tr&gt;
+                &lt;td colspan="4"&gt;&lt;strong&gt;Mejor puntuada:&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;strong&gt;9.2&lt;/strong&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tfoot&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+
+    <p><strong>Así se ve la solución (con bordes para que veas la estructura):</strong></p>
+    <table>
+        <thead>
+            <tr><th>Título</th><th>Director</th><th>Año</th><th>Género</th><th>Puntuación</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>El Padrino</td><td>Francis Ford Coppola</td><td>1972</td><td>Drama</td><td>9.2</td></tr>
+            <tr><td>Star Wars</td><td>George Lucas</td><td>1977</td><td>Ciencia ficción</td><td>8.6</td></tr>
+            <tr><td>Toy Story</td><td>John Lasseter</td><td>1995</td><td>Animación</td><td>8.3</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="4"><strong>Mejor puntuada:</strong></td><td><strong>9.2</strong></td></tr>
+        </tfoot>
+    </table>
+    <p>Observa cómo la celda "Mejor puntuada:" ocupa cuatro columnas gracias a <code>colspan="4"</code>.</p>
+    <hr>
+
+    <!-- ============================================ -->
+    <!-- 6. RESUMEN Y RECURSOS                        -->
+    <!-- ============================================ -->
+    <h2>📚 Resumen</h2>
+    <ul>
+        <li><code>&lt;table&gt;</code> crea la tabla.</li>
+        <li><code>&lt;tr&gt;</code> crea una fila.</li>
+        <li><code>&lt;td&gt;</code> crea una celda de datos.</li>
+        <li><code>&lt;th&gt;</code> crea una celda de encabezado (negrita).</li>
+        <li><code>colspan</code> une columnas, <code>rowspan</code> une filas.</li>
+        <li><code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tfoot&gt;</code> organizan la tabla.</li>
+    </ul>
+    <p>📖 <strong>Para seguir aprendiendo:</strong> <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/table" target="_blank">MDN: Tablas HTML</a> (es una referencia, no te asustes).</p>
+    <hr>
+    <p style="font-size:1.3em; text-align:center;">🙋‍♀️ ¿Alguna pregunta?</p>
