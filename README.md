@@ -1,27 +1,53 @@
 # 📘 Confección Web 2026 – Cuaderno de Bitácora Técnico
 
-## ⚡ Misión
+¡Bienvenida/o a mi repositorio central! Este espacio es mi **portafolio personal** donde documento todo mi progreso en el **Certificado de Profesionalidad de Confección y Publicación de Páginas Web**.
 
-Este repositorio no es un proyecto de código en producción. Es el **sistema de archivos oficial** de mi formación en **Confección y Publicación de Páginas Web (2026)**.
+Aquí no solo subo código; este repositorio es el reflejo de mi aprendizaje diario, desde la configuración técnica de herramientas profesionales hasta el diseño y maquetación de aplicaciones web reales.
 
-Aquí se consolida, versiona y estructura todo el conocimiento técnico generado: investigaciones, ejercicios de terminal, prácticas y proyectos entregables.
+---
+
+## ⚡ Misión Técnica
+
+Este repositorio no es un proyecto de código en producción. Es el **sistema de archivos oficial** de mi formación. Aquí se consolida, versiona y estructura todo el conocimiento técnico generado.
 
 **Main es producción estable. Cada carpeta es una semana de batalla.**
 
 ---
 
-## 🧱 Arquitectura Forzada
-```
+## 🧱 Arquitectura del Repositorio
+
+```text
 /
 ├── semanas/
-│   ├── semana-01/           → PLANTILLA OBLIGATORIA
-│   │   ├── investigaciones/ → .md, análisis, comparativas técnicas
-│   │   ├── ejercicios/      → Linux, Git, terminal, debugging
-│   │   └── proyectos/       → Código fuente (Vite, etc.)
-│   └── semana-02/           → (creada por demanda)
+│   ├── semana-01/           → (En reconstrucción)
+│   ├── semana-02/           → Apuntes y Bitácora
+│   └── semana-03/           → Diseño y CSS
 ├── .gitignore
 └── README.md
 ```
+
+---
+
+## 🔗 Acceso Rápido a Entregas
+
+### 📅 Semana 1: Mi Proyecto de Visual Studio
+
+- 👋 **[VER PROYECTO HOLA MUNDO](./semanas/semana-01/proyectos/public/index.html)**
+- *Estructura original de proyecto recuperada.*
+
+---
+
+### 📅 Semana 2: Apuntes y Bitácora
+
+- 📝 **[VER APUNTES DEL DÍA 18/02](./semanas/semana-02/apuntes/bitacora-dia7-18feb.md)**
+- *Documentación sobre la configuración del entorno (WSL2, Ubuntu y Git).*
+
+---
+
+### 📅 Semana 3: Diseño con CSS
+
+- 📦 **[VER MODELO DE CAJA](./semanas/semana-03/Ejercicio%20Modelo%20de%20caja/index.html)**
+- 📊 **[VER TABLAS HTML](./semanas/semana-03/Ejercicio%20tablas%20HTML/index.html)**
 
 ---
 
@@ -31,22 +57,17 @@ Aquí se consolida, versiona y estructura todo el conocimiento técnico generado
 |------|--------|
 | Migración SSH permanente (ED25519) | ✅ |
 | Refactor raíz → `/semanas/` | ✅ |
-| Wiki activada con contenido pedagógico | ✅ |
+| Estructura semanal obligatoria | ✅ |
 | Exposición clase: `package.json` | ✅ |
-| Fork Pilar + upstream | ✅ |
 
 ---
 
 ## 🧠 Políticas de Mando (Inmutables)
 
 1. **SSH como única capa de autenticación.** `git clone git@github.com:...` o no existe.
-2. **Estructura semanal obligatoria.** Semana-01 es plantilla. Prohibido crear archivos en raíz.
-3. **Dos repositorios, dos misiones:**
-   - Este repo → entregas para nota. Main.
-   - `vite-project-practice` → romper y experimentar. Dev.
+2. **Estructura semanal obligatoria.** Prohibido crear archivos en raíz.
+3. **Dos repositorios:** Este repo para entregas oficiales (Main) y `vite-project-practice` para experimentar.
 
 ---
 
-## 🔗 Acceso Rápido
-
-- **URL SSH:** `git@github.com:AnaBHernandez/confeccion-web-2026.git`
+*Mantenido con dedicación por Ana. Este repositorio es una muestra de mi compromiso con la calidad y el aprendizaje continuo en el desarrollo web.*
