@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Técnica - Ana</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; padding: 30px; color: #333; max-width: 800px; margin: auto; background-color: #f4f7f6; }
+        .container { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 25px; border-left: 5px solid #3498db; padding-left: 15px; }
+        pre { background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: 'Consolas', monospace; }
+        .highlight { background: #e8f4fd; border-left: 5px solid #3498db; padding: 15px; margin: 20px 0; border-radius: 0 5px 5px 0; }
+        .reflection { font-style: italic; background: #fdf2e9; border: 1px solid #ebaf8e; padding: 20px; border-radius: 8px; color: #873600; margin-top: 30px; }
+        ul { list-style-type: square; }
+        li { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📘 Cuaderno de Bitácora – Día 7</h1>
+        <p><strong>Fecha:</strong> 18 de febrero de 2026</p>
+
+        <h2>🎯 Temas trabajados</h2>
+        <ul>
+            <li><strong>Entorno:</strong> Resolución de conflictos en WSL2 y VS Code Server.</li>
+            <li><strong>Git & GitHub:</strong> Migración de protocolos (HTTPS a SSH) y gestión de remotes.</li>
+            <li><strong>HTML5 Semántico:</strong> Maquetación profesional con etiquetas de estructura.</li>
+        </ul>
+
+        <h2>🔧 Comandos Git del día</h2>
+        <pre># Cambiar origen a SSH
+git remote set-url origin git@github.com:AnaBHernandez/confeccion-web-2026.git
+
+# Sincronizar cambios
+git pull --no-rebase origin main
+git push</pre>
+
+        <h2>💡 Solución de Errores</h2>
+        <div class="highlight">
+            <strong>WSL Connection Error:</strong> Solucionado limpiando el servidor remoto con <code>rm -rf ~/.vscode-server</code>.
+        </div>
+
+        <h2>🧠 Reflexión Final</h2>
+        <p class="reflection">
+            "Hoy aprendí a no rendirme ante los problemas técnicos. Entendí por qué a veces las cosas fallan y cómo buscar soluciones. Todo ha quedado documentado con estructura profesional y listo para ser compartido."
+        </p>
+    </div>
+</body>
+</html>

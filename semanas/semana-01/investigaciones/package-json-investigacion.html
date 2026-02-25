@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><title>package.json - Mapa del Proyecto</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; padding: 40px; color: #333; line-height: 1.6; }
+        .doc { max-width: 850px; margin: auto; border: 1px solid #eee; padding: 40px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        h1 { color: #cb3837; border-bottom: 4px solid #cb3837; padding-bottom: 10px; }
+        .box { background: #fff5f5; border-left: 5px solid #cb3837; padding: 20px; margin: 20px 0; border-radius: 4px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background: #f8f9fa; color: #cb3837; }
+        pre { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 6px; overflow-x: auto; }
+        .badge { background: #cb3837; color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.8em; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="doc">
+        <h1>📦 package.json: El Mapa del Proyecto</h1>
+        <p><strong>Investigación de Ana</strong> | 10/02/2026</p>
+        
+        <div class="box">
+            <strong>Analogía: La Receta de Cocina</strong><br>
+            Es el manual donde se guardan los ingredientes (dependencies), los utensilios (devDependencies) y los pasos (scripts).
+        </div>
+
+        <h2>🧩 Partes Esenciales</h2>
+        <ul>
+            <li><span class="badge">scripts</span> Atajos como <code>npm start</code> o <code>npm run dev</code>.</li>
+            <li><span class="badge">dependencies</span> Necesarias para producción (React, Express).</li>
+            <li><span class="badge">devDependencies</span> Solo para programar (ESLint, Jest).</li>
+        </ul>
+
+        <h2>📊 Comparativa Directa</h2>
+        <table>
+            <tr><th>Característica</th><th>dependencies</th><th>devDependencies</th></tr>
+            <tr><td>Entorno</td><td>Producción y Desarrollo</td><td>Solo Desarrollo</td></tr>
+            <tr><td>Instalación</td><td><code>npm install</code></td><td><code>npm install --save-dev</code></td></tr>
+        </table>
+
+        <h2>🚀 Flujo de Trabajo</h2>
+        <pre># Al descargar un proyecto:
+cat package.json  # 1. Leer manual
+npm install       # 2. Instalar todo
+npm start         # 3. Arrancar</pre>
+    </div>
+</body>
+</html>

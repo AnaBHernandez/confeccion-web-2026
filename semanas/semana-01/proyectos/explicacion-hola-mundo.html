@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Explicación: Mi Primer Hola Mundo</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f4f8; color: #2d3748; line-height: 1.6; padding: 40px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        h1 { color: #4a90e2; border-bottom: 3px solid #4a90e2; padding-bottom: 10px; }
+        .folder-tree { background: #2d3748; color: #a0aec0; padding: 20px; border-radius: 8px; font-family: 'Consolas', monospace; margin: 20px 0; }
+        .highlight { color: #f6ad55; font-weight: bold; }
+        .info-card { background: #ebf8ff; border: 1px solid #bee3f8; padding: 15px; border-radius: 8px; margin: 10px 0; }
+        .code-box { background: #2d2d2d; color: #ccc; padding: 15px; border-radius: 6px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👋 Mi Primer Proyecto: "Hola Mundo"</h1>
+        <p>Este fue el primer paso en mi formación. Aprendimos que en Visual Studio Code, el orden de los archivos es fundamental para que el navegador entienda la web.</p>
+
+        <h2>📁 ¿Dónde se ve el código?</h2>
+        <div class="folder-tree">
+            PROYECTO-HOLA-MUNDO/<br>
+            ├── <span class="highlight">public/</span><br>
+            │   └── <span style="color: #fff; font-weight: bold;">index.html</span>  <-- ¡ESTE ES EL ARCHIVO PRINCIPAL!<br>
+            ├── css/<br>
+            └── README.md
+        </div>
+
+        <div class="info-card">
+            <strong>¿Por qué index.html?</strong> El navegador siempre busca por defecto un archivo llamado "index" para cargar la página de inicio. Es la puerta de entrada de cualquier sitio web.
+        </div>
+
+        <h2>🛠️ Proceso en VS Code</h2>
+        <ul>
+            <li><strong>Estructura Base:</strong> Usamos el atajo <code>! + Enter</code> para crear el esqueleto de HTML5.</li>
+            <li><strong>Contenido:</strong> Insertamos una etiqueta <code>&lt;h1&gt;</code> dentro del body para mostrar el mensaje.</li>
+            <li><strong>Resultado:</strong> Visualizamos el archivo usando la extensión <em>Live Server</em>.</li>
+        </ul>
+
+        <div class="code-box">
+            &lt;h1&gt;Hola Mundo - Confección Web 2026&lt;/h1&gt;
+        </div>
+    </div>
+</body>
+</html>

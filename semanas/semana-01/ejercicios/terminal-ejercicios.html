@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Terminal - Ana</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; color: #333; line-height: 1.6; padding: 20px; }
+        .container { max-width: 850px; margin: auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); }
+        h1 { color: #1a73e8; border-bottom: 2px solid #e8f0fe; padding-bottom: 10px; }
+        .terminal-window { background: #282c34; color: #abb2bf; padding: 20px; border-radius: 6px; font-family: 'Cascadia Code', 'Courier New', monospace; position: relative; margin: 20px 0; }
+        .terminal-header { background: #3e4451; padding: 5px 15px; border-radius: 6px 6px 0 0; position: absolute; top: 0; left: 0; right: 0; display: flex; gap: 8px; }
+        .dot { width: 12px; height: 12px; border-radius: 50%; }
+        .red { background: #ff5f56; } .yellow { background: #ffbd2e; } .green { background: #27c93f; }
+        .command { color: #98c379; } .comment { color: #5c6370; font-style: italic; }
+        .step { font-weight: bold; color: #e06c75; margin-top: 15px; display: block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💻 Práctica de Comandos Linux / WSL</h1>
+        <p><strong>Semana 01:</strong> Gestión de archivos y directorios desde la terminal.</p>
+        
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
+            </div>
+            <br>
+            <span class="step"># 1. Preparación y Navegación</span>
+            <span class="command">cd ~</span> <span class="comment">// Ir al Home de Linux</span><br>
+            <span class="command">rm -rf projects</span> <span class="comment">// Limpieza previa</span><br>
+            <span class="command">mkdir projects && cd projects</span><br>
+            
+            <span class="step"># 2. Creación de Estructura</span>
+            <span class="command">mkdir subcarpeta-1 && cd subcarpeta-1</span><br>
+            <span class="command">mkdir unidad-1 && cd unidad-1</span><br>
+            
+            <span class="step"># 3. Gestión de Archivos (Corrigiendo errores)</span>
+            <span class="command">touch hoal-mundo.txt</span> <span class="comment">// Error tipográfico</span><br>
+            <span class="command">rm hoal-mundo.txt</span><br>
+            <span class="command">touch hola-mundo.txt</span><br>
+            
+            <span class="step"># 4. Verificación</span>
+            <span class="command">ls</span> <span class="comment">// Comprobar que solo existe el archivo correcto</span><br>
+            <span class="command">pwd</span> <span class="comment">// Verificar ruta completa</span>
+        </div>
+
+        <h3>🧠 Resumen de aprendizaje</h3>
+        <p>En este ejercicio consolidé el uso de rutas relativas y absolutas, aprendí a crear y eliminar directorios de forma segura y a gestionar archivos de texto mediante comandos básicos de Bash.</p>
+    </div>
+</body>
+</html>
