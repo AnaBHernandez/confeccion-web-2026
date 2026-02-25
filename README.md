@@ -15,14 +15,15 @@ Este repositorio no es un proyecto de código en producción. Es el **sistema de
 ---
 
 ## 🧱 Arquitectura del Repositorio
-
+```text
 /
 ├── semanas/
-│   ├── semana-01/           → Proyectos e Investigaciones
+│   ├── semana-01/           → (En reconstrucción)
 │   ├── semana-02/           → Apuntes y Bitácora
 │   └── semana-03/           → Diseño y CSS
 ├── .gitignore
 └── README.md
+```
 
 ---
 
