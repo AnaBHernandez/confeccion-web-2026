@@ -46,8 +46,8 @@ Este repositorio no es un proyecto de código en producción. Es el **sistema de
 
 ### 📅 Semana 3: Diseño con CSS
 
-- 📦 **[VER MODELO DE CAJA](./semanas/semana-03/Ejercicio%20Modelo%20de%20caja/index.html)**
-- 📊 **[VER TABLAS HTML](./semanas/semana-03/Ejercicio%20tablas%20HTML/index.html)**
+- - 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/Ejercicio%20Modelo%20de%20caja/index.html)**
+- - 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/Ejercicio%20tablas%20HTML/index.html)**
 
 ---
 
