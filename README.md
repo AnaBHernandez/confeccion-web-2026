@@ -39,7 +39,7 @@ Este repositorio no es un proyecto de código en producción. Es el **sistema de
 
 ### 📅 Semana 2: Apuntes y Bitácora
 * 📝 **[VER WEB: BITÁCORA DÍA 7 (18/02)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-02/apuntes/bitacora-dia7.html)**
-* *Configuración del entorno (WSL2, Ubuntu y Git).*
+* 📜 **[VER WEB: BITÁCORA Y ACUERDOS (26/02)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/apuntes/bitacora-26feb.html)**
 
 ---
 
