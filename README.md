@@ -1,22 +1,67 @@
-# Formación Confección Web 2026 🚀
+# 📘 Confección Web 2026 – Cuaderno de Bitácora Técnico
 
-Repositorio central de apuntes, ejercicios y bitácoras de aprendizaje.
+¡Bienvenida/o a mi repositorio central! Este espacio es mi **portafolio personal** donde documento todo mi progreso en el **Certificado de Profesionalidad de Confección y Publicación de Páginas Web**.
 
-## 📁 Estructura del Repositorio
-
-### [Semana 01](semanas/semana-01/)
-- **Primera App:** Introducción a la estructura básica de proyectos web.
-- **Investigaciones:** Conceptos iniciales y configuración del entorno.
-
-### [Semana 02](semanas/semana-02/)
-- **Apuntes:** Teoría sobre selectores y fundamentos de CSS.
-- **Bitácoras:** Registro diario de progreso.
-
-### [Semana 03](semanas/semana-03/)
-- **[Ejercicio Colaborativo Git](semanas/semana-03/ejercicio-colaborativo-git.md):** Documentación sobre resolución de conflictos y flujo de trabajo en equipo.
-- **Modelo de Caja:** Práctica avanzada de CSS y box-model.
-- **Tablas HTML:** Estructuración de datos complejos.
-- **Recipe Page:** Proyecto de maquetación con recursos locales.
+Aquí no solo subo código; este repositorio es el reflejo de mi aprendizaje diario, desde la configuración técnica de herramientas profesionales hasta el diseño y maquetación de aplicaciones web reales.
 
 ---
-*Notas de Ana B. Hernández - 2026*
+
+## ⚡ Misión Técnica
+
+Este repositorio no es un proyecto de código en producción. Es el **sistema de archivos oficial** de mi formación. Aquí se consolida, versiona y estructura todo el conocimiento técnico generado.
+
+**Main es producción estable. Cada carpeta es una semana de batalla.**
+
+---
+
+## 🧱 Arquitectura del Repositorio
+```text
+/
+├── semanas/
+│   ├── semana-01/           → (En reconstrucción)
+│   ├── semana-02/           → Apuntes y Bitácora
+│   └── semana-03/           → Diseño y CSS
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 📅 Semana 1: Entorno e Investigaciones
+* 👋 **[VER WEB: PRIMERA APP](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/Primera%20app/index.html)**
+* 💻 **[VER WEB: EXPLICACIÓN HOLA MUNDO](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/proyectos/explicacion-hola-mundo.html)**
+* 📦 **[VER WEB: INVESTIGACIÓN PACKAGE.JSON](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/package-json-investigacion.html)**
+
+---
+
+## 📅 Semana 2: Apuntes y Bitácora
+* 📝 **[VER WEB: BITÁCORA DÍA 7 (18/02)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-02/apuntes/bitacora-dia7.html)**
+
+---
+
+## 📅 Semana 3: CSS y Gestión de Proyectos
+* 🤝 **[VER APUNTES: EJERCICIO COLABORATIVO (GIT Y CONFLICTOS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/ejercicio-colaborativo-git.md)** <-- *¡Los apuntes de hoy!*
+* 🍳 **[VER WEB: RECIPE PAGE (The Good Breakfast)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/recipe-page/index.html)**
+* 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/modelo-caja/index.html)**
+* 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicio-tablas/index.html)**
+---
+
+## ✅ Hitos Técnicos Consolidados (Feb 2026)
+
+| Hito | Estado |
+|------|--------|
+| Migración SSH permanente (ED25519) | ✅ |
+| Refactor raíz → `/semanas/` | ✅ |
+| Estructura semanal obligatoria | ✅ |
+| Exposición clase: `package.json` | ✅ |
+
+---
+
+## 🧠 Políticas de Mando (Inmutables)
+
+1. **SSH como única capa de autenticación.** `git clone git@github.com:...` o no existe.
+2. **Estructura semanal obligatoria.** Prohibido crear archivos en raíz.
+3. **Dos repositorios:** Este repo para entregas oficiales (Main) y `vite-project-practice` para experimentar.
+
+---
+*Mantenido con dedicación por Ana. Este repositorio es una muestra de mi compromiso con la calidad y el aprendizaje continuo en el desarrollo web.*
