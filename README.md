@@ -23,5 +23,5 @@ Repositorio centralizado de apuntes y proyectos. Aquí gestiono mi aprendizaje y
 * 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicio-tablas/index.html)**
 
 ## 🏆 MASTER CLASS: CONSOLIDADO HTML5
-* 📚 **[VER WEB: ENCICLOPEDIA VISUAL COMPLETA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/apuntes/apuntes-urban-toast.html)**
-> *Resumen total de Semántica, Multimedia, Git y Clean Code de todas las sesiones.*
+* 📚 **[VER WEB: BITÁCORA COMPLETA (DE CERO A DESARROLLADORA)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/apuntes/apuntes-urban-toast.html)**
+> [cite_start]*Enciclopedia visual que integra: Entorno WSL, Semántica, Multimedia, Git y Clean Code[cite: 160, 168, 171, 175, 182, 193].*
