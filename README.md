@@ -22,5 +22,6 @@ Repositorio centralizado de apuntes y proyectos. Aquí gestiono mi aprendizaje y
 * 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/modelo-caja/index.html)**
 * 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicio-tablas/index.html)**
 
----
-*Mantenimiento y auditoría de archivos realizado en febrero de 2026.*
+## 🏆 MASTER CLASS: CONSOLIDADO HTML5
+* 📚 **[VER WEB: ENCICLOPEDIA VISUAL COMPLETA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/apuntes/apuntes-urban-toast.html)**
+> *Resumen total de Semántica, Multimedia, Git y Clean Code de todas las sesiones.*
