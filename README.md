@@ -7,7 +7,7 @@ Repositorio centralizado de apuntes y proyectos. Aquí gestiono mi aprendizaje y
 ## 📅 Semana 1: Entorno e Investigaciones
 * 👋 **[VER WEB: PRIMERA APP](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/Primera%20app/index.html)**
 * 💻 **[VER WEB: EXPLICACIÓN HOLA MUNDO](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/proyectos/explicacion-hola-mundo.html)**
-* 📦 **[VER WEB: INVESTIGACIÓN PACKAGE.JSON](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/proyectos/investigacion-package-json.html)**
+* 📂 **[VER INVESTIGACIÓN: PACKAGE.JSON](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/package-json-investigacion.html)**
 
 ---
 
