@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enciclopedia Visual: Master Class HTML5 y Git Profesional</title>
     <style>
         :root { --primary: #614385; --secondary: #512da8; --accent: #e67e22; --text: #2d3436; --bg: #f9f9fb; }
@@ -10,10 +11,12 @@
         h1 { color: var(--primary); border-bottom: 4px solid var(--accent); padding-bottom: 10px; text-align: center; }
         h2 { color: var(--secondary); margin-top: 30px; border-left: 5px solid var(--accent); padding-left: 15px; }
         .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .card { background: #f1f2f6; border-radius: 10px; padding: 20px; border: 1px solid #dfe4ea; }
+        .card { background: #f1f2f6; border-radius: 10px; padding: 20px; border: 1px solid #dfe4ea; margin-bottom: 15px; }
         .metafora { background: #fff3e0; padding: 15px; border-radius: 8px; border: 1px dashed var(--accent); font-style: italic; }
         pre { background: #2d3436; color: #fab1a0; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 0.9em; }
         .highlight-box { background: #e3f2fd; border: 1px solid #bbdefb; padding: 15px; border-radius: 8px; margin: 10px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
     </style>
 </head>
 <body>
@@ -24,8 +27,8 @@
     <section>
         <h2>🤝 1. Experiencia Colaborativa (La Biblioteca)</h2>
         <div class="highlight-box">
-            <p><strong>El gran aprendizaje:</strong> No puedes subir tu código (`push`) si la nube tiene cambios que tú no tienes. Primero hay que "traer" lo de los demás con <code>git pull</code>.</p>
-            <p><strong>Resolución de Conflictos:</strong> Aprendí a usar la interfaz de VS Code para elegir <em>"Accept Both Changes"</em>, integrando mi trabajo con el de compañeros como Román sin borrar nada.</p>
+            <p><strong>El gran aprendizaje:</strong> No puedes subir tu código (<code>push</code>) si la nube tiene cambios que tú no tienes. Primero hay que "traer" lo de los demás con <code>git pull</code>.</p>
+            <p><strong>Resolución de Conflictos:</strong> Aprendí a usar la interfaz de VS Code para elegir <em>"Accept Both Changes"</em>, integrando mi trabajo con el de compañeros sin borrar nada.</p>
         </div>
     </section>
 
@@ -43,16 +46,29 @@
 
     <section>
         <h2>🧹 3. Auditoría y Mantenimiento Profesional</h2>
-        <p>Un desarrollador senior mantiene su "casa" limpia:</p>
-        <ul>
-            <li><strong>Adiós a node_modules:</strong> Nunca se suben a GitHub para no saturar el repositorio.</li>
-            <li><strong>Limpieza de Basura:</strong> Eliminamos archivos <code>Zone.Identifier</code> (basura de Windows).</li>
-            <li><strong>Naming Convention:</strong> Cambiamos nombres con espacios por <em>kebab-case</em> (ej: <code>modelo-caja</code>) para URLs amigables.</li>
-        </ul>
+        <div class="card">
+            <p>Un desarrollador senior mantiene su "casa" limpia:</p>
+            <ul>
+                <li><strong>Adiós a node_modules:</strong> Nunca se suben a GitHub para no saturar el repositorio.</li>
+                <li><strong>Limpieza de Basura:</strong> Eliminamos archivos <code>Zone.Identifier</code> (basura de Windows).</li>
+                <li><strong>Naming Convention:</strong> Cambiamos nombres con espacios por <em>kebab-case</em> (ej: <code>modelo-caja</code>) para URLs amigables.</li>
+            </ul>
+        </div>
     </section>
 
     <section>
-        <h2>🏗️ 4. Semántica HTML5 Avanzada</h2>
+        <h2>🛡️ 4. Gestión de Seguridad y Pull Requests</h2>
+        <div class="card" style="border-left: 5px solid #d32f2f;">
+            <p><strong>Resolución de Alertas:</strong> GitHub detectó una vulnerabilidad de seguridad en la herramienta <code>rollup</code> de la Semana 1.</p>
+            <div class="highlight-box">
+                <p><strong>El Proceso de "Bypass":</strong> Como la rama <code>main</code> está protegida, tuve que ejercer mi autoridad de administradora usando la opción <em>"Bypass rules and merge"</em> para autorizar la actualización del robot (Dependabot).</p>
+            </div>
+            <p><strong>Sincronización Final:</strong> Tras unir el cambio en la nube, ejecuté <code>git pull origin main</code> en la terminal para que mi ordenador también tuviera la versión segura.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>🏗️ 5. Semántica HTML5 Avanzada</h2>
         <div class="metafora">
             <strong>Metáfora del Regalo:</strong> El padding es el papel de burbujas (protección interna) y el margin es la distancia entre cajas en la estantería.
         </div>
