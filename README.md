@@ -1,6 +1,6 @@
 # 🚀 Formación Confección Web 2026
 
-Repositorio centralizado de apuntes y proyectos. Aquí gestiono mi aprendizaje y despliegue de ejercicios.
+Repositorio centralizado de apuntes y proyectos.
 
 ---
 
@@ -11,16 +11,15 @@ Repositorio centralizado de apuntes y proyectos. Aquí gestiono mi aprendizaje y
 
 ---
 
-### 📅 Semana 02: Apuntes y Bitácora
-* 📝 **[VER BITÁCORA (Markdown)](semanas/semana-02/apuntes/bitacora-dia7-18feb.md)**
-* 🌐 **[VER WEB (Diseño HTML)](semanas/semana-02/apuntes/bitacora-dia7.html)**
+## 📅 Semana 2: Apuntes y Bitácora
+* 📝 **[VER APUNTES: BITÁCORA (MD)](semanas/semana-02/apuntes/bitacora-dia7-18feb.md)**
+* 🌐 **[VER WEB: BITÁCORA DÍA 7 (HTML)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-02/apuntes/bitacora-dia7.html)**
 
 ---
 
 ## 📅 Semana 3: CSS y Gestión de Proyectos
-### 📅 Semana 03: Auditoría y Semántica
-* 📚 **[BITÁCORA CONSOLIDADA (Markdown)](semanas/semana-03/apuntes/bitacora-consolidada-marzo-01.md)**
-* 🎨 **[BITÁCORA CONSOLIDADA (Diseño HTML)](semanas/semana-03/apuntes/bitacora-consolidada-marzo-01.html)**
-* 📦 **[Resumen Modelo de Caja](semanas/semana-03/apuntes/resumen-modelo-caja-y-orden.html)**
+* 🍳 **[VER WEB: RECIPE PAGE (Con Vídeo)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/recipe-page/index.html)**
+* 🤝 **[VER APUNTES: EJERCICIO COLABORATIVO](semanas/semana-03/ejercicios/ejercicio-colaborativo-git.md)**
+* 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/modelo-caja/index.html)**
 * 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/ejercicio-tablas/index.html)**
-* 📝 **[VER WEB: BITÁCORA CONSOLIDADA (01/03)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/apuntes/bitacora-consolidada-marzo-01.html)**
+* 📚 **[VER APUNTES: BITÁCORA CONSOLIDADA](semanas/semana-03/apuntes/bitacora-consolidada-marzo-01.md)**
