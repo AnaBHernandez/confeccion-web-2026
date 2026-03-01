@@ -17,11 +17,8 @@ Repositorio centralizado de apuntes y proyectos. Aquí gestiono mi aprendizaje y
 ---
 
 ## 📅 Semana 3: CSS y Gestión de Proyectos
-* 🤝 **[VER APUNTES: EJERCICIO COLABORATIVO (GIT Y CONFLICTOS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/ejercicio-colaborativo-git.md)**
-* 🍳 **[VER WEB: RECIPE PAGE (The Good Breakfast)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/recipe-page/index.html)**
-* 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/modelo-caja/index.html)**
-* 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicio-tablas/index.html)**
-
-## 🏆 MASTER CLASS: CONSOLIDADO HTML5
-* 📚 **[VER WEB: BITÁCORA COMPLETA (DE CERO A DESARROLLADORA)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/apuntes/apuntes-urban-toast.html)**
-> [cite_start]*Enciclopedia visual que integra: Entorno WSL, Semántica, Multimedia, Git y Clean Code[cite: 160, 168, 171, 175, 182, 193].*
+* 🤝 **[VER APUNTES: EJERCICIO COLABORATIVO (GIT Y CONFLICTOS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/ejercicios/ejercicio-colaborativo-git.md)**
+* 🍳 **[VER WEB: RECIPE PAGE (The Good Breakfast)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/recipe-page/index.html)**
+* 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/modelo-caja/index.html)**
+* 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/ejercicio-tablas/index.html)**
+* 📝 **[VER WEB: BITÁCORA CONSOLIDADA (01/03)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/apuntes/bitacora-consolidada-marzo-01.html)**
