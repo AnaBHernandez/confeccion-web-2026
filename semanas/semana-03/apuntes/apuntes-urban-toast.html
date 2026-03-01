@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Módulo 1: Análisis Técnico Urban Toast</title>
+    <style>
+        :root { --primary: #614385; --accent: #E67E22; --bg: #fdfcfe; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.7; color: #333; background: var(--bg); padding: 40px; }
+        .container { max-width: 950px; margin: auto; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.05); }
+        h1 { color: var(--primary); border-bottom: 4px solid var(--accent); padding-bottom: 15px; }
+        .module-box { border-left: 6px solid var(--primary); background: #f9f7fc; padding: 20px; margin: 25px 0; }
+        .metafora { background: #fff8f0; border-radius: 10px; padding: 20px; font-style: italic; border: 1px dashed var(--accent); margin: 20px 0; }
+        .tag-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; }
+        .tag-item { background: #eee; padding: 5px 12px; border-radius: 20px; font-family: monospace; font-weight: bold; color: #c0392b; }
+        .trouble-section { background: #feebeb; border-radius: 10px; padding: 20px; margin-top: 30px; }
+        pre { background: #2d2d2d; color: #eee; padding: 20px; border-radius: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Módulo 1: La Defensa de Urban Toast</h1>
+
+    <section class="module-box">
+        <h2>📌 El Ritual Semántico</h2>
+        <p>Hoy hemos transformado un borrador plano en una estructura web profesional. No se trata solo de que "se vea bien", sino de que el navegador entienda <strong>qué es cada cosa</strong>.</p>
+        <ul class="tag-list">
+            <li class="tag-item">&lt;main&gt;</li>
+            <li class="tag-item">&lt;header&gt;</li>
+            <li class="tag-item">&lt;footer&gt;</li>
+            <li class="tag-item">&lt;address&gt;</li>
+            <li class="tag-item">&lt;video&gt;</li>
+        </ul>
+    </section>
+
+    <div class="metafora">
+        <strong>🌉 La Metáfora del Puente:</strong> En la Iteración 6 aprendimos que las etiquetas <code>&lt;a&gt;</code> son los puentes que conectan nuestras islas de información. Sin el atributo <code>href</code>, el puente está roto; con <code>#</code>, el puente está en construcción pero es sólido.
+    </div>
+
+    <section>
+        <h2>🎬 Dominando lo Multimedia</h2>
+        <p>La implementación del vídeo fue el reto estrella. Aprendimos que para una experiencia de usuario fluida (UX), debemos controlar tres factores:</p>
+        <ol>
+            <li><strong>Controles:</strong> Dar el poder al usuario.</li>
+            <li><strong>Autoplay + Muted:</strong> La llave maestra para saltar las restricciones de los navegadores modernos.</li>
+            <li><strong>Poster:</strong> El "maquillaje" previo para que la web nunca se vea vacía.</li>
+        </ol>
+    </section>
+
+    <section class="trouble-section">
+        <h2>⚠️ Troubleshooting: ¿Por qué el vídeo se quedó "mudo"?</h2>
+        <p>Descubrimos que no todo es culpa del código. El primer intento falló por <strong>Hotlinking</strong> (bloqueo de servidor externo) y por las políticas de seguridad de Chrome que impiden vídeos automáticos con sonido. 
+        <br><em>Solución:</em> Servidor de confianza + Atributo <code>muted</code>.</p>
+    </section>
+
+    <section>
+        <h2>💻 Código Maestro de la Sesión</h2>
+        <pre>
+&lt;!-- Footer Profesional con Contacto Semántico --&gt;
+&lt;footer&gt;
+    &lt;address&gt;
+        Urban Toast Bakery &lt;br&gt;
+        &lt;a href="mailto:hello@urbantoast.com"&gt;hello@urbantoast.com&lt;/a&gt;
+    &lt;/address&gt;
+    &lt;p&gt;&amp;copy; 2026 From the oven with love&lt;/p&gt;
+&lt;/footer&gt;</pre>
+    </section>
+
+    <footer style="margin-top: 40px; text-align: center; border-top: 1px solid #eee; padding-top: 20px; font-size: 0.9em; color: #888;">
+        Documentación generada desde <strong>WSL Ubuntu</strong> | Ana Belén Hernández | 2026
+    </footer>
+</div>
+
+</body>
+</html>
