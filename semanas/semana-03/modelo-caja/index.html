@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentación: El Modelo de Caja</title>
+    <style>
+        :root {
+            --azul: #3498db; --verde: #2ecc71; --amarillo: #f1c40f; --naranja: #e67e22;
+        }
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f7f6; display: flex; justify-content: center; padding-top: 50px; margin: 0; }
+        
+        section {
+            background: white; width: 95%; max-width: 1100px; padding: 40px;
+            border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            display: none; text-align: center;
+        }
+        section.active { display: block; }
+
+        .icon-header { font-size: 80px; margin: 20px 0; }
+
+        .codigo-box { background: #282c34; color: #abb2bf; padding: 15px; border-radius: 8px; font-family: monospace; text-align: left; margin: 10px 0; font-size: 0.8rem; line-height: 1.4; }
+        .comentario { color: #5c6370; font-style: italic; }
+
+        /* ESTILO DEL MOLDE (Cajas A y B) */
+        .caja-estilo {
+            width: 300px; background-color: var(--azul); color: white;
+            padding: 30px; border: 10px solid var(--amarillo);
+            margin: 0 auto 50px auto;
+            box-sizing: border-box; font-weight: bold; text-align: center;
+        }
+
+        /* COMPARATIVA CONTROL */
+        .contenedor-comparativa { display: flex; justify-content: space-around; align-items: flex-end; margin: 30px 0; }
+        .caja-ejemplo { background: var(--azul); color: white; display: flex; align-items: center; justify-content: center; border: 8px solid #333; font-weight: bold; }
+        .globo-visual { width: 180px; height: 100px; } 
+        .maleta-visual { width: 120px; height: 50px; box-sizing: border-box; } 
+
+        /* SIMULADOR FINAL */
+        .caja-explicacion {
+            box-sizing: border-box; width: 400px; background-color: var(--azul); color: white;
+            font-weight: bold; display: flex; align-items: center; justify-content: center;
+            padding: 30px; border: 20px solid var(--amarillo); margin: 30px auto;
+        }
+        .chuleta-f12 { background: #f9f9f9; padding: 15px; border-radius: 10px; text-align: left; display: inline-block; border: 1px solid #ddd; }
+        .color-box { display: inline-block; width: 15px; height: 15px; margin-right: 5px; border-radius: 3px; }
+
+        .controles { margin-top: 30px; display: flex; justify-content: center; gap: 10px; }
+        .btn { padding: 12px 25px; border-radius: 25px; border: none; cursor: pointer; font-weight: bold; }
+        .btn-next { background: #2c3e50; color: white; }
+        .btn-prev { background: #bdc3c7; color: #2c3e50; }
+    </style>
+</head>
+<body>
+
+    <section id="slide1" class="active">
+        <h1>El Modelo de Caja</h1>
+        <div class="icon-header">📦</div>
+        <p>¿Por qué todo en la web son cajas?</p>
+        <div class="controles"><button class="btn btn-next" onclick="next(2)">Empezar</button></div>
+    </section>
+
+    <section id="slide2">
+        <h2>🚚 El Jarrón y el Envío</h2>
+        <div style="text-align: left; background: #f9f9f9; padding: 25px; border-radius: 15px;">
+            <p>🔵 <strong>Content:</strong> El jarrón (el objeto).</p>
+            <p>🟢 <strong>Padding:</strong> Plástico de burbujas (dentro).</p>
+            <p>🟡 <strong>Border:</strong> La caja de cartón (límite).</p>
+            <p>🟠 <strong>Margin:</strong> El hueco en el camión (fuera).</p>
+        </div>
+        <div class="controles">
+            <button class="btn btn-prev" onclick="next(1)">Atrás</button>
+            <button class="btn btn-next" onclick="next(3)">Ver el Código</button>
+        </div>
+    </section>
+
+    <section id="slide3">
+        <h2>🎨 El Código: "El Molde"</h2>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+            <div class="codigo-box" style="flex: 1.2;">
+                <span class="comentario">/* LISTA DE ÓRDENES PARA LAS CAJAS */</span><br>
+                .caja-estilo { <br>
+                &nbsp;&nbsp;<span class="comentario">/* 1. EL JARRÓN (Content) */</span><br>
+                &nbsp;&nbsp;width: 300px;<br>
+                &nbsp;&nbsp;background-color: #3498db;<br><br>
+                &nbsp;&nbsp;<span class="comentario">/* 2. PLÁSTICO BURBUJAS (Padding) */</span><br>
+                &nbsp;&nbsp;padding: 30px;<br><br>
+                &nbsp;&nbsp;<span class="comentario">/* 3. CAJA CARTÓN (Border) */</span><br>
+                &nbsp;&nbsp;border: 10px solid #f1c40f;<br><br>
+                &nbsp;&nbsp;<span class="comentario">/* 4. HUECO CAMIÓN (Margin) */</span><br>
+                &nbsp;&nbsp;margin-bottom: 50px;<br><br>
+                &nbsp;&nbsp;<span class="comentario">/* EL CONTROL (Evita que engorde) */</span><br>
+                &nbsp;&nbsp;box-sizing: border-box;<br>
+                }
+            </div>
+            <div style="flex: 0.8;">
+                <div class="caja-estilo">SOY LA CAJA A</div>
+                <div class="caja-estilo">SOY LA CAJA B</div>
+                <p>El <b>Margin</b> crea los 50px de separación.</p>
+            </div>
+        </div>
+        <div class="controles">
+            <button class="btn btn-prev" onclick="next(2)">Atrás</button>
+            <button class="btn btn-next" onclick="next(4)">¿Qué es el "Control"?</button>
+        </div>
+    </section>
+
+    <section id="slide4">
+        <h2>⚠️ ¿Qué hace el control "border-box"?</h2>
+        <div style="display: flex; gap: 15px; text-align: left;">
+            <div class="codigo-box" style="flex: 1;">
+                <span class="comentario">/* EFECTO GLOBO (Sin control) */</span><br>
+                .globo {<br>
+                &nbsp;&nbsp;width: 300px;<br>
+                &nbsp;&nbsp;<b>box-sizing: content-box;</b><br>
+                &nbsp;&nbsp;padding: 30px;<br>
+                &nbsp;&nbsp;border: 10px solid;<br>
+                <span class="comentario">/* ¡AHORA MIDE 380px! (Suma fuera) */</span><br>
+                }
+            </div>
+            <div class="codigo-box" style="flex: 1;">
+                <span class="comentario">/* EFECTO MALETA (Con control) */</span><br>
+                .maleta {<br>
+                &nbsp;&nbsp;width: 300px;<br>
+                &nbsp;&nbsp;<b>box-sizing: border-box;</b><br>
+                &nbsp;&nbsp;padding: 30px;<br>
+                &nbsp;&nbsp;border: 10px solid;<br>
+                <span class="comentario">/* SIGUE MIDIENDO 300px (Todo dentro) */</span><br>
+                }
+            </div>
+        </div>
+        <div class="contenedor-comparativa">
+            <div><p>❌ <b>Sin Control (Globo)</b></p><div class="caja-ejemplo globo-visual">CRECE</div></div>
+            <div><p>✅ <b>Con Control (Maleta)</b></p><div class="caja-ejemplo maleta-visual">RESPETA</div></div>
+        </div>
+        <div class="controles">
+            <button class="btn btn-prev" onclick="next(3)">Atrás</button>
+            <button class="btn btn-next" onclick="next(5)">F12 para Raúl</button>
+        </div>
+    </section>
+
+    <section id="slide5">
+        <h2>🔍 El Inspector F12</h2>
+        <p>Raúl, así veo el <code>body</code> y las capas reales:</p>
+        <div class="codigo-box">
+            &lt;body&gt; <br>
+            &nbsp;&nbsp;&lt;div class="caja"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;/* Azul: Contenido | Verde: Padding | Naranja: Margin */<br>
+            &nbsp;&nbsp;&lt;/div&gt;<br>
+            &lt;/body&gt;
+        </div>
+        <div class="controles">
+            <button class="btn btn-prev" onclick="next(4)">Atrás</button>
+            <button class="btn btn-next" onclick="next(6)">Ver Simulador</button>
+        </div>
+    </section>
+
+    <section id="slide6">
+        <h2>🧪 Simulador para Inspeccionar</h2>
+        <div class="caja-explicacion">CONTENIDO (JARRÓN)</div>
+        <div class="chuleta-f12">
+            <div><span class="color-box" style="background: var(--azul)"></span> <b>Azul:</b> Content</div>
+            <div><span class="color-box" style="background: var(--verde)"></span> <b>Verde:</b> Padding (30px)</div>
+            <div><span class="color-box" style="background: var(--amarillo)"></span> <b>Amarillo:</b> Border (20px)</div>
+            <div><span class="color-box" style="background: var(--naranja)"></span> <b>Naranja:</b> Margin (40px)</div>
+        </div>
+        <div class="controles">
+            <button class="btn btn-prev" onclick="next(5)">Atrás</button>
+            <button class="btn btn-next" onclick="alert('¡Fin de la presentación!')">Fin</button>
+        </div>
+    </section>
+
+    <script>
+        function next(n) {
+            document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+            document.getElementById('slide' + n).classList.add('active');
+        }
+    </script>
+</body>
+</html>
