@@ -12,14 +12,13 @@ Repositorio centralizado de apuntes y proyectos.
 ---
 
 ## 📅 Semana 2: Apuntes y Bitácora
-* 🥐 **[VER WEB: PROYECTO URBAN TOAST (LIVE)](https://anabhernandez.github.io/the-good-breakfast/)**
 * 📝 **[VER APUNTES: BITÁCORA (MD)](semanas/semana-02/apuntes/bitacora-dia7-18feb.md)**
 * 🌐 **[VER WEB: BITÁCORA DÍA 7 (HTML)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-02/apuntes/bitacora-dia7.html)**
 
 ---
 
 ## 📅 Semana 3: CSS y Gestión de Proyectos
-* 🍳 **[VER WEB: RECIPE PAGE (Urban Toast)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/recipe-page/index.html)**
+* 🍳 **[VER WEB: RECIPE PAGE (Urban Toast Final)](https://anabhernandez.github.io/the-good-breakfast/)**
 * 🤝 **[VER APUNTES: EJERCICIO COLABORATIVO](semanas/semana-03/ejercicios/ejercicio-colaborativo-git.md)**
 * 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/modelo-caja/index.html)**
 * 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/ejercicio-tablas/index.html)**
