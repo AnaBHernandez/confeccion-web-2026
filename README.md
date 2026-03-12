@@ -23,3 +23,10 @@ Repositorio centralizado de apuntes y proyectos.
 * 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/modelo-caja/index.html)**
 * 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/ejercicio-tablas/index.html)**
 * 📚 **[VER APUNTES: BITÁCORA CONSOLIDADA](semanas/semana-03/apuntes/bitacora-consolidada-marzo-01.md)**
+
+---
+
+## 📅 Semana 4: Recipe Page — HTML y CSS
+* 🍳 **[VER WEB: RECIPE PAGE](https://anabhernandez.github.io/recipe-page/)**
+* 📂 **[VER REPO: RECIPE PAGE](https://github.com/AnaBHernandez/recipe-page)**
+* 📚 **[VER APUNTES: SEMANA 04](semanas/semana-04/apuntes/semana-04-recipe-page.md)**
