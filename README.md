@@ -6,13 +6,13 @@ Repositorio centralizado de apuntes y proyectos.
 
 ## 📅 Semana 1: Entorno e Investigaciones
 * 👋 **[VER WEB: PRIMERA APP](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/Primera%20app/index.html)**
-* 💻 **[VER WEB: EXPLICACIÓN HOLA MUNDO](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/proyectos/explicacion-hola-mundo.html)**
-* 📂 **[VER INVESTIGACIÓN: PACKAGE.JSON](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/package-json-investigacion.html)**
+* 💻 **[VER WEB: EXPLICACIÓN HOLA MUNDO](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/proyectos/explicacion hola mundo.html)**
+* 📂 **[VER INVESTIGACIÓN: PACKAGE.JSON](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/package json.html)**
 
 ---
 
 ## 📅 Semana 2: Apuntes y Bitácora
-* 📝 **[VER APUNTES: BITÁCORA (MD)](semanas/semana-02/apuntes/bitacora-dia7-18feb.md)**
+* 📝 **[VER APUNTES: BITÁCORA (MD)](semanas/semana-02/apuntes/bitacora-día-7–18-de-febrero-de-2026)**
 * 🌐 **[VER WEB: BITÁCORA DÍA 7 (HTML)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-02/apuntes/bitacora-dia7.html)**
 
 ---
@@ -27,8 +27,10 @@ Repositorio centralizado de apuntes y proyectos.
 ---
 
 ## 📅 Semana 4: Recipe Page — HTML y CSS
+* 📚 **[VER APUNTES: RECIPE PAGE](semanas/semana-04/apuntes/recipe page.md)**
 * 🍳 **[VER WEB: RECIPE PAGE](https://anabhernandez.github.io/recipe-page/)**
-* 📂 **[VER REPO: RECIPE PAGE](https://github.com/AnaBHernandez/recipe-page)**
-* 📚 **[VER APUNTES: SEMANA 04](semanas/semana-04/apuntes/semana-04-recipe-page.md)**
-* 📝 **[VER APUNTES: ALGORITMOS Y PSEUDOCÓDIGO](semanas/semana-04/apuntes/algoritmos-pseudocodigo.md)**
-* 📝 **[VER EJERCICIO: ALGORITMOS Y PSEUDOCÓDIGO](semanas/semana-04/ejercicios/algoritmos-diagramas-flujo.md)**
+* 📂 **[VER REPO: RECIPE PAGE](https://github.com/AnaBHernandez/recipe-page)** 
+* 📝 **[VER APUNTES: ALGORITMOS PSEUDOCÓDIGO Y DIAGRAMA DE FLUJO](semanas/semana-04/apuntes/algoritmos-pseudocodigo-y-diagrama-de-flujo.md)**
+* 📝 **[VER EJERCICIO: ALGORITMOS PSEUDOCÓDIGO Y DIAGRAMA DE FLUJO](semanas/semana-04/ejercicios/Ejercicio-1-algoritmo-pseudocódigo-diagrama-de-flujo.md)**
+* 📝 **[VER EJERCICIO: DIAGRAMA DE FLUJO Y PSEUDOCÓDIGO](semanas/semana-04/ejercicios/Actividad-2-diagrama-de-flujo-y-pseudocógigo.md)**
+* 📝 **[VER EJERCICIO: PSEUDOCÓDIGO Y BUCLES](semanas/semana-04/ejercicios/Actividad-3-pseudocódigo-bucles.md)**
