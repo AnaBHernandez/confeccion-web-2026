@@ -80,10 +80,10 @@ FIN
 ## 3. El Diagrama de Flujo (El diseño visual)
 ```mermaid
 flowchart TD
-    A([Inicio]) --> B[/Leer Edad, Tiene Invitación/]
-    B --> C{¿Edad >= 18 Y <br> Invitación == "Sí"?}
-    C -- SÍ --> D[/Imprimir: "Puede pasar"/]
-    C -- NO --> E[/Imprimir: "Acceso denegado"/]
+    A([Inicio]) --> B[/Leer Edad, Tiene Invitacion/]
+    B --> C{"Edad >= 18 Y Invitacion == Si?"}
+    C -- SÍ --> D[/Imprimir: Puede pasar/]
+    C -- NO --> E[/Imprimir: Acceso denegado/]
     D --> F([Fin])
     E --> F
 

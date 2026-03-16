@@ -33,7 +33,7 @@ FIN
 ```mermaid
 flowchart TD
     A([Inicio]) --> B[/Leer entrada/]
-    B --> C{¿entrada != "Fin"?}
+    B --> C{"entrada != Fin?"}
     
     C -- SÍ --> D[precio_rebajado = entrada / 2]
     D --> E[/Imprimir precio_rebajado/]
