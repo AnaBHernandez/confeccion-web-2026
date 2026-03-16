@@ -29,6 +29,7 @@ INICIO
     ESCRIBIR "Tu saldo final es: ", saldo_actual
 FIN
 3. El Diagrama de Flujo (El diseño visual)
+```mermaid
 flowchart TD
     A([Inicio]) --> B[/Leer Saldo Actual/]
     B --> C{¿Saldo >= 50?}
@@ -76,6 +77,7 @@ INICIO
     FIN SI
 FIN
 3. El Diagrama de Flujo (El diseño visual)
+```mermaid
 flowchart TD
     A([Inicio]) --> B[/Leer Edad, Tiene Invitación/]
     B --> C{¿Edad >= 18 Y <br> Invitación == "Sí"?}
@@ -119,6 +121,7 @@ INICIO
     ESCRIBIR "Humedad correcta, riego finalizado"
 FIN
 3. El Diagrama de Flujo (El diseño visual)
+```mermaid
 flowchart TD
     A([Inicio]) --> B[/Medir nivel de Humedad/]
     B --> C{¿Humedad < 30%?}

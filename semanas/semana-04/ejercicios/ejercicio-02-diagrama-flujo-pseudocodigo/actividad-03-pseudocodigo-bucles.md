@@ -30,6 +30,7 @@ INICIO
     FIN MIENTRAS
 FIN
 3. El Diagrama de Flujo (Mermaid):
+```mermaid
 flowchart TD
     A([Inicio]) --> B[/Leer entrada/]
     B --> C{¿entrada != "Fin"?}
@@ -91,6 +92,7 @@ INICIO
     FIN MIENTRAS
 FIN
 3. El Diagrama de Flujo (Mermaid):
+```mermaid
 flowchart TD
     A([Inicio]) --> B[opcion = 0]
     B --> C{¿opcion != 3?}
@@ -161,6 +163,7 @@ INICIO
     FIN SI
 FIN
 3. El Diagrama de Flujo (Mermaid):
+```mermaid
 flowchart TD
     A([Inicio]) --> B[suma_notas = 0, cantidad_alumnos = 0]
     B --> C[/Leer nota_ingresada/]
