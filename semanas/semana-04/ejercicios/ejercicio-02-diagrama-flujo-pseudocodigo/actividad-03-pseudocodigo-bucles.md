@@ -1,27 +1,25 @@
 # Pseudocodigo bucles
-# Ejercicio 1:El Inventario de Rebajas (Bucle de Procesamiento)
-El problema: Calcular el precio con un 50% de descuento de múltiples prendas hasta que el usuario escriba la palabra "Fin"
-.
-1. El Algoritmo (La ideación):
-Preguntar el precio de la primera prenda o la palabra "Fin" para salir
-.
-El Bucle: Mientras la entrada sea diferente a "Fin"
-:
-Calcular el precio rebajado dividiendo el precio original entre 2
-.
-Mostrar el nuevo precio rebajado en pantalla
-.
-Re-entrada: Volver a preguntar el precio de la siguiente prenda
-.
-Cuando el empleado escriba "Fin", el bucle se rompe y el programa termina
-.
-2. El Pseudocódigo:
+
+# Ejercicio 1: El Inventario de Rebajas (Bucle de Procesamiento)
+
+El problema: Calcular el precio con un 50% de descuento de múltiples prendas hasta que el usuario escriba la palabra "Fin".
+
+## 1. El Algoritmo (La ideación)
+
+Preguntar el precio de la primera prenda o la palabra "Fin" para salir.
+El Bucle: Mientras la entrada sea diferente a "Fin":
+Calcular el precio rebajado dividiendo el precio original entre 2.
+Mostrar el nuevo precio rebajado en pantalla.
+Volver a preguntar el precio de la siguiente prenda.
+Cuando el empleado escriba "Fin", el bucle se rompe y el programa termina.
+
+## 2. El Pseudocódigo
+```
 INICIO
     ESCRIBIR "Ingrese el precio de la prenda (o escriba 'Fin' para terminar):"
     LEER entrada
     
     MIENTRAS entrada != "Fin" HACER
-        // Se asume que si no es "Fin", es un número
         precio_rebajado = entrada / 2
         ESCRIBIR "El precio con 50% de descuento es: ", precio_rebajado
         
@@ -29,7 +27,9 @@ INICIO
         LEER entrada
     FIN MIENTRAS
 FIN
-3. El Diagrama de Flujo (Mermaid):
+```
+
+## 3. El Diagrama de Flujo
 ```mermaid
 flowchart TD
     A([Inicio]) --> B[/Leer entrada/]
@@ -38,8 +38,6 @@ flowchart TD
     C -- SÍ --> D[precio_rebajado = entrada / 2]
     D --> E[/Imprimir precio_rebajado/]
     E --> F[/Leer entrada de nuevo/]
-    
-    %% La flecha vuelve al rombo para el siguiente producto
     F --> C
     
     C -- NO --> G([Fin])
@@ -50,28 +48,26 @@ flowchart TD
     style B fill:#3b82f6,color:#fff
     style E fill:#3b82f6,color:#fff
     style F fill:#3b82f6,color:#fff
+```
 
-------------------------------------------------------------------------------
+---
+
 # Ejercicio 2: El Cajero Automático "Infinito" (Menú de Opciones)
-El problema: Programar un menú de cajero que solo se cierre cuando el usuario decida elegir la opción 3 ("Salir") y que muestre un error si introduce una opción no válida
-.
-1. El Algoritmo (La ideación):
-Crear una variable de control opcion iniciada en 0
-.
-El Bucle: Mientras la opción sea diferente a 3
-:
-Mostrar el menú: "1. Ver saldo, 2. Retirar dinero, 3. Salir" y leer la opción ingresada
-.
-Si es 1: Mostrar "Su saldo es 1000€"
-.
-Si es 2: Mostrar "Dinero retirado"
-.
-Si es 3: Mostrar "Gracias por usar el banco"
-.
-Validación: Si es cualquier otro número (ej. 5), mostrar "Opción no válida"
-.
-Al elegir 3, el ciclo no se repite y el programa se apaga.
-2. El Pseudocódigo:
+
+El problema: Programar un menú de cajero que solo se cierre cuando el usuario elija la opción 3 ("Salir").
+
+## 1. El Algoritmo (La ideación)
+
+Crear una variable de control opcion iniciada en 0.
+El Bucle: Mientras la opción sea diferente a 3:
+Mostrar el menú: "1. Ver saldo, 2. Retirar dinero, 3. Salir" y leer la opción.
+Si es 1: Mostrar "Su saldo es 1000€".
+Si es 2: Mostrar "Dinero retirado".
+Si es 3: Mostrar "Gracias por usar el banco".
+Validación: Si es cualquier otro número, mostrar "Opción no válida".
+
+## 2. El Pseudocódigo
+```
 INICIO
     opcion = 0
     
@@ -91,7 +87,9 @@ INICIO
         FIN SEGUN
     FIN MIENTRAS
 FIN
-3. El Diagrama de Flujo (Mermaid):
+```
+
+## 3. El Diagrama de Flujo
 ```mermaid
 flowchart TD
     A([Inicio]) --> B[opcion = 0]
@@ -117,28 +115,26 @@ flowchart TD
     style C fill:#f59e0b,color:#fff
     style E fill:#f59e0b,color:#fff
     style D fill:#3b82f6,color:#fff
+```
 
---------------------------------------------------------------------------------
-# Ejercicio 3:El Promedio de una Clase (Cálculo con Contador y Acumulador)
-El problema: Calcular la nota media de los alumnos pidiendo notas hasta que se introduzca un número negativo (ej. -1). Si el primer número es negativo, hay que evitar dividir por cero
-.
-1. El Algoritmo (La ideación):
-Crear un Acumulador (suma_notas = 0) y un Contador (cantidad_alumnos = 0)
-.
-Leer la primera nota ingresada
-.
-El Bucle: Mientras la nota sea mayor o igual a 0
-:
-Sumar la nota a suma_notas
-.
-Sumar 1 a cantidad_alumnos
-.
-Pedir la siguiente nota
-.
-Fuera del bucle, verificar si cantidad_alumnos es mayor a 0 para evitar el error de dividir por cero
-. Si lo es, calcular el promedio (suma_notas / cantidad_alumnos) y mostrarlo
-.
-2. El Pseudocódigo:
+---
+
+# Ejercicio 3: El Promedio de una Clase (Cálculo con Contador y Acumulador)
+
+El problema: Calcular la nota media de los alumnos pidiendo notas hasta que se introduzca un número negativo. Si el primer número es negativo, evitar dividir por cero.
+
+## 1. El Algoritmo (La ideación)
+
+Crear un Acumulador (suma_notas = 0) y un Contador (cantidad_alumnos = 0).
+Leer la primera nota ingresada.
+El Bucle: Mientras la nota sea mayor o igual a 0:
+Sumar la nota a suma_notas.
+Sumar 1 a cantidad_alumnos.
+Pedir la siguiente nota.
+Verificar si cantidad_alumnos es mayor a 0 para evitar dividir por cero.
+
+## 2. El Pseudocódigo
+```
 INICIO
     suma_notas = 0
     cantidad_alumnos = 0
@@ -154,15 +150,16 @@ INICIO
         LEER nota_ingresada
     FIN MIENTRAS
     
-    // Validación para no intentar dividir por cero
     SI cantidad_alumnos > 0 ENTONCES
         promedio = suma_notas / cantidad_alumnos
         ESCRIBIR "El promedio de la clase es: ", promedio
     SINO
-        ESCRIBIR "No se ingresaron notas válidas. No se puede calcular el promedio."
+        ESCRIBIR "No se ingresaron notas válidas."
     FIN SI
 FIN
-3. El Diagrama de Flujo (Mermaid):
+```
+
+## 3. El Diagrama de Flujo
 ```mermaid
 flowchart TD
     A([Inicio]) --> B[suma_notas = 0, cantidad_alumnos = 0]
@@ -191,3 +188,4 @@ flowchart TD
     style H fill:#f59e0b,color:#fff
     style C fill:#3b82f6,color:#fff
     style G fill:#3b82f6,color:#fff
+```
