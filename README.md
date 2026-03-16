@@ -31,3 +31,4 @@ Repositorio centralizado de apuntes y proyectos.
 * 📂 **[VER REPO: RECIPE PAGE](https://github.com/AnaBHernandez/recipe-page)**
 * 📚 **[VER APUNTES: SEMANA 04](semanas/semana-04/apuntes/semana-04-recipe-page.md)**
 * 📝 **[VER APUNTES: ALGORITMOS Y PSEUDOCÓDIGO](semanas/semana-04/apuntes/algoritmos-pseudocodigo.md)**
+* 📝 **[VER EJERCICIO: ALGORITMOS Y PSEUDOCÓDIGO](semanas/semana-04/ejercicios/algoritmos-diagramas-flujo.md)**
