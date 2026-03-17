@@ -189,3 +189,43 @@ flowchart TD
     style C fill:#3b82f6,color:#fff
     style G fill:#3b82f6,color:#fff
 ```
+
+---
+
+# Ejercicio 4: El Llenado del Tanque de Agua
+
+El problema: Simular el llenado automático de un tanque de 100 litros. El sistema debe añadir agua de 10 en 10 litros y avisar cuando el tanque esté completamente lleno.
+
+## 1. El Algoritmo (La ideación)
+
+1. Inicialización: Empezamos con el tanque vacío (`litros_actuales = 0`).
+2. Condición de control: Mientras el nivel de agua sea menor a 100 litros, el grifo permanece abierto.
+3. Acción repetitiva (Bucle):
+   - Sumar 10 litros al total acumulado.
+   - Mostrar en pantalla el progreso actual para que el usuario esté informado.
+   - Esperar un segundo para simular el tiempo de llenado real.
+4. Finalización: Una vez se alcanzan los 100 litros, el bucle se rompe y se muestra el mensaje "¡Tanque lleno!".
+
+## 2. El Pseudocódigo (PSeInt)
+
+```
+Algoritmo LlenadoDelTanque
+    // Definimos la variable como entero ya que sumamos de 10 en 10
+    Definir litros_actuales Como Entero
+    litros_actuales <- 0
+    
+    // El bucle se ejecuta mientras no lleguemos al límite de 100
+    Mientras litros_actuales < 100 Hacer
+        litros_actuales <- litros_actuales + 10
+        Escribir "Nivel del tanque: ", litros_actuales, " litros..."
+        Esperar 1 Segundos // Pausa para realismo en la ejecución
+    FinMientras
+    
+    // Mensaje fuera del bucle (solo se ejecuta al terminar)
+    Escribir "¡Tanque lleno! Cerrando grifo de seguridad."
+FinAlgoritmo
+```
+
+## 3. El Diagrama de Flujo
+
+![Diagrama de Llenado del Tanque](./llenado-del-tanque.svg)
