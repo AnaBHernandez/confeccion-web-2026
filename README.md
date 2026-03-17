@@ -39,3 +39,4 @@ Repositorio centralizado de apuntes y proyectos.
 * 📝 **[VER EJERCICIO 01: ALGORITMO PSEUDOCÓDIGO Y DIAGRAMA DE FLUJO](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-01-algoritmo-pseudocodigo/ejercicio-01-algoritmo-pseudocodigo.md)**
 * 📝 **[VER EJERCICIO 02: DIAGRAMA DE FLUJO Y PSEUDOCÓDIGO](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-02-diagrama-flujo-pseudocodigo/actividad-02-diagrama-flujo-pseudocodigo.md)**
 * 📝 **[VER EJERCICIO 03: PSEUDOCÓDIGO Y BUCLES](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-02-diagrama-flujo-pseudocodigo/actividad-03-pseudocodigo-bucles.md)**
+* 📘 **[VER APUNTES: GUÍA MAESTRA DE PROGRAMACIÓN (PDF)](./semanas/semana-04/apuntes/Guia_Maestra_la_Programacion.pdf)**
