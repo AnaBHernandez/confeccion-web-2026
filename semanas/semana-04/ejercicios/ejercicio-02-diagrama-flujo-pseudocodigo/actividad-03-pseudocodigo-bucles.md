@@ -227,5 +227,24 @@ FinAlgoritmo
 ```
 
 ## 3. El Diagrama de Flujo
+```mermaid
+flowchart TD
+    A([Inicio]) --> B[litros_actuales = 0]
+    B --> C{¿litros_actuales < 100?}
 
-![Diagrama de Llenado del Tanque](./llenado-del-tanque.svg)
+    C -- SÍ --> D[litros_actuales = litros_actuales + 10]
+    D --> E[/Imprimir nivel del tanque/]
+    E --> F[Esperar 1 segundo]
+    F --> C
+
+    C -- NO --> G[/Imprimir Tanque Lleno/]
+    G --> H([Fin])
+
+    style A fill:#10b981,color:#fff
+    style H fill:#10b981,color:#fff
+    style C fill:#f59e0b,color:#fff
+    style B fill:#3b82f6,color:#fff
+    style D fill:#3b82f6,color:#fff
+    style E fill:#3b82f6,color:#fff
+    style F fill:#3b82f6,color:#fff
+    style G fill:#3b82f6,color:#fff
