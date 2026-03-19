@@ -29,6 +29,7 @@ Para que la lógica funcione, el sistema manejará:
     * `precioFinal` (Número decimal)
 
 ## 5. Lógica de la Aplicación
+```
 
 ### Diagrama de Flujo
 ```mermaid
@@ -41,9 +42,12 @@ flowchart TD
     E --> G[/Mostrar precio_final/]
     F --> G
     G --> H([Fin])
+   
+ ```
+ ---
 
 ### Pseudocódigo
-```text
+```
 ALGORITMO CalcularPresupuesto
     
     DEFINIR PRECIO_RACION = 3
@@ -69,4 +73,4 @@ ALGORITMO CalcularPresupuesto
     ESCRIBIR "Presupuesto: " + precio_final + "€"
 
 FIN ALGORITMO
-
+```
