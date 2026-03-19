@@ -21,10 +21,12 @@ La web permitirá al usuario:
 
 ## 4. Datos Necesarios
 Para que la lógica funcione, el sistema manejará:
-* **Entradas:** * `sabor` (Texto)
+* **Entradas:**
+    * `sabor` (Texto)
     * `cantidadRaciones` (Número entero)
     * `esCeliaco` (Booleano: Sí/No)
-* **Salidas:** * `precioFinal` (Número decimal)
+* **Salidas:**
+    * `precioFinal` (Número decimal)
 
 ## 5. Lógica de la Aplicación
 
@@ -40,13 +42,10 @@ flowchart TD
     F --> G
     G --> H([Fin])
 
-
-
-Estructura del Pseudocódigo: "Calculadora Gijón Sweet"
-ALGORITMO CalcularPresupuestoPasteleria
+### Pseudocódigo
+```text
+ALGORITMO CalcularPresupuesto
     
-    ALGORITMO CalcularPresupuesto
-
     DEFINIR PRECIO_RACION = 3
     DEFINIR SUPLEMENTO_SIN_GLUTEN = 5
     
@@ -71,8 +70,3 @@ ALGORITMO CalcularPresupuestoPasteleria
 
 FIN ALGORITMO
 
-    
-    // 5. Salida: Mostrar el resultado
-    ESCRIBIR "El presupuesto total para su tarta es de: " + precio_final + "€"
-
-FIN ALGORITMO
