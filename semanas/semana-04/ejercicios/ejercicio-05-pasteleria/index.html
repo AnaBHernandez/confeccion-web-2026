@@ -1,101 +1,86 @@
 <!DOCTYPE html>
 
-<html class="light" lang="es"><head>
+<html class="scroll-smooth" lang="es"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Gijón Sweet - Tartas Artesanas</title>
+<title>Gijón Sweet — El Arte de la Repostería</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,900&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "surface-container-lowest": "#ffffff",
-                        "on-secondary-fixed-variant": "#5b403c",
-                        "inverse-primary": "#ffb68d",
-                        "on-primary-fixed-variant": "#763400",
-                        "primary-fixed-dim": "#ffb68d",
-                        "surface-container": "#efefd7",
-                        "tertiary-fixed": "#ffdbc9",
-                        "error-container": "#ffdad6",
-                        "surface-tint": "#9a4600",
-                        "surface": "#fbfbe2",
-                        "on-secondary-fixed": "#2b1613",
-                        "secondary-fixed": "#ffdad4",
-                        "on-surface": "#1b1d0e",
-                        "secondary": "#745853",
-                        "inverse-surface": "#303221",
-                        "surface-dim": "#dbdcc3",
-                        "primary": "#974400",
-                        "on-tertiary-container": "#fffbff",
-                        "on-primary": "#ffffff",
-                        "on-tertiary-fixed-variant": "#753401",
-                        "secondary-container": "#fed7d0",
-                        "inverse-on-surface": "#f2f2d9",
-                        "outline": "#8a7266",
-                        "tertiary-fixed-dim": "#ffb68c",
-                        "secondary-fixed-dim": "#e3beb8",
-                        "background": "#fbfbe2",
-                        "surface-variant": "#e4e4cc",
-                        "surface-container-highest": "#e4e4cc",
-                        "on-error": "#ffffff",
-                        "surface-bright": "#fbfbe2",
-                        "on-surface-variant": "#564338",
-                        "on-secondary-container": "#795c57",
-                        "on-primary-fixed": "#321200",
-                        "primary-container": "#bb5808",
-                        "error": "#ba1a1a",
-                        "surface-container-low": "#f5f5dc",
-                        "surface-container-high": "#eaead1",
-                        "on-background": "#1b1d0e",
-                        "tertiary": "#904917",
-                        "on-tertiary": "#ffffff",
-                        "on-tertiary-fixed": "#321200",
-                        "outline-variant": "#ddc1b3",
-                        "on-error-container": "#93000a",
-                        "primary-fixed": "#ffdbc9",
-                        "on-primary-container": "#fffbff",
-                        "tertiary-container": "#ae602d",
-                        "on-secondary": "#ffffff"
-                    },
-                    fontFamily: {
-                        "headline": ["Noto Serif", "serif"],
-                        "body": ["Plus Jakarta Sans", "sans-serif"],
-                        "label": ["Plus Jakarta Sans", "sans-serif"]
-                    },
-                    borderRadius: {
-                        "DEFAULT": "0.25rem",
-                        "lg": "0.5rem",
-                        "xl": "0.75rem",
-                        "2xl": "1rem",
-                        "3xl": "1.5rem",
-                        "full": "9999px"
-                    },
-                },
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-surface": "#1b1d0e",
+              "surface-container-high": "#eaead1",
+              "on-primary-fixed": "#321200",
+              "on-background": "#1b1d0e",
+              "primary-container": "#974400",
+              "surface": "#fbfbe2",
+              "error": "#ba1a1a",
+              "on-tertiary-container": "#bdd6ff",
+              "on-tertiary-fixed": "#001c39",
+              "primary-fixed-dim": "#ffb68d",
+              "surface-container-highest": "#e4e4cc",
+              "on-tertiary-fixed-variant": "#004884",
+              "on-primary": "#ffffff",
+              "surface-bright": "#fbfbe2",
+              "on-tertiary": "#ffffff",
+              "surface-container": "#efefd7",
+              "inverse-primary": "#ffb68d",
+              "inverse-surface": "#303221",
+              "on-secondary-fixed-variant": "#663c23",
+              "surface-dim": "#dbdcc4",
+              "on-error": "#ffffff",
+              "outline-variant": "#dcc1b4",
+              "on-primary-container": "#ffcaad",
+              "inverse-on-surface": "#f2f2da",
+              "secondary": "#825338",
+              "secondary-fixed-dim": "#f6b998",
+              "tertiary-fixed-dim": "#a4c9ff",
+              "primary": "#723200",
+              "primary-fixed": "#ffdbc9",
+              "outline": "#887367",
+              "surface-container-low": "#f5f5dc",
+              "on-surface-variant": "#554339",
+              "on-primary-fixed-variant": "#763300",
+              "background": "#fbfbe2",
+              "secondary-container": "#ffc2a0",
+              "on-error-container": "#93000a",
+              "secondary-fixed": "#ffdbc9",
+              "surface-tint": "#9a4602",
+              "surface-variant": "#e4e4cc",
+              "on-secondary-fixed": "#321301",
+              "tertiary-container": "#005da8",
+              "error-container": "#ffdad6",
+              "tertiary-fixed": "#d4e3ff",
+              "surface-container-lowest": "#ffffff",
+              "tertiary": "#004580",
+              "on-secondary-container": "#7a4d32",
+              "on-secondary": "#ffffff"
             },
-        }
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+            boxShadow: {
+              'editorial': '0 20px 40px rgba(62, 39, 35, 0.06)',
+            }
+          },
+        },
+      }
     </script>
 <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
-        .editorial-shadow {
-            box-shadow: 0 20px 40px rgba(62, 39, 35, 0.06);
-        }
-        .bento-card {
-            transition: transform 0.3s ease;
-        }
-        .bento-card:hover {
-            transform: translateY(-4px);
-        }
-        input[type="number"]::-webkit-inner-spin-button,
-        input[type="number"]::-webkit-outer-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
+        .bg-baked-gradient {
+            background: linear-gradient(135deg, #723200 0%, #974400 100%);
         }
     </style>
 <style>
@@ -104,169 +89,233 @@
     }
   </style>
   </head>
-<body class="bg-surface text-on-surface font-body selection:bg-secondary-container">
-<header class="fixed top-0 w-full z-50 bg-[#fbfbe2]/80 backdrop-blur-md shadow-[0_20px_40px_rgba(62,39,35,0.06)]">
-<div class="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto">
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#fbfbe2]/80 dark:bg-[#1b1d0e]/80 backdrop-blur-md shadow-sm dark:shadow-none border-none">
+<nav class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
 <div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-[#974400] text-3xl">bakery_dining</span>
-<span class="font-headline font-bold text-3xl tracking-tight text-on-background italic">Gijón Sweet</span>
+<span class="material-symbols-outlined text-[#723200] dark:text-[#ffb98d]">bakery_dining</span>
+<span class="font-noto-serif italic font-black text-[#723200] dark:text-[#ffb98d] text-xl">Gijón Sweet</span>
 </div>
-<nav class="hidden md:flex items-center gap-8">
-<a class="font-label text-sm uppercase tracking-widest text-[#974400] border-b-2 border-[#974400] transition-transform duration-300 hover:scale-105" href="#">Nuestra Historia</a>
-<a class="font-label text-sm uppercase tracking-widest text-[#564338] transition-transform duration-300 hover:scale-105" href="#">Catálogo</a>
-<a class="font-label text-sm uppercase tracking-widest text-[#564338] transition-transform duration-300 hover:scale-105" href="#">Contacto</a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-[#723200] font-bold border-b-2 border-[#723200] font-label text-sm uppercase tracking-widest" href="#">Inicio</a>
+<a class="text-[#723200]/70 hover:text-[#723200] font-label text-sm uppercase tracking-widest transition-opacity" href="#carta">Carta</a>
+<a class="text-[#723200]/70 hover:text-[#723200] font-label text-sm uppercase tracking-widest transition-opacity" href="#presupuesto">Presupuesto</a>
+<a class="text-[#723200]/70 hover:text-[#723200] font-label text-sm uppercase tracking-widest transition-opacity" href="#docs">Docs</a>
+</div>
+<button class="material-symbols-outlined text-[#723200] hover:opacity-80 transition-opacity">menu</button>
 </nav>
-</div>
 </header>
-<main class="pt-24 pb-20">
-<!-- Hero Section -->
-<section class="max-w-7xl mx-auto px-6 py-12 md:py-20 flex flex-col md:flex-row items-center gap-12 overflow-hidden">
-<div class="w-full md:w-1/2 space-y-6 z-10">
-<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label text-xs font-bold uppercase tracking-wider">
-<span class="material-symbols-outlined text-sm">auto_awesome</span>
-                    Artesanía Asturiana
-                </div>
-<h1 class="font-headline font-bold text-5xl md:text-7xl text-on-background leading-[1.1] tracking-tight">
-                    Gijón Sweet: <span class="text-primary italic">Tartas Artesanas</span>
-</h1>
-<p class="text-on-surface-variant text-lg md:text-xl max-w-xl leading-relaxed">
-                    Recetas centenarias que cobran vida en nuestro obrador de Gijón. Utilizamos solo los ingredientes más nobles para crear momentos inolvidables.
-                </p>
-<div class="flex flex-wrap gap-4 pt-4">
-<a class="px-8 py-4 bg-gradient-to-r from-primary to-primary-container text-on-primary rounded-xl font-bold transition-transform duration-300 hover:scale-[1.02] shadow-lg" href="#presupuesto">
-                        Calcular Presupuesto
-                    </a>
-<button class="px-8 py-4 bg-transparent border-2 border-outline/20 text-on-surface rounded-xl font-bold transition-transform duration-300 hover:scale-[1.02]">
-                        Ver Catálogo
-                    </button>
+<main class="pt-24 pb-32">
+<!-- Hero Bloom Section -->
+<section class="relative w-full min-h-[618px] flex items-center px-6 lg:px-20 mb-20">
+<div class="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto w-full">
+<div class="z-10">
+<span class="font-label font-bold text-primary tracking-[0.2em] uppercase text-xs mb-4 block">Tradición Asturiana</span>
+<h1 class="font-headline font-black text-6xl lg:text-8xl text-primary leading-tight mb-8">Dulzura <br/><span class="italic text-secondary">Artesanal</span></h1>
+<p class="text-on-surface-variant text-lg max-w-md mb-10 leading-relaxed">Cada creación es una obra de arte horneada con el alma de Gijón. Ingredientes locales, procesos lentos.</p>
+<a class="inline-flex items-center justify-center px-8 py-4 bg-baked-gradient text-on-primary rounded-full font-bold shadow-editorial hover:scale-105 transition-transform active:scale-95" href="#presupuesto">
+                        Calcula tu pedido
+                        <span class="material-symbols-outlined ml-2">arrow_forward</span>
+</a>
+</div>
+<div class="relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-editorial rotate-2 hover:rotate-0 transition-transform duration-700 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Tarta artesanal de chocolate decorada con frutos rojos" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbhXP3DuJu4g4D6cow9CiUk4v3RwY0Y16xRlZyP-UczHCrhuj_HOdbTVvyDGZAi0urZnpdSw1-3YIcWhLClssLflbMc8pZb8kLAE9WkRgHk6RRiv9HJgZMRTH08Ose5L48HcUxaq1zC5yHCrHvAPxU0Vrr0NueAfxfLZF7AYtWHNmsT3obYNnyAcm6Ty9GBKb1CArpYt1ez37uPb3g26_gb7WO51pxzbMQcLv0iUK57jBcotmeMw-UkZT6azj1zfcLcrxdzzh88po"/>
+</div>
+<div class="absolute -bottom-10 -left-10 w-64 h-64 rounded-xl overflow-hidden shadow-editorial -rotate-3 hidden lg:block bg-surface-container-high border-8 border-surface">
+<img class="w-full h-full object-cover" data-alt="Cookies de mantequilla recién horneadas sobre papel seda" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBx5EZRg5Y4e9SWYHrKoU36H-vYblk82_BVCqbb85IIv389BFvw0eqbXLsidyW8nJiSHaLaqhGhbgAsQH0Q7FCrNJ6UCDPRuJ8ohmS5_0fnDV3oPJx5TEPIXIGgIft1dllg2ZHzF1eE_tGoY9UoM1yBPj6MTXIf-4GNcCynGmkH0T3RUoFJ9S_kSWnGpQA-JCyDvpaKY1-fOJ-noEzC0vZyShJF75Fb_W4gTfvox5opA5_pbkoxIZiMGM3LdCKqjhtWm9Qzw396kx8"/>
 </div>
 </div>
-<div class="w-full md:w-1/2 relative">
-<div class="aspect-[4/5] rounded-3xl overflow-hidden editorial-shadow relative z-10 rotate-2 hover:rotate-0 transition-transform duration-500">
-<img class="w-full h-full object-cover" data-alt="Tarta artesanal de chocolate gourmet con decoración fina" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAwnhJqFCeeSaoZBnHTfo1RzRc81rccnq4y9ItltJ60d3DH3jVZ5MxFFuL0HV2vLr6mxK6iBmn275b7y2tJEYgnBuIz6Ly3tBLcmWqE4h1nQKs86v0koBOG4Pr53zt7ODQ9ccImk1Ayq3AGtIzzsRUOkUTA_weB0Q8F1HmiAprY5w50xlkjht3gV-IX28lbYBHhTjbafJtbzGA8cwkRbfYJjvW81-jw2Spb5wBINf7aIEubxzEY3gidjuW_x2g9BKAWt1-vZZmuQ"/>
-</div>
-<div class="absolute -bottom-10 -left-10 aspect-square w-64 rounded-2xl overflow-hidden editorial-shadow -rotate-6 hidden lg:block z-20">
-<img class="w-full h-full object-cover" data-alt="Detalle de repostería artesana fresca del día" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx5mcGSCEh-75A1_MBk2tFgaCAG6eozs79Te4nVf5h1f6vTvTi8prY90vBkw6bCrwTI5kkM5P-myM5YIg6dR-s-fCAe9B49Dw-0850IvDWoO0aWhXqFgHoIcp3OhFVEiVB_17mIpZOXyEogc9j5OadERf6f8PXA4h9GYFCvn3A_en_11ACXl1DBsjNCw4ILpyfkG2GTZHJ33B74jeSFG5oJWRqhb2WKlbZV8juP5Of9lHWE8tnNO7mDyvNlRuSPN4_JX7F4oD6qA"/>
-</div>
-<div class="absolute -top-6 -right-6 w-48 h-48 bg-surface-container-highest/50 rounded-full blur-3xl -z-10"></div>
 </div>
 </section>
-<!-- Product Bento Grid -->
-<section class="max-w-7xl mx-auto px-6 py-12">
+<!-- Bento Grid Categories -->
+<section class="px-6 max-w-7xl mx-auto mb-32" id="carta">
+<div class="mb-12">
+<h2 class="font-headline text-4xl text-primary font-bold">Nuestra Selección</h2>
+<div class="w-20 h-1 bg-primary-container mt-4"></div>
+</div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<div class="md:col-span-2 h-[400px] rounded-3xl bg-surface-container-lowest editorial-shadow overflow-hidden group">
-<div class="relative h-full">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Mesa de repostería con tartas variadas en Gijón" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTJe8v-vgw78zqfw6JxIIwJlN3GnObgZoxbESmuvWycRUId-2XEHKL59irF-bNBnTBggEo-os8e_rARLk8cAw7TMzerkIHD8mp9rGQ6QrTpdEWYYFyXR_5YgvlEq672bIpNQJvRYV7Z365RLIu14G3D93SOcfV5FvSZNVklwIfCOkAcvW4-iVqWjRyulVISqhJeuMmDLLeWvWZtruH9c-TzyUSgDJYkKDS1wTz2v2DWhY0RyULzjDTOsIg7-y5EqqAU_2ZPVme-A"/>
-<div class="absolute inset-0 bg-gradient-to-t from-on-background/60 to-transparent flex flex-col justify-end p-8 text-on-primary">
-<h3 class="font-headline text-3xl font-bold mb-2">Colección de Temporada</h3>
-<p class="font-body opacity-90 max-w-md">Descubre los sabores que rinden homenaje a los frutos de nuestra tierra.</p>
+<div class="md:col-span-2 bg-surface-container-low p-8 rounded-xl flex flex-col justify-between min-h-[300px] group overflow-hidden relative">
+<div class="z-10">
+<h3 class="font-headline text-3xl text-primary mb-2">Repostería de Autor</h3>
+<p class="text-on-surface-variant max-w-xs">Tartas personalizadas para eventos inolvidables.</p>
+</div>
+<div class="absolute right-0 bottom-0 w-1/2 h-full opacity-20 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">
+<img class="w-full h-full object-cover" data-alt="Detalle de glaseado en tarta de bodas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALGN1_75byLTZX9dnAvkPMjg4fTOLny8GdJb1KAIQfSgjlGB8XTV8wOlut7PL77aqW_SQGydHMOEzqcnvi-QO013IpwhmPgqVd_fVuUj5KylOKzrYzmul2jbvYPKMaHe7jqtdMYV1I0j8nLIGj5E6p7q3WBarwEyQXasjBV7FyemzVv50ujtcpf14RkYiA2yY5wnpYp4kM5PwI14yujBeNp3xtTJrEg4OHfVQdGLv_cR9wFb0uiF5SMZBccjCkL0HTEwAgHVqedus"/>
 </div>
 </div>
+<div class="bg-primary text-on-primary p-8 rounded-xl flex flex-col justify-center items-center text-center shadow-editorial">
+<span class="material-symbols-outlined text-5xl mb-4">star</span>
+<h3 class="font-headline text-2xl mb-2">Especial del Mes</h3>
+<p class="text-primary-fixed text-sm opacity-80 uppercase tracking-widest font-bold">Carbayones de Gijón</p>
 </div>
-<div class="h-[400px] rounded-3xl bg-surface-container-high p-8 flex flex-col justify-between editorial-shadow">
+<div class="bg-surface-container-highest p-8 rounded-xl min-h-[250px] flex flex-col justify-end">
+<h3 class="font-headline text-2xl text-primary mb-2">Bollería Fina</h3>
+<p class="text-on-surface-variant">Masa madre y mantequilla de calidad.</p>
+</div>
+<div class="md:col-span-2 bg-white p-8 rounded-xl shadow-editorial flex items-center gap-8">
+<div class="w-24 h-24 rounded-full overflow-hidden bg-surface-container shrink-0">
+<img class="w-full h-full object-cover" data-alt="Panadero artesano trabajando la masa" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXkYQwOHFMMLUDo2IN6bsUfVPMtuaUVZ_-aiK4-jPzAaBR8wyZFi9qIvbymxp21tRI2XGh_76CmBcD8odAS9PSDEqe5Sw-3knds9TATqjiTFIz5Pjepj-mX4wW5lJYDCvt2-TDkk8vaJj0hc5ijEazEH2M8st5HW-Ww25DhEefa2oOTn18YXqDATHgdLzqG5yNsZs5DjLsc-BFP6X__nyKkK--044brQU1C1pmd3KLw1jrHiwJhakybV5Q8zJD8aNO49WpembvFu8"/>
+</div>
 <div>
-<span class="material-symbols-outlined text-primary text-4xl mb-4">stars</span>
-<h3 class="font-headline text-2xl font-bold text-on-background mb-4">Calidad Premium</h3>
-<p class="text-on-surface-variant leading-relaxed">Cada tarta se hornea bajo pedido, garantizando una frescura incomparable y un sabor auténtico.</p>
-</div>
-<div class="pt-6 border-t border-outline/10">
-<div class="flex -space-x-3">
-<div class="w-10 h-10 rounded-full border-2 border-surface bg-surface-container-highest"></div>
-<div class="w-10 h-10 rounded-full border-2 border-surface bg-surface-container"></div>
-<div class="w-10 h-10 rounded-full border-2 border-surface bg-surface-variant"></div>
-<div class="flex items-center justify-center px-3 text-xs font-bold text-on-surface-variant">+200 Clientes Felices</div>
-</div>
+<blockquote class="italic text-primary-container font-headline text-lg">"El secreto está en el tiempo y el respeto al ingrediente."</blockquote>
+<cite class="block mt-2 font-label text-xs uppercase font-bold text-on-surface-variant">— Maestro Pastelero</cite>
 </div>
 </div>
 </div>
 </section>
-<!-- Budget Section -->
-<section class="max-w-7xl mx-auto px-6 py-20" id="presupuesto">
-<div class="bg-surface-container-low rounded-[3rem] overflow-hidden flex flex-col lg:flex-row editorial-shadow">
-<div class="w-full lg:w-1/2 p-12 md:p-16 flex flex-col justify-center">
-<header class="mb-10">
-<h2 class="font-headline text-4xl md:text-5xl font-bold text-on-background mb-4">Calcula tu presupuesto</h2>
-<p class="text-on-surface-variant text-lg">Personaliza tu pedido y obtén un presupuesto instantáneo para tu celebración.</p>
-</header>
+<!-- Presupuesto Section -->
+<section class="bg-surface-container-low py-24 px-6 rounded-xl max-w-6xl mx-auto shadow-editorial border-none" id="presupuesto">
+<div class="max-w-xl mx-auto text-center mb-16">
+<span class="font-label font-bold text-primary tracking-widest uppercase text-xs mb-4 block">Calculadora</span>
+<h2 class="font-headline text-4xl text-primary font-black mb-4">Presupuesto al Instante</h2>
+<p class="text-on-surface-variant">Define tu pedido y obtén una estimación inmediata para tus dulces.</p>
+</div>
+<div class="bg-surface-container-lowest p-10 lg:p-16 rounded-xl max-w-2xl mx-auto shadow-editorial">
 <div class="space-y-8">
-<div class="space-y-3">
-<label class="block font-label text-sm font-bold uppercase tracking-widest text-on-surface-variant" for="raciones">
-                                Número de raciones
-                            </label>
-<div class="relative group">
-<input class="w-full bg-surface-container-lowest border-none rounded-2xl p-5 text-xl font-bold text-on-background focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-outline/30 outline-none" id="raciones" min="1" placeholder="Ej: 15" type="number" value="1"/>
-<span class="absolute right-5 top-1/2 -translate-y-1/2 text-on-surface-variant font-label">Personas</span>
+<div class="flex flex-col gap-3">
+<label class="font-label text-sm font-bold text-primary uppercase tracking-wider" for="raciones">Número de Raciones</label>
+<input class="w-full p-4 bg-surface-container border-none rounded-lg focus:ring-2 focus:ring-primary focus:bg-white transition-all text-lg font-bold text-primary" id="raciones" min="1" type="number" value="1"/>
 </div>
-</div>
-<div class="flex items-center gap-4 p-5 rounded-2xl bg-surface-container-lowest/50 border border-outline-variant/15 group transition-colors hover:bg-surface-container-lowest">
-<div class="relative flex items-center h-6">
-<input class="w-6 h-6 rounded border-outline/30 text-primary focus:ring-primary/20 transition-all cursor-pointer" id="sin_gluten" type="checkbox"/>
-</div>
-<label class="flex-1 cursor-pointer" for="sin_gluten">
-<span class="block font-bold text-on-background">¿Necesitas obrador sin gluten?</span>
-<span class="block text-sm text-on-surface-variant">+5€ de suplemento por pedido</span>
+<div class="flex items-center gap-4 p-4 rounded-lg bg-surface-container-low select-none cursor-pointer group hover:bg-surface-container transition-colors">
+<input class="w-6 h-6 rounded text-primary focus:ring-primary border-outline-variant" id="sin_gluten" type="checkbox"/>
+<label class="flex flex-col cursor-pointer" for="sin_gluten">
+<span class="font-bold text-primary uppercase text-xs tracking-tighter">Opción Sin Gluten</span>
+<span class="text-xs text-on-surface-variant opacity-70">+5€ de suplemento por pedido</span>
 </label>
-<span class="material-symbols-outlined text-secondary opacity-40 group-hover:opacity-100 transition-opacity">eco</span>
 </div>
-<button class="w-full py-5 bg-gradient-to-r from-primary to-primary-container text-on-primary rounded-2xl font-bold text-lg shadow-lg hover:scale-[1.01] active:scale-95 transition-all flex items-center justify-center gap-3" onclick="calcularTotal()">
+<button class="w-full py-5 bg-baked-gradient text-on-primary rounded-full font-bold text-lg shadow-editorial hover:opacity-90 active:scale-[0.98] transition-all flex items-center justify-center gap-3" id="btn-calcular">
 <span class="material-symbols-outlined">calculate</span>
-                            CALCULAR TOTAL
-                        </button>
-<div class="hidden animate-in fade-in slide-in-from-top-4 duration-500" id="resultado_container">
-<div class="p-8 rounded-3xl bg-surface-container-highest/40 border-2 border-primary/10 text-center space-y-2">
-<p class="text-on-surface-variant font-label uppercase text-xs tracking-widest font-bold">Total Estimado</p>
-<div class="text-5xl font-headline font-bold text-primary">
+                        Calcular Total
+                    </button>
+<div class="hidden mt-10 p-8 rounded-xl border-2 border-dashed border-primary-container bg-primary-fixed/20 text-center" id="resultado_container">
+<p class="font-label text-xs uppercase font-bold text-primary tracking-widest mb-2">Total Estimado</p>
+<div class="font-headline text-5xl text-primary font-black">
 <span id="total_valor">0</span>€
-                                </div>
-<p class="text-sm text-on-surface-variant italic">IVA incluido. Sujeto a disponibilidad.</p>
+                        </div>
+<p class="text-xs text-primary/60 mt-4 italic">*IVA incluido. Sujeto a disponibilidad de ingredientes.</p>
 </div>
-</div>
-</div>
-</div>
-<div class="hidden lg:block lg:w-1/2 relative min-h-[600px]">
-<img class="absolute inset-0 w-full h-full object-cover" data-alt="Ingredientes de pastelería artesana de alta calidad" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPkpeeBRB1E4XrNeZWCppg3spYO4sY-uL3WX-jpyYar64i7T21F1W0i_UH9LLGbxgi_eI8wxE_iR3nl4nLw4IUmHL4dvMATHFTuTo0E5J48Vi8GY-5fccG9SF1IXmkgqjTfA5pw-YMViWXDzFZ4n-lXSwJETZmrmSed-XvZXmkWMb75zru4JaYqLLoKu5Q5hc5LY3a46UaXgapYu1RT939veoQzmzTnCL6S7fRhBpq9q455W9P-xf8wNX2AanBHZm-20J4uy8xjA"/>
-<div class="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
 </div>
 </div>
 </section>
 </main>
-<footer class="w-full rounded-t-[2rem] bg-[#efefd7] dark:bg-[#1b1d0e]">
-<div class="flex flex-col md:flex-row justify-between items-center px-12 py-10 w-full max-w-7xl mx-auto">
-<div class="mb-6 md:mb-0">
-<span class="font-headline text-lg text-[#1b1d0e] dark:text-[#fbfbe2]">Gijón Sweet</span>
-<p class="text-[#564338] dark:text-[#ddc1b3] text-xs font-body mt-2">© 2024 Gijón Sweet - Tradición Artesanal</p>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 bg-[#f5f5dc] dark:bg-[#1b1d0e] border-none mt-20">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="flex flex-col items-center md:items-start">
+<span class="font-noto-serif text-lg font-bold text-[#723200] dark:text-[#ffb98d]">Gijón Sweet</span>
+<p class="font-jakarta text-sm opacity-60 text-[#723200] dark:text-[#ffb98d] mt-2">© 2024 Gijón Sweet — El Arte de la Repostería.</p>
 </div>
-<div class="flex flex-wrap justify-center gap-8">
-<a class="font-label text-sm uppercase tracking-widest text-[#564338] dark:text-[#ddc1b3] hover:text-[#974400] transition-colors" href="#">Nuestra Historia</a>
-<a class="font-label text-sm uppercase tracking-widest text-[#564338] dark:text-[#ddc1b3] hover:text-[#974400] transition-colors" href="#">Catálogo</a>
-<a class="font-label text-sm uppercase tracking-widest text-[#564338] dark:text-[#ddc1b3] hover:text-[#974400] transition-colors" href="#">Contacto</a>
-<a class="font-label text-sm uppercase tracking-widest text-[#564338] dark:text-[#ddc1b3] hover:text-[#974400] transition-colors" href="#">Aviso Legal</a>
+<div class="flex gap-8">
+<a class="font-jakarta text-sm opacity-60 hover:opacity-100 transition-opacity text-[#723200] dark:text-[#ffb98d]" href="#">Privacidad</a>
+<a class="font-jakarta text-sm opacity-60 hover:opacity-100 transition-opacity text-[#723200] dark:text-[#ffb98d]" href="#">Contacto</a>
+<a class="font-jakarta text-sm opacity-60 hover:opacity-100 transition-opacity text-[#723200] dark:text-[#ffb98d]" href="#">Sostenibilidad</a>
 </div>
 </div>
 </footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-4 pt-2 bg-[#ffffff]/90 dark:bg-[#1b1d0e]/90 backdrop-blur-xl z-50 rounded-t-[3rem] shadow-[0_-4px_20px_rgba(27,29,14,0.06)]">
+<a class="flex flex-col items-center justify-center bg-[#723200] text-[#ffffff] rounded-full p-3 transition-all duration-500" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-jakarta text-[10px] font-bold uppercase tracking-widest mt-1">Inicio</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#723200]/60 p-3 hover:bg-[#f5f5dc]" href="#carta">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-jakarta text-[10px] font-bold uppercase tracking-widest mt-1">Carta</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#723200]/60 p-3 hover:bg-[#f5f5dc]" href="#presupuesto">
+<span class="material-symbols-outlined">calculate</span>
+<span class="font-jakarta text-[10px] font-bold uppercase tracking-widest mt-1">Presu</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#723200]/60 p-3 hover:bg-[#f5f5dc]" href="#docs">
+<span class="material-symbols-outlined">description</span>
+<span class="font-jakarta text-[10px] font-bold uppercase tracking-widest mt-1">Docs</span>
+</a>
+</nav>
+<!-- ACTIVIDAD 5: Documentación -->
+<section class="max-w-7xl mx-auto px-6 mb-32" id="docs">
+<div class="bg-on-surface text-surface p-12 rounded-xl font-mono text-sm overflow-x-auto shadow-editorial">
+<div class="border-b border-surface-variant/20 pb-4 mb-6">
+<h3 class="text-secondary-fixed-dim font-bold uppercase tracking-widest">--- DOCUMENTACIÓN TÉCNICA v1.0 ---</h3>
+</div>
+<div class="mb-8">
+<p class="text-surface-container-highest mb-2">// PSEUDOCÓDIGO DE LÓGICA DE CÁLCULO</p>
+<pre class="bg-black/20 p-4 rounded">FUNCIÓN calcularTotal()
+    raciones = OBTENER_VALOR_INPUT("raciones")
+    sinGluten = ESTADO_CHECKBOX("sin_gluten")
+    
+    PRECIO_POR_RACION = 3
+    SUPLEMENTO_GLUTEN = 5
+    
+    total = raciones * PRECIO_POR_RACION
+    
+    SI sinGluten ES VERDADERO ENTONCES
+        total = total + SUPLEMENTO_GLUTEN
+    FIN SI
+    
+    MOSTRAR_EN_UI(total)
+    REMOVER_CLASE("hidden", "resultado_container")
+FIN FUNCIÓN</pre>
+</div>
+<div>
+<p class="text-surface-container-highest mb-2">// DIAGRAMA DE FLUJO: NAVEGACIÓN Y LÓGICA</p>
+<div class="p-4 border border-surface-variant/30 rounded inline-block">
+<pre>[INICIO]
+   |
+   v
+[USUARIO NAVEGA A #PRESUPUESTO] ----&gt; (Scroll suave vía CSS)
+   |
+   v
+[INGRESA RACIONES (min 1)]
+   |
+   v
+[¿OPCIÓN SIN GLUTEN?] --(SI)--&gt; [SUMAR 5€ AL TOTAL]
+   |                  |
+   | (NO)             v
+   |------&gt; [RACIONES * 3€]
+              |
+              v
+[CLICK EN "CALCULAR"] ----&gt; [LISTENER DOMContentLoaded]
+   |
+   v
+[REMOVER 'HIDDEN']
+   |
+   v
+[MOSTRAR RESULTADO]
+   |
+   v
+[FIN]
+                    </pre>
+</div>
+</div>
+</div>
+</section>
 <script>
-function calcularTotal() {
-    // Buscamos los datos en la pantalla
-    const racionesInput = document.getElementById('raciones');
-    const glutenCheck = document.getElementById('sin_gluten');
-    const resultadoTexto = document.getElementById('total_valor');
-    const contenedor = document.getElementById('resultado_container');
+        document.addEventListener('DOMContentLoaded', () => {
+            const btnCalcular = document.getElementById('btn-calcular');
+            const racionesInput = document.getElementById('raciones');
+            const glutenCheckbox = document.getElementById('sin_gluten');
+            const resultadoContainer = document.getElementById('resultado_container');
+            const totalValor = document.getElementById('total_valor');
 
-    // Convertimos a número
-    const raciones = parseInt(racionesInput.value) || 0;
-    const tieneGluten = glutenCheck.checked;
+            function calcularTotal() {
+                const raciones = parseInt(racionesInput.value) || 0;
+                const esSinGluten = glutenCheckbox.checked;
+                
+                if(raciones < 1) return;
 
-    if (raciones < 1) {
-        alert('Por favor, indica al menos 1 ración');
-        return;
-    }
+                // Lógica de cálculo solicitada: (raciones * 3) + (gluten?5:0)
+                let total = (raciones * 3);
+                if (esSinGluten) {
+                    total += 5;
+                }
 
-    // HACEMOS LA MAGIA: 3€ por ración + 5€ si hay gluten
-    const total = (raciones * 3) + (tieneGluten ? 5 : 0);
+                totalValor.innerText = total;
+                resultadoContainer.classList.remove('hidden');
+            }
 
-    // Mostramos el resultado en la pantalla
-    resultadoTexto.textContent = total;
-    contenedor.classList.remove('hidden'); // Quitamos el "escondido" para que se vea
-}
+            btnCalcular.addEventListener('click', calcularTotal);
+        });
     </script>
 </body></html>
