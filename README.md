@@ -40,3 +40,5 @@ Repositorio centralizado de apuntes y proyectos.
 * 📝 **[VER EJERCICIO 02: DIAGRAMA DE FLUJO Y PSEUDOCÓDIGO](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-02-diagrama-flujo-pseudocodigo/actividad-02-diagrama-flujo-pseudocodigo.md)**
 * 📝 **[VER EJERCICIO 03: PSEUDOCÓDIGO Y BUCLES](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-02-diagrama-flujo-pseudocodigo/actividad-03-pseudocodigo-bucles.md)**
 * 📘 **[VER APUNTES: GUÍA MAESTRA DE PROGRAMACIÓN (PDF)](./semanas/semana-04/apuntes/Guia_Maestra_la_Programacion.pdf)**
+* 🍰 **[VER EJERCICIO 05: WEB GIJÓN SWEET (Calculadora de Presupuesto)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-04/ejercicios/ejercicio-05-pasteleria/index.html)**
+* 📝 **[VER APUNTES: PROYECTO GIJÓN SWEET (Actividad 5)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/Proyecto:%20Gijón%20Sweet%20-%20Actividad%205.md)**
