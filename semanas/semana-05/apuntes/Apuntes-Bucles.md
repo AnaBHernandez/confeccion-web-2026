@@ -1,7 +1,3 @@
-Sí, Ana, este documento incluye absolutamente todo lo que hemos visto hoy: la teoría fundamental del PDF (resumida para que no sea pesada) y la aplicación práctica de cada uno de tus 9 ejercicios.
-
-Aquí tienes la versión definitiva, ultra-destacada con bloques de código y emojis para que sea lo más visual posible en tu Visual Studio Code.
-
 📔 DIARIO DE APRENDIZAJE: JAVASCRIPT SEMANA 5
 🔵 1. INTERACCIÓN Y VARIABLES
 LA TEORÍA: Las variables (let) son cajas. Usamos prompt() para recibir datos y alert() para sacarlos.
