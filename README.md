@@ -48,7 +48,8 @@ Repositorio centralizado de apuntes y proyectos.
 
 ## 📅 Semana 5: Lógica de Programación y Aritmética en JS
 
-* 📚 **[VER APUNTES: BUCLES Y CONTROL (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-Bucles.md)**
+* 📚 **[VER APUNTES: CLASES (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-clases.md)**
+* 📚 **[VER APUNTES: EJERCICIOS (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-ejercicios.md)**
 * 💻 **[VER WEB: RETOS DE BUCLES Y ÁRBOL](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-bucles.html)**
 * 📂 **[VER CÓDIGO: JS BUCLES](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-bucles.js)**
 * 🧮 **[VER WEB: OPERACIONES ARITMÉTICAS](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-aritmetica.html)**
