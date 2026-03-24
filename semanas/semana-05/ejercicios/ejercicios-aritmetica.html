@@ -1,0 +1,27 @@
+// 1. Saludo
+let nombre = prompt("Introduce tu nombre:");
+alert("¡Hola, " + nombre + "!");
+
+// 2. Operaciones
+let n1 = parseFloat(prompt("Número 1:"));
+let n2 = parseFloat(prompt("Número 2:"));
+alert(`Suma: ${n1+n2}\nResta: ${n1-n2}\nMult: ${n1*n2}\nDiv: ${n2!==0 ? n1/n2 : "Error"}`);
+
+// 3. Edad
+let edad = parseInt(prompt("Edad:"));
+alert(edad >= 18 ? "Mayor de edad" : "Menor de edad");
+
+// 4. Del 1 al 10
+console.log("Números del 1 al 10:");
+for(let i=1; i<=10; i++) console.log(i);
+
+// 5. Par o Impar (4 números)
+for(let i=1; i<=4; i++) {
+    let num = parseInt(prompt(`Número ${i} de 4:`));
+    alert(num % 2 === 0 ? num + " es PAR" : num + " es IMPAR");
+}
+
+// 6. Exponencial
+let b = parseFloat(prompt("Base:"));
+let e = parseFloat(prompt("Exponente:"));
+alert("Resultado: " + (b ** e));
