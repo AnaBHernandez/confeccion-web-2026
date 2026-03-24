@@ -73,3 +73,74 @@ if (usuario === "admin" && contrasena === "1234") {
 } else {
     alert("Error: Usuario o contraseña incorrectos");
 }
+// === EJERCICIOS: OPERACIONES CONDICIONALES ===
+
+// 1. Determinar si un número es positivo, negativo o cero
+let num1 = parseFloat(prompt("1. Ingresa un número (positivo, negativo o cero):"));
+if (num1 > 0) {
+    alert("El número es POSITIVO");
+} else if (num1 < 0) {
+    alert("El número es NEGATIVO");
+} else {
+    alert("El número es CERO");
+}
+
+// 2. Clasificación de edad
+let edadUsuario = parseInt(prompt("2. Introduce tu edad para clasificarte:"));
+if (edadUsuario >= 0 && edadUsuario <= 12) {
+    alert("Eres un NIÑO");
+} else if (edadUsuario >= 13 && edadUsuario <= 17) {
+    alert("Eres un ADOLESCENTE");
+} else if (edadUsuario >= 18 && edadUsuario <= 64) {
+    alert("Eres un ADULTO");
+} else if (edadUsuario >= 65) {
+    alert("Eres un ANCIANO");
+} else {
+    alert("Edad no válida");
+}
+
+// 3. Día de la semana (Switch)
+let diaSemana = parseInt(prompt("3. Introduce un número del 1 al 7 (Días):"));
+switch (diaSemana) {
+    case 1: alert("Lunes"); break;
+    case 2: alert("Martes"); break;
+    case 3: alert("Miércoles"); break;
+    case 4: alert("Jueves"); break;
+    case 5: alert("Viernes"); break;
+    case 6: alert("Sábado"); break;
+    case 7: alert("Domingo"); break;
+    default: alert("Día no válido");
+}
+
+// 4. Calificación (If + Switch)
+let notaExamen = parseInt(prompt("4. Ingresa tu calificación (0-100):"));
+if (notaExamen >= 0 && notaExamen <= 100) {
+    let rango = Math.floor(notaExamen / 10);
+    switch (rango) {
+        case 10: case 9: alert("Calificación: A"); break;
+        case 8: alert("Calificación: B"); break;
+        case 7: alert("Calificación: C"); break;
+        case 6: alert("Calificación: D"); break;
+        default: alert("Calificación: F");
+    }
+} else {
+    alert("Nota fuera de rango");
+}
+
+// 5. Mes del año
+let numMes = parseInt(prompt("5. Introduce un número del 1 al 12 (Meses):"));
+switch (numMes) {
+    case 1: alert("Enero"); break;
+    case 2: alert("Febrero"); break;
+    case 3: alert("Marzo"); break;
+    case 4: alert("Abril"); break;
+    case 5: alert("Mayo"); break;
+    case 6: alert("Junio"); break;
+    case 7: alert("Julio"); break;
+    case 8: alert("Agosto"); break;
+    case 9: alert("Septiembre"); break;
+    case 10: alert("Octubre"); break;
+    case 11: alert("Noviembre"); break;
+    case 12: alert("Diciembre"); break;
+    default: alert("Mes no válido");
+}
