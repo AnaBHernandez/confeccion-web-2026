@@ -87,16 +87,22 @@ if (num1 > 0) {
 
 // 2. Clasificación de edad
 let edadUsuario = parseInt(prompt("2. Introduce tu edad para clasificarte:"));
-if (edadUsuario >= 0 && edadUsuario <= 12) {
-    alert("Eres un NIÑO");
-} else if (edadUsuario >= 13 && edadUsuario <= 17) {
-    alert("Eres un ADOLESCENTE");
-} else if (edadUsuario >= 18 && edadUsuario <= 64) {
-    alert("Eres un ADULTO");
-} else if (edadUsuario >= 65) {
-    alert("Eres un ANCIANO");
-} else {
-    alert("Edad no válida");
+
+switch (true) {
+    case edadUsuario <= 0:
+        alert("Edad no válida. Debe ser mayor a 0.");
+        break;
+    case edadUsuario < 13:
+        alert("Eres un NIÑO");
+        break;
+    case edadUsuario < 18:
+        alert("Eres un ADOLESCENTE");
+        break;
+    case edadUsuario < 65:
+        alert("Eres un ADULTO");
+        break;
+    default:
+        alert("Eres un ANCIANO");
 }
 
 // 3. Día de la semana (Switch)
@@ -143,4 +149,52 @@ switch (numMes) {
     case 11: alert("Noviembre"); break;
     case 12: alert("Diciembre"); break;
     default: alert("Mes no válido");
+}
+// === EJERCICIOS: WHILE / DO WHILE ===
+
+// 1. Pedir números hasta que sea mayor a 10
+let numero1;
+do {
+    numero1 = parseInt(prompt("1. Ingresa un número (el programa para si es mayor a 10):"));
+} while (numero1 <= 10);
+alert("¡Por fin! El número " + numero1 + " es mayor a 10.");
+
+// 2. Suma de números hasta ingresar un negativo
+suma = 0;
+let numero2 = 0;
+while (numero2 >= 0) {
+    numero2 = parseInt(prompt("2. Ingresa un número para sumar (negativo para salir):"));
+    if (numero2 >= 0) {
+        suma += numero2; // Es lo mismo que: suma = suma + numero2
+    }
+}
+alert("La suma total es: " + suma);
+
+// 3. Validar nombre (mínimo 3 caracteres)
+nombre = "";
+while (nombre.length < 3) {
+    nombre = prompt("3. Ingresa tu nombre (mínimo 3 letras):");
+    if (nombre.length < 3) {
+        alert("Nombre muy corto, intenta de nuevo.");
+    }
+}
+alert("Bienvenido, " + nombre);
+
+// 4. Juego de adivinanza (1 al 20)
+let secreto = Math.floor(Math.random() * 20) + 1;
+let intento;
+do {
+    intento = parseInt(prompt("4. Adivina el número del 1 al 20 (o 0 para rendirte):"));
+    if (intento === 0) break; // Se rinde
+    if (intento < secreto) {
+        alert("Más alto...");
+    } else if (intento > secreto) {
+        alert("Más bajo...");
+    }
+} while (intento !== secreto);
+
+if (intento === secreto) {
+    alert("¡Felicidades! Adivinaste el número " + secreto);
+} else {
+    alert("Te rendiste. El número era " + secreto);
 }

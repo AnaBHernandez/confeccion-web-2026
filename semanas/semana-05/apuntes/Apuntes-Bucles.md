@@ -1,6 +1,9 @@
+
 📔 DIARIO DE APRENDIZAJE: JAVASCRIPT SEMANA 5
+
 🔵 1. INTERACCIÓN Y VARIABLES
 LA TEORÍA: Las variables (let) son cajas. Usamos prompt() para recibir datos y alert() para sacarlos.
+
 OJO: El prompt siempre recibe TEXTO (String).
 
 EJERCICIOS 1 Y 2 (El Saludo):
@@ -39,13 +42,9 @@ Explicación: Mientras tu compañero escribió el código 4 veces, tú usaste es
 🟣 5. LÓGICA AVANZADA (OPERADORES Y/O)
 LA TEORÍA: Permiten unir varias condiciones en una sola pregunta.
 
-OPERADOR "O" (||): [Ejercicio 7 - Descuento]
+OPERADOR "O" (||): if (edad < 18 || edad > 65) -> Entras si eres niño O si eres jubilado.
 
-Uso: if (edad < 18 || edad > 65) -> Entras si eres niño O si eres jubilado.
-
-OPERADOR "Y" (&&): [Ejercicio 8 y 9 - Acceso y Login]
-
-Uso: if (user === "admin" && pass === "1234") -> Tienes que acertar el nombre Y la clave. Si falla una, no entras.
+OPERADOR "Y" (&&): if (user === "admin" && pass === "1234") -> Tienes que acertar el nombre Y la clave. Si falla una, no entras.
 
 🔴 6. MATEMÁTICAS: EL MÓDULO (%)
 LA TEORÍA: Devuelve el resto de una división. Es el truco para saber si un número es par.
@@ -57,25 +56,25 @@ Tu práctica: if (numCheck % 2 === 0)
 Explicación: Si al dividir por 2 el resto es 0, es PAR. Si es 1, es IMPAR.
 
 🚀 7. PUBLICACIÓN PROFESIONAL (SISTEMA GIT)
-LA TEORÍA: Pasos para que tus cambios se guarden en tu perfil de GitHub y se vean en la web.
+LA TEORÍA: Pasos para que tus cambios se guarden en tu perfil de GitHub.
 
 git add . -> Metes todos los cambios en la "bolsa".
 
-git commit -m "Mensaje" -> Cierras la bolsa y le pones una etiqueta de qué hay dentro.
+git commit -m "Mensaje" -> Cierras la bolsa y le pones una etiqueta.
 
-git push origin main -> Envías la bolsa a Internet.
+git push origin main -> Envías la bolsa a Internet (GitHub).
 
-🟢 8. DECISIONES MÚLTIPLES (If / Else If / Else)
-LA TEORÍA: Cuando tienes más de dos opciones (no es solo blanco o negro), usamos else if. El programa pregunta en orden y se para en la primera respuesta que sea "verdad".
+🟢 8. DECISIONES MÚLTIPLES (IF / ELSE IF / ELSE)
+LA TEORÍA: Cuando tienes más de dos opciones, usamos else if. El programa pregunta en orden y se para en la primera respuesta que sea "verdad".
 
 EJERCICIO 1 (Positivo, Negativo o Cero):
 
 Tu práctica: if (num > 0) { ... } else if (num < 0) { ... } else { ... }
 
-Explicación: Si no es positivo y no es negativo, por lógica solo puede ser cero. El else final captura ese último caso.
+Explicación: Si no es positivo y no es negativo, por lógica solo puede ser cero.
 
-🟡 9. RANGOS COMPLEJOS (Uso del &&)
-LA TEORÍA: Para definir un grupo de edad o un rango de números, usamos el operador Y (&&). Ambas condiciones deben cumplirse para entrar en ese bloque.
+🟡 9. RANGOS COMPLEJOS (USO DEL &&)
+LA TEORÍA: Para definir un grupo de edad o un rango, usamos el operador Y (&&). Ambas deben cumplirse.
 
 EJERCICIO 2 (Clasificación de Edades):
 
@@ -83,33 +82,52 @@ Tu práctica: if (edad >= 13 && edad <= 17) { alert("Adolescente"); }
 
 Explicación: Obligamos al número a estar "encerrado" entre el 13 y el 17.
 
-🟠 10. LA ESTRUCTURA SWITCH (El Menú)
-LA TEORÍA: El switch se usa cuando comparamos una variable con valores exactos (1, 2, 3... o "Lunes", "Martes"...). Es mucho más limpio que poner 7 u 8 if seguidos.
+🟠 10. LA ESTRUCTURA SWITCH (EL MENÚ)
+LA TEORÍA: El switch se usa para comparar una variable con valores exactos. Es más limpio que muchos if.
 
 EJERCICIOS 3 Y 5 (Días y Meses):
 
-Tu práctica: switch (dia) { case 1: alert("Lunes"); break; ... default: ... }
+case: Es cada opción del menú.
 
-Explicación: * case: Es cada opción del menú.
+break: Es el freno para que no se ejecuten los siguientes casos.
 
-break: Es el freno. Si no lo pones, el programa sigue leyendo los demás días sin parar.
+default: El mensaje de error si el dato no existe (ej: día 8).
 
-default: Es el mensaje de error si el usuario pone un número que no existe (ej: día 8).
-
-🔴 11. VALIDACIÓN + LÓGICA (Combinar todo)
-LA TEORÍA: A veces, antes de procesar un dato, hay que comprobar si es válido (limpieza de datos).
+🔴 11. VALIDACIÓN + LÓGICA (COMBINAR TODO)
+LA TEORÍA: Antes de procesar, comprobamos si el dato es válido.
 
 EJERCICIO 4 (Calificaciones A-F):
 
-Tu práctica: Primero un if para ver si está entre 0 y 100, y dentro un switch.
+Tu práctica: Un if de control (0-100) y un switch con Math.floor(nota / 10).
 
-Explicación: Usamos Math.floor(nota / 10) para simplificar el número y poder usar el switch con las decenas (9, 8, 7...).
+Explicación: Simplificamos la nota para agrupar por decenas.
 
-✍️ REPASO RÁPIDO PARA EL EXAMEN:
+🔄 12. BUCLES POR CONDICIÓN (WHILE / DO WHILE)
+LA TEORÍA: Se usan cuando no sabemos cuántas veces se va a repetir algo. Repite mientras la condición sea verdadera.
+
+EJERCICIOS 1 AL 4 (Control de Usuario):
+
+do while: Ejecuta el código al menos una vez y luego pregunta.
+
+while: Pregunta antes de entrar.
+
+Acumuladores: suma += num (la hucha).
+
+Contadores: .length (cuenta letras).
+
+El Freno: break (sale del bucle inmediatamente).
+
+✍️ REPASO RÁPIDO PARA EL EXAMEN
 if / else if: Úsalo para rangos (mayor que, menor que).
 
 switch: Úsalo para valores fijos (días, meses, colores).
 
+for: Úsalo cuando sabes exactamente cuántas veces repetir.
+
+while / do while: Úsalo cuando dependes de la acción del usuario.
+
 &&: Para cuando quieres que se cumplan dos cosas a la vez.
 
 ||: Para cuando te sirve una cosa o la otra.
+
+while (falso): Es el momento exacto en que el bucle se detiene.
