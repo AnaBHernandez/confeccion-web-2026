@@ -45,3 +45,31 @@ let base = parseFloat(prompt("6. Introduce la base:"));
 let exponente = parseFloat(prompt("6. Introduce el exponente:"));
 let resultadoExp = Math.pow(base, exponente); // También puedes usar base ** exponente
 alert("El valor exponencial es: " + resultadoExp);
+
+// 7. Descuento en tienda (Uso del operador O -> ||)
+let edadCliente = parseInt(prompt("7. Ingresa tu edad para ver si tienes descuento:"));
+if (edadCliente < 18 || edadCliente > 65) {
+    alert("¡Apto para descuento! (Menor de 18 o mayor de 65)");
+} else {
+    alert("No eres apto para el descuento.");
+}
+
+// 8. Nivel de acceso (Uso del operador Y -> &&)
+let nivel = parseInt(prompt("8. Ingresa tu nivel de acceso (1-5):"));
+if (nivel >= 3 && nivel <= 5) {
+    alert("Acceso permitido (Nivel " + nivel + ")");
+} else if (nivel >= 1 && nivel <= 2) {
+    alert("Acceso denegado (Niveles 1 y 2 no autorizados)");
+} else {
+    alert("Error: El nivel debe estar entre 1 y 5");
+}
+
+// 9. Login de usuario (Comparación de textos)
+let usuario = prompt("9. Nombre de usuario:");
+let contrasena = prompt("9. Contraseña:");
+
+if (usuario === "admin" && contrasena === "1234") {
+    alert("Inicio de sesión con éxito. ¡Bienvenido!");
+} else {
+    alert("Error: Usuario o contraseña incorrectos");
+}
