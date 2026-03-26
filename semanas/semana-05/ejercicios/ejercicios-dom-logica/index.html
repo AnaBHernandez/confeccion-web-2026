@@ -2,30 +2,85 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ejercicio de Funciones Avanzadas - Semana 5</title>
+    <title>Panel de Ejercicios - Ana Hernández</title>
     <style>
-        body { font-family: sans-serif; margin: 20px; }
-        .contenedor { border: 1px solid #ccc; padding: 20px; border-radius: 8px; width: 300px; }
-        #resultado-texto { font-weight: bold; }
+        body { font-family: 'Ubuntu', sans-serif; background: #f0f2f5; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 600px; margin: 20px auto; }
+        h1 { color: #1a73e8; text-align: center; }
+        h2 { color: #5f6368; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+        button { padding: 12px; cursor: pointer; border: none; border-radius: 6px; background: #1a73e8; color: white; font-weight: bold; }
+        button:hover { background: #1557b0; }
+        .calc-area { background: #e8f0fe; padding: 15px; border-radius: 8px; border: 1px solid #d2e3fc; }
+        input { width: 94%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+        #resultado-texto { font-weight: bold; color: #d93025; font-size: 1.2rem; }
     </style>
 </head>
 <body>
 
-    <h1>Calculadora Pro</h1>
+    <div class="card">
+        <h1>Módulo 5: JS Avanzado</h1>
+        
+        <h2>1. Actividades de Ventana (Prompt)</h2>
+        <div class="grid">
+            <button onclick="ejecutarPunto1()">Punto 1: Normal</button>
+            <button onclick="ejecutarPunto2()">Punto 2: Default</button>
+            <button onclick="ejecutarPunto3()">Punto 3: Rest Suma</button>
+            <button onclick="ejecutarPunto4y5()">Punto 4 y 5: CB/Anon</button>
+        </div>
 
-    <div class="contenedor">
-        <label for="input-numero">Precio del producto (€):</label><br>
-        <input type="number" id="input-numero" placeholder="Ej: 100"><br><br>
-
-        <input type="checkbox" id="check-suplemento">
-        <label for="check-suplemento">Añadir suplemento (+5€)</label><br><br>
-
-        <button id="btn-calcular">Calcular Total</button>
-
-        <p>Resultado: <span id="resultado-texto">Esperando dato...</span></p>
+        <div class="calc-area">
+            <h2>2. Calculadora Pro (DOM)</h2>
+            <label>Precio Producto (€):</label>
+            <input type="number" id="input-numero" placeholder="Introduce un precio...">
+            
+            <button id="btn-calcular" style="width: 100%; background: #34a853;">Calcular Total</button>
+            
+            <p>Resultado en pantalla: <span id="resultado-texto">0.00€</span></p>
+        </div>
     </div>
 
     <script src="main.js"></script>
 
+    <script>
+        /* FUNCIONES PUENTE: 
+           Como tu main.js tiene variables sueltas, estos botones las activan 
+           llamando a las funciones que ya tienes escritas.
+        */
+        function ejecutarPunto1() {
+            let p = parseFloat(prompt("P1 - Precio:"));
+            let c = parseInt(prompt("P1 - Cantidad:"));
+            alert("Resultado: " + calcularNormal(p, c));
+        }
+
+        function ejecutarPunto2() {
+            let p = parseFloat(prompt("P2 - Precio:"));
+            let cTxt = prompt("P2 - Cantidad (vacio para 1):");
+            let c = cTxt === "" ? undefined : parseInt(cTxt);
+            alert("Resultado: " + calcularDefault(p, c));
+        }
+
+        function ejecutarPunto3() {
+            let pr1 = parseFloat(prompt("P3 - Precio 1:"));
+            let pr2 = parseFloat(prompt("P3 - Precio 2:"));
+            alert("Resultado Rest: " + sumarTodo(pr1, pr2));
+        }
+
+        function ejecutarPunto4y5() {
+            let p = 100, c = 1;
+            let res = calcularCB(p, c, function(t) { return t * 0.5; });
+            alert("Punto 4 y 5: Calculando 100€ con 50% de descuento callback: " + res);
+        }
+
+        // CONEXIÓN DE LA CALCULADORA CON EL BOTÓN VERDE
+        document.getElementById("btn-calcular").addEventListener("click", function() {
+            const precio = parseFloat(document.getElementById("input-numero").value);
+            if(isNaN(precio)) return alert("Pon un número");
+            
+            // Usa tu función calcularCB de main.js
+            const total = calcularCB(precio, 1, t => t); 
+            document.getElementById("resultado-texto").innerText = total.toFixed(2) + "€";
+        });
+    </script>
 </body>
 </html>
