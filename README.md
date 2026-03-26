@@ -46,11 +46,19 @@ Repositorio centralizado de apuntes y proyectos.
 
 ---
 
-## 📅 Semana 5: Lógica de Programación y Aritmética en JS
+# 📅 Semana 5: Lógica de Programación y Aritmética en JS
 
 * 📚 **[VER APUNTES: CLASES (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-clases.md)**
 * 📚 **[VER APUNTES: EJERCICIOS (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-ejercicios.md)**
-* 💻 **[VER WEB: RETOS DE BUCLES Y ÁRBOL](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-bucles.html)**
-* 📂 **[VER CÓDIGO: JS BUCLES](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-bucles.js)**
-* 🧮 **[VER WEB: OPERACIONES ARITMÉTICAS](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-aritmetica.html)**
-* 📂 **[VER CÓDIGO: JS ARITMÉTICA](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/operaciones-aritmeticas.js)**
+
+### 🕹️ Ejercicios de Lógica y DOM
+* 💻 **[VER WEB: CALCULADORA PRO Y LOGICA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-dom-logica/index.html)**
+* 📂 **[VER CÓDIGO: JS DOM-LOGICA](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-dom-logica/main.js)**
+
+### 🧮 Aritmética y Operaciones
+* 💻 **[VER WEB: OPERACIONES ARITMÉTICAS](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-aritmetica/ejercicios-aritmetica.html)**
+* 📂 **[VER CÓDIGO: JS ARITMÉTICA](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-aritmetica/operaciones-aritmeticas.js)**
+
+### 🔄 Bucles y Estructuras
+* 💻 **[VER WEB: RETOS DE BUCLES](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-bucles/ejercicios-bucles.html)**
+* 📂 **[VER CÓDIGO: JS BUCLES](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-bucles/ejercicios-bucles.js)**
