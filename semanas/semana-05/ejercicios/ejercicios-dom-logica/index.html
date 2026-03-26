@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio de Funciones Avanzadas - Semana 5</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .contenedor { border: 1px solid #ccc; padding: 20px; border-radius: 8px; width: 300px; }
+        #resultado-texto { font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Calculadora Pro</h1>
+
+    <div class="contenedor">
+        <label for="input-numero">Precio del producto (€):</label><br>
+        <input type="number" id="input-numero" placeholder="Ej: 100"><br><br>
+
+        <input type="checkbox" id="check-suplemento">
+        <label for="check-suplemento">Añadir suplemento (+5€)</label><br><br>
+
+        <button id="btn-calcular">Calcular Total</button>
+
+        <p>Resultado: <span id="resultado-texto">Esperando dato...</span></p>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
