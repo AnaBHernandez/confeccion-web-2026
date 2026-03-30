@@ -65,7 +65,7 @@ Repositorio centralizado de apuntes y proyectos.
 
 # 📅 Semana 6: Manipulación Avanzada de Objetos y TypeScript
 
-* 📚 **[VER APUNTES: CLASES (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/apuntes/Pildora-Objetos-TS.html)**
+* 📚 **[VER APUNTES: PÍLDORA INTERACTIVA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/apuntes/Pildora-Objetos-TS.html)
 
 ### 💎 Píldora Técnica: Objetos e Inmutabilidad
 * 💻 **[VER WEB: SIMULADOR DE OBJETOS](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/pildora-objetos/index.html)**
