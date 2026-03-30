@@ -70,7 +70,5 @@ Repositorio centralizado de apuntes y proyectos.
 ### 💎 Píldora Técnica: Objetos e Inmutabilidad
 * 💻 **[VER WEB: SIMULADOR DE OBJETOS](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/pildora-objetos/index.html)**
 * 📂 **[VER CÓDIGO: LÓGICA DE LA PÍLDORA (JS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/script.js)**
-* 🎨 **[VER CÓDIGO: ESTILOS DE LA PÍLDORA (CSS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/style.css)**
+* 🎨 **[VER CÓDIGO: ESTILOS DE LA PÍLDORA (CSS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/styles.css)**
 
-### 🛠️ Ejercicios de Lógica y TypeScript
-* 📂 **[VER CÓDIGO: RETOS SEMANALES](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/ejercicios)**
