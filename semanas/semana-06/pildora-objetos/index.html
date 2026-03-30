@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Píldora: Manipulación de Objetos - Ana & Ruddy</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importamos Tailwind para el diseño rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 min-h-screen p-8">
+
+    <div class="max-w-4xl mx-auto space-y-8">
+        <header class="text-center">
+            <h1 class="text-3xl font-bold text-slate-800 uppercase tracking-tighter">Sección 02: Manipulación Avanzada</h1>
+            <p class="text-slate-500 italic">Ana Hernández - Semana 6</p>
+        </header>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- OBJETO ORIGINAL (RUDDY) -->
+            <div class="bg-white p-6 rounded-3xl shadow-lg border-t-8 border-indigo-500">
+                <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+                    <span>📦</span> Objeto de Ruddy (Original)
+                </h2>
+                <div id="caja-ruddy" class="bg-slate-50 p-4 rounded-xl font-mono text-sm space-y-1">
+                    <!-- Los datos se cargan desde JS -->
+                </div>
+            </div>
+
+            <!-- OBJETO MEJORADO (ANA) -->
+            <div class="bg-white p-6 rounded-3xl shadow-lg border-t-8 border-emerald-500">
+                <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+                    <span>🛡️</span> Mi Copia (Inmutabilidad)
+                </h2>
+                <div id="caja-ana" class="bg-slate-50 p-4 rounded-xl font-mono text-sm space-y-1">
+                    <!-- Los datos se cargan desde JS -->
+                </div>
+                <button onclick="crearCopiaMejorada()" class="mt-4 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded-xl transition-all">
+                    ✨ Aplicar Spread Operator (+11 Ataque)
+                </button>
+            </div>
+        </div>
+
+        <!-- DEMO 6: INSPECCIÓN -->
+        <div class="bg-slate-800 p-8 rounded-[2rem] text-white shadow-2xl">
+            <h2 class="text-2xl font-bold mb-6 text-center italic underline decoration-indigo-400">🛠️ Demo 6: Inspección Selectiva (Librería Object)</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                <button onclick="mostrarKeys()" class="bg-slate-700 hover:bg-indigo-600 p-4 rounded-xl border border-slate-600 transition-all">
+                    <code class="block font-bold">Object.keys()</code>
+                    <span class="text-[10px] opacity-60">Solo las etiquetas</span>
+                </button>
+                <button onclick="mostrarValues()" class="bg-slate-700 hover:bg-indigo-600 p-4 rounded-xl border border-slate-600 transition-all">
+                    <code class="block font-bold">Object.values()</code>
+                    <span class="text-[10px] opacity-60">Solo el contenido</span>
+                </button>
+                <button onclick="mostrarEntries()" class="bg-slate-700 hover:bg-indigo-600 p-4 rounded-xl border border-slate-600 transition-all border-2 border-indigo-400">
+                    <code class="block font-bold">Object.entries()</code>
+                    <span class="text-[10px] opacity-60">Pareja completa</span>
+                </button>
+            </div>
+
+            <div id="resultado-inspeccion" class="bg-slate-900/50 p-6 rounded-2xl border border-slate-700 min-h-[100px] font-mono text-indigo-300">
+                // Haz clic en un botón para inspeccionar el objeto...
+            </div>
+        </div>
+
+        <!-- VALIDACIÓN TYPESCRIPT (SIMULADOR) -->
+        <div class="bg-white p-8 rounded-3xl shadow-lg border border-red-100">
+            <h2 class="text-xl font-bold mb-4 text-red-600">🛡️ Simulador de Validación TypeScript</h2>
+            <p class="text-sm text-slate-500 mb-4">Intenta poner un estado que no esté en la Unión ('Vivo' | 'Herido' | 'Muerto')</p>
+            <div class="flex gap-4">
+                <input type="text" id="input-estado" placeholder="Escribe el estado..." class="flex-1 border border-slate-200 p-2 rounded-lg">
+                <button onclick="validarEstado()" class="bg-slate-800 text-white px-6 py-2 rounded-lg font-bold hover:bg-slate-700">Validar</button>
+            </div>
+            <div id="error-box" class="mt-4 hidden p-4 bg-red-50 text-red-600 border border-red-200 rounded-xl text-sm italic font-bold">
+                <!-- Errores aquí -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -62,3 +62,16 @@ Repositorio centralizado de apuntes y proyectos.
 ### 🔄 Bucles y Estructuras
 * 💻 **[VER WEB: RETOS DE BUCLES](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-bucles/ejercicios-bucles.html)**
 * 📂 **[VER CÓDIGO: JS BUCLES](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-bucles/ejercicios-bucles.js)**
+
+# 📅 Semana 6: Manipulación Avanzada de Objetos y TypeScript
+
+* 📚 **[VER APUNTES: PÍLDORA INTERACTIVA (HTML)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/apuntes/Pildora-Objetos-TS.html)**
+* 📝 **[VER APUNTES: VERIFICACIÓN Y COMANDOS (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/apuntes/Verificacion-Repositorio.md)**
+
+### 💎 Píldora Técnica: Objetos e Inmutabilidad
+* 💻 **[VER WEB: SIMULADOR DE OBJETOS](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/pildora-objetos/index.html)**
+* 📂 **[VER CÓDIGO: LÓGICA AVANZADA (JS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/script.js)**
+* 🎨 **[VER CÓDIGO: ESTILOS PERSONALIZADOS (CSS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/style.css)**
+
+### 🛠️ Ejercicios de Lógica y TypeScript
+* 📂 **[VER CÓDIGO: RETOS SEMANALES](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/ejercicios)**
