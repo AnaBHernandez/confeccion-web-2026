@@ -1,0 +1,142 @@
+/* 1. RESET Y BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4e4e4e;
+    line-height: 1.6;
+}
+
+/* 2. HEADER (Lila y centrado como el PDF) */
+header {
+    background-color: #503c53;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/* 3. HERO */
+.hero {
+    background-image: url('imagenes/paisaje.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.boton-explora {
+    display: inline-block;
+    background-color: #503c53;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+/* 4. SECCIÓN NOSOTROS (Con foto a la izquierda) */
+#nosotros {
+    background-color: #c49a8f;
+    color: white;
+    padding: 60px 10%;
+}
+
+.contenedor-nosotros {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.foto-nosotros {
+    width: 400px;
+    border-radius: 5px;
+}
+
+#nosotros h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* 5. POSTS (Borde desencajado) */
+.contenedor-posts {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 10%;
+}
+
+.post-card {
+    flex: 1;
+    position: relative; /* Para que el borde se mueva respecto a la caja */
+    text-align: left;
+}
+
+.post-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+/* El borde gris "caído" o desencajado */
+.marco-borde {
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 250px;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+}
+
+.post-card h3 {
+    margin-top: 30px;
+    color: #503c53;
+    transition: color 0.3s;
+}
+
+.post-card h3:hover {
+    color: #af87b5;
+    cursor: pointer;
+}
+
+/* 6. FOOTER */
+footer {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #503c53;
+    text-decoration: none;
+}
