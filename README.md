@@ -72,3 +72,8 @@ Repositorio centralizado de apuntes y proyectos.
 * 📂 **[VER CÓDIGO: LÓGICA DE LA PÍLDORA (JS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/script.js)**
 * 🎨 **[VER CÓDIGO: ESTILOS DE LA PÍLDORA (CSS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/styles.css)**
 
+### 🎨 Proyecto: Maquetación "A Tu Aire" (Repaso HTML/CSS)
+* 🖼️ **[VER WEB: A TU AIRE](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/repaso-html-css/index_AnaBelenHernandez.html)**
+* 💻 **[CÓDIGO FUENTE](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/repaso-html-css)**
+
+
