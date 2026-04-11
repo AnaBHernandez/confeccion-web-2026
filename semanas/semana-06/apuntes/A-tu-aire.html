@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes Técnicos: Maquetación Semántica</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+        }
+        .contenedor {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #503c53;
+            border-bottom: 2px solid #503c53;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #c49a8f;
+            margin-top: 30px;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #d63384;
+            font-weight: bold;
+        }
+        pre {
+            background-color: #2b2b2b;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contenedor">
+    <h1>📝 Apuntes Técnicos: Maquetación Semántica y Modelo de Caja (Sesión 31/03)</h1>
+
+    <h2>1. Arquitectura Semántica (HTML5)</h2>
+    <p>En lugar de usar etiquetas genéricas (<code>&lt;div&gt;</code>), hemos estructurado el inicio del proyecto con etiquetas que aportan significado [1]:</p>
+    <ul>
+        <li><strong>&lt;header&gt;</strong>: Contenedor de la parte superior de la web [1].</li>
+        <li><strong>&lt;nav&gt;</strong>: Bloque específico para la navegación [1].</li>
+        <li><strong>&lt;ul&gt; y &lt;li&gt;</strong>: Estructura de lista para el menú, ya que semánticamente un menú es una lista de enlaces [1].</li>
+    </ul>
+
+    <h2>2. El Modelo de Caja (Box Model)</h2>
+    <p>Para este ejercicio, hemos aplicado el reset global para tener control total sobre las dimensiones [1]:</p>
+    <pre><code>* {
+    box-sizing: border-box;
+}</code></pre>
+    <p><strong>Lección aprendida:</strong> Con <code>border-box</code>, el padding y el border se quedan dentro del ancho que definimos, evitando que las cajas "exploten" o se descoloquen en el layout de Ubuntu [2].</p>
+
+    <h2>3. Flexbox (Layout Moderno)</h2>
+    <p>Hemos transformado una lista vertical en un menú horizontal profesional usando [2]:</p>
+    <ul>
+        <li><strong>display: flex:</strong> Convierte al padre (ul) en un contenedor flexible [2].</li>
+        <li><strong>justify-content: space-between:</strong> Separa el logo del menú de forma automática [2].</li>
+        <li><strong>gap:</strong> Define el espacio exacto entre las opciones del menú sin pelearse con los márgenes [2].</li>
+    </ul>
+
+    <h2>4. Directivas de Calidad (Filtro Anti-Windows)</h2>
+    <ul>
+        <li><strong>Case Sensitivity:</strong> Respeto estricto a las minúsculas en rutas de imágenes (logo.jpg) [3].</li>
+        <li><strong>Abstracción de Estilo:</strong> El texto en el HTML se escribe en formato oración y se transforma a mayúsculas mediante CSS (<code>text-transform: uppercase</code>), manteniendo la separación entre contenido y diseño [3].</li>
+    </ul>
+
+    <h2>5. Secciones Específicas: El "Hero" y el Fondo de Imagen</h2>
+    <p>En este bloque hemos aprendido la diferencia técnica entre poner una imagen de objeto y una imagen de fondo [3]:</p>
+    <ul>
+        <li><strong>background-image:</strong> Hemos usado la propiedad CSS para poner el bosque de fondo. Esto permite que el texto "flote" encima sin desplazar la imagen [3].</li>
+        <li><strong>background-size: cover:</strong> Vital para que la imagen siempre ocupe toda la caja sin deformarse, adaptándose al tamaño de la pantalla en Ubuntu [4].</li>
+        <li><strong>Cajas anidadas:</strong> Hemos usado una <code>&lt;section&gt;</code> para el fondo y un <code>&lt;div&gt;</code> interno para agrupar el texto y centrarlo con Flexbox [4].</li>
+    </ul>
+
+    <h2>6. Estructura de Contenido Avanzada (article vs section)</h2>
+    <p>Para la parte inferior del examen, hemos aplicado una jerarquía lógica [4]:</p>
+    <ul>
+        <li><strong>&lt;section&gt;:</strong> Para bloques temáticos grandes como "Nosotros" [4].</li>
+        <li><strong>&lt;article&gt;:</strong> Para las tres tarjetas (Yoga, Recetas, Senderismo). Se usa esta etiqueta porque cada post tiene sentido por sí mismo, como si fuera una noticia independiente [4].</li>
+        <li><strong>&lt;footer&gt;:</strong> El "sótano" de la web. Aquí agrupamos los créditos, tu nombre y los enlaces legales [5].</li>
+    </ul>
+
+    <h2>7. Jerarquía de Títulos (SEO y Accesibilidad)</h2>
+    <p>Hemos respetado el orden de importancia para que los lectores de pantalla y Google entiendan la web [5]:</p>
+    <ul>
+        <li><strong>&lt;h1&gt;:</strong> Reservado para el nombre de la web ("A tu aire"). Solo hay uno por página [5].</li>
+        <li><strong>&lt;h2&gt;:</strong> Para los títulos de las secciones principales (Hero y Nosotros) [5].</li>
+        <li><strong>&lt;h3&gt;:</strong> Para los títulos dentro de los artículos (los nombres de las actividades) [5].</li>
+    </ul>
+</div>
+
+</body>
+</html>
