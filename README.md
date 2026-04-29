@@ -78,4 +78,33 @@ Repositorio centralizado de apuntes y proyectos.
 * 🖼️ **[VER WEB: A TU AIRE](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/repaso-html-css/index_AnaBelenHernandez.html)**
 * 💻 **[CÓDIGO FUENTE](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/repaso-html-css)**
 
+# 📅 Semana 7: Lenguajes de Marcas y Arquitectura XML
+
+* 📚 **[VER APUNTES: GUÍA MAESTRA XML Y DOMPARSER](./apuntes-festival.md)**
+* 🤖 **[VER GUÍA DRIVE: ANÁLISIS TÉCNICO PRO](https://drive.google.com/drive/u/0/folders/1X_RFzzXKrDGZ01H5CrWIlMEy6XnFvW6G)**
+* 🎪 **[VER PROYECTO: FESTIVAL TECH 2026 (Web)](https://anabhernandez.github.io/festival-tech/)**
+* 📂 **[VER REPO: FESTIVAL TECH 2026](https://github.com/AnaBHernandez/festival-tech)**
+
+---
+
+# 📅 Semana 8: Portfolio Avanzado y DOM
+
+En esta etapa hemos consolidado el manejo de eventos, la lógica de juegos y la manipulación dinámica del árbol de nodos (DOM).
+
+### 🕹️ Proyectos y Lógica
+* 🧩 **[VER WEB: ESCAPE ROOM](https://anabhernandez.github.io/escape-room/)**
+* 📂 **[VER REPO: ESCAPE ROOM](https://github.com/AnaBHernandez/escape-room)**
+* ⌨️ **[VER WEB: TECLADO NUMÉRICO DOM](https://anabhernandez.github.io/teclado-numerico-dom/)**
+* 📂 **[VER REPO: TECLADO NUMÉRICO](https://github.com/AnaBHernandez/teclado-numerico-dom)**
+
+### 🛠️ Herramientas y Prácticas
+* 🎨 **[VER REPO: SELECTOR DE COLORES JS](https://github.com/AnaBHernandez/js-change-color)**
+* 🔍 **[VER REPO: EJERCICIO SELECTORES DOM](https://github.com/AnaBHernandez/ejercicio-selectores-dom)**
+* 📝 **[VER REPO: CONTROL DE EXAMEN](https://github.com/AnaBHernandez/Ana-Belen-Hernandez-Lopez-Examen)**
+* 📂 **[VER REPO: GESTIÓN DE ALUMNOS JSON Y DOM](https://github.com/AnaBHernandez/ejercicio-json-alumnos.git)**
+
+
+---
+**Autora:** [AnaBHernandez](https://github.com/AnaBHernandez)
+
 
