@@ -80,8 +80,6 @@ Repositorio centralizado de apuntes y proyectos.
 
 # 📅 Semana 7: Lenguajes de Marcas y Arquitectura XML
 
-* 📚 **[VER APUNTES: GUÍA MAESTRA XML Y DOMPARSER](./apuntes-festival.md)**
-* 🤖 **[VER GUÍA DRIVE: ANÁLISIS TÉCNICO PRO](https://drive.google.com/drive/u/0/folders/1X_RFzzXKrDGZ01H5CrWIlMEy6XnFvW6G)**
 * 🎪 **[VER PROYECTO: FESTIVAL TECH 2026 (Web)](https://anabhernandez.github.io/festival-tech/)**
 * 📂 **[VER REPO: FESTIVAL TECH 2026](https://github.com/AnaBHernandez/festival-tech)**
 
@@ -94,7 +92,6 @@ En esta etapa hemos consolidado el manejo de eventos, la lógica de juegos y la 
 ### 🕹️ Proyectos y Lógica
 * 🧩 **[VER WEB: ESCAPE ROOM](https://anabhernandez.github.io/escape-room/)**
 * 📂 **[VER REPO: ESCAPE ROOM](https://github.com/AnaBHernandez/escape-room)**
-* ⌨️ **[VER WEB: TECLADO NUMÉRICO DOM](https://anabhernandez.github.io/teclado-numerico-dom/)**
 * 📂 **[VER REPO: TECLADO NUMÉRICO](https://github.com/AnaBHernandez/teclado-numerico-dom)**
 
 ### 🛠️ Herramientas y Prácticas
