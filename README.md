@@ -228,7 +228,7 @@
 
 **Objetivos:** Enrutamiento perezoso, pnpm y auditoría de repositorios.
 
-* 📝 [Apuntes: Angular Avanzado](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-10/apuntes/semana-10/apuntes-angular-avanzado.md)
+* 📝 [Apuntes: Angular Avanzado](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-10/apuntes/apuntes-angular-avanzado.md)
 * 📂 [BiblioTech - Routing](https://github.com/AnaBHernandez/bibliotech-ana-belen)
 
 ---
