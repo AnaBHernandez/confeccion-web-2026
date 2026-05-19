@@ -97,7 +97,26 @@ En esta etapa hemos consolidado el manejo de eventos, la lógica de juegos y la 
 * 🎨 **[VER REPO: SELECTOR DE COLORES JS](https://github.com/AnaBHernandez/js-change-color)**
 * 🔍 **[VER REPO: EJERCICIO SELECTORES DOM](https://github.com/AnaBHernandez/ejercicio-selectores-dom)**
 * 📝 **[VER REPO: CONTROL DE EXAMEN](https://github.com/AnaBHernandez/Ana-Belen-Hernandez-Lopez-Examen)**
-* 📂 **[VER REPO: GESTIÓN DE ALUMNOS JSON Y DOM](https://github.com/AnaBHernandez/ejercicio-json-alumnos.git)**
+* 📂 **[VER REPO: GESTIÓN DE ALUMNOS JSON Y DOM](https://github.com/AnaBHernandez/ejercicio-json-alumnos.git)**---
+
+# 📅 Semana 9: Fundamentos de TypeScript y Estructura Modular
+
+En esta etapa consolidamos los conceptos avanzados de maquetación modular, la gestión del estado en aplicaciones y las bases lógicas previas a los frameworks.
+
+### 📚 Apuntes y Bitácora
+* 📝 **[VER APUNTES: SELECCIÓN DE CONTENIDOS](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-09/apuntes/greenbyte-json-dom.md)** 
+
+---
+
+# 📅 Semana 10: Angular Avanzado y Arquitectura de Enrutamiento
+
+En esta etapa nos adentramos a fondo en el ecosistema de Angular v21, dominando el enrutamiento perezoso (*Lazy Loading*) mediante importaciones dinámicas, la gestión profesional de dependencias con `pnpm` y la auditoría clínica de repositorios desde la terminal de Ubuntu.
+
+### 📚 Apuntes y Bitácora
+* 📝 **[VER APUNTES: MANUAL DE ROUTING Y LAZY LOADING](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-10/apuntes/apuntes-angular-avanzado.md)**
+
+### 🛠️ Herramientas y Prácticas
+* 📂 **[VER REPO: PROYECTO BIBLIOTECH (ROUTING)](https://github.com/AnaBHernandez/bibliotech-ana-belen)**
 
 
 ---
