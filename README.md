@@ -1,125 +1,241 @@
-# 🚀 Formación Confección Web 2026
-Repositorio centralizado de apuntes y proyectos.
+# 🚀 Formación Full Stack 2026 | Factoría F5
+
+> Repositorio centralizado de apuntes, proyectos y ejercicios de la formación en Confección Web y Frontend Avanzado.
+
+**Autora:** [Ana Belén Hernández](https://github.com/AnaBHernandez) | Full Stack Developer en formación
 
 ---
 
-## 📅 Semana 1: Entorno e Investigaciones
+## 📑 Índice de Contenidos
 
-* 👋 **[VER WEB: PRIMERA APP](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/Primera%20app/index.html)**
-* 💻 **[VER WEB: EXPLICACIÓN HOLA MUNDO](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/proyectos/explicacion-hola-mundo.html)**
-* 📂 **[VER INVESTIGACIÓN: PACKAGE.JSON](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/package-json.html)**
-* ☁️ **[VER INVESTIGACIÓN: CLOUD HOSTING](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/resumen-cloud-hosting.html)**
-
----
-
-## 📅 Semana 2: Apuntes y Bitácora
-
-* 📝 **[VER APUNTES: BITÁCORA DÍA 7 (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-02/apuntes/bitacora-dia7-18feb.md)**
-* 🌐 **[VER WEB: BITÁCORA DÍA 7 (HTML)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-02/apuntes/bitacora-dia7-18feb.html)**
-* 🍳 **[VER APUNTES: REPORTE URBAN TOAST](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-02/apuntes/reporte-urban-toast.md)**
-
----
-
-## 📅 Semana 3: CSS y Gestión de Proyectos
-
-* 🍳 **[VER WEB: RECIPE PAGE (Urban Toast Final)](https://anabhernandez.github.io/the-good-breakfast/)**
-* 🤝 **[VER APUNTES: EJERCICIO COLABORATIVO GIT](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/ejercicios/ejercicio-colaborativo-git.md)**
-* 📦 **[VER WEB: MODELO DE CAJA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/modelo-caja/index.html)**
-* 📊 **[VER WEB: TABLAS HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/ejercicio-tablas/index.html)**
-* 📚 **[VER APUNTES: BITÁCORA 01 MARZO](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/apuntes/bitacora-01-marzo-2026.md)**
+| Semana | Tema | Tecnologías |
+|--------|------|-------------|
+| [S1](#semana-1) | Entorno e Investigaciones | HTML, Node.js, npm |
+| [S2](#semana-2) | Bitácora y Gestión | Git, Markdown |
+| [S3](#semana-3) | CSS y Proyectos | HTML, CSS, Git |
+| [S4](#semana-4) | Algoritmos y Lógica | Pseudocódigo, JS |
+| [S5](#semana-5) | Lógica de Programación | JavaScript, DOM |
+| [S6](#semana-6) | Objetos y TypeScript | TypeScript, OOP |
+| [S7](#semana-7) | XML y Lenguajes de Marcas | XML, Semántica |
+| [S8](#semana-8) | DOM Avanzado | JavaScript, Eventos |
+| [S9](#semana-9) | Fundamentos TS | TypeScript, Módulos |
+| [S10](#semana-10) | Angular v21 | Angular, Routing, pnpm |
 
 ---
 
-## 📅 Semana 4: Algoritmos y Recipe Page
+## 📅 Semana 1: Entorno e Investigaciones {#semana-1}
 
-* 📚 **[VER APUNTES: RECIPE PAGE](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/recipe-page.md)**
-* 🍳 **[VER WEB: RECIPE PAGE](https://anabhernandez.github.io/recipe-page/)**
-* 📂 **[VER REPO: RECIPE PAGE](https://github.com/AnaBHernandez/recipe-page)**
-* 📝 **[VER APUNTES: ALGORITMOS PSEUDOCÓDIGO Y DIAGRAMA DE FLUJO](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/algoritmos-pseudocodigo-diagrama-flujo.md)**
-* 📝 **[VER EJERCICIO 01: ALGORITMO PSEUDOCÓDIGO Y DIAGRAMA DE FLUJO](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-01-algoritmo-pseudocodigo/ejercicio-01-algoritmo-pseudocodigo.md)**
-* 📝 **[VER EJERCICIO 02: DIAGRAMA DE FLUJO Y PSEUDOCÓDIGO](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-02-diagrama-flujo-pseudocodigo/actividad-02-diagrama-flujo-pseudocodigo.md)**
-* 📝 **[VER EJERCICIO 03: PSEUDOCÓDIGO Y BUCLES](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-02-diagrama-flujo-pseudocodigo/actividad-03-pseudocodigo-bucles.md)**
-* 🍰 **[VER EJERCICIO 05: WEB GIJÓN SWEET (Calculadora de Presupuesto)](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-04/ejercicios/ejercicio-05-pasteleria/index.html)**
-* 📝 **[VER APUNTES: PROYECTO GIJÓN SWEET (Actividad 5)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/Proyecto:%20Gijón%20Sweet%20-%20Actividad%205.md)**
+**Objetivos:** Configuración del entorno, primeras aplicaciones Node.js e investigación de conceptos clave.
 
+* 👋 [Primera APP](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/Primera%20app/index.html)
+* 💻 [Explicación Hola Mundo](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/proyectos/explicacion-hola-mundo.html)
+* 📚 Investigaciones: [Package.json](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/package-json.html) | [Cloud Hosting](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/resumen-cloud-hosting.html)
 
 ---
 
-# 📅 Semana 5: Lógica de Programación y Aritmética en JS
+## 📅 Semana 2: Bitácora y Gestión {#semana-2}
 
-* 📚 **[VER APUNTES: CLASES (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-clases.md)**
-* 📚 **[VER APUNTES: EJERCICIOS (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-ejercicios.md)**
+**Objetivos:** Documentación técnica y buenas prácticas en gestión de proyectos.
 
-### 🕹️ Ejercicios de Lógica y DOM
-* 💻 **[VER WEB: CALCULADORA PRO Y LOGICA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-dom-logica/index.html)**
-* 📂 **[VER CÓDIGO: JS DOM-LOGICA](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-dom-logica/main.js)**
-
-### 🧮 Aritmética y Operaciones
-* 💻 **[VER WEB: OPERACIONES ARITMÉTICAS](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-aritmetica/ejercicios-aritmetica.html)**
-* 📂 **[VER CÓDIGO: JS ARITMÉTICA](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-aritmetica/operaciones-aritmeticas.js)**
-
-### 🔄 Bucles y Estructuras
-* 💻 **[VER WEB: RETOS DE BUCLES](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-bucles/ejercicios-bucles.html)**
-* 📂 **[VER CÓDIGO: JS BUCLES](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/ejercicios/ejercicios-bucles/ejercicios-bucles.js)**
-
-# 📅 Semana 6: Manipulación Avanzada de Objetos y TypeScript
-
-* 📚 **[VER APUNTES: PÍLDORA INTERACTIVA](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/apuntes/Pildora-Objetos-TS.html)**
-* 📚 **[VER APUNTES: APUNTES DE MAQUETACIÓN A TU AIRE](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/apuntes/A-tu-aire.html)**
-
-
-### 💎 Píldora Técnica: Objetos e Inmutabilidad
-* 💻 **[VER WEB: SIMULADOR DE OBJETOS](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/pildora-objetos/index.html)**
-* 📂 **[VER CÓDIGO: LÓGICA DE LA PÍLDORA (JS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/script.js)**
-* 🎨 **[VER CÓDIGO: ESTILOS DE LA PÍLDORA (CSS)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-06/pildora-objetos/styles.css)**
-
-### 🎨 Proyecto: Maquetación "A Tu Aire" (Repaso HTML/CSS)
-* 🖼️ **[VER WEB: A TU AIRE](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/repaso-html-css/index_AnaBelenHernandez.html)**
-* 💻 **[CÓDIGO FUENTE](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/repaso-html-css)**
-
-# 📅 Semana 7: Lenguajes de Marcas y Arquitectura XML
-
-* 🎪 **[VER PROYECTO: FESTIVAL TECH 2026 (Web)](https://anabhernandez.github.io/festival-tech/)**
-* 📂 **[VER REPO: FESTIVAL TECH 2026](https://github.com/AnaBHernandez/festival-tech)**
+* 📝 [Bitácora Día 7 (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-02/apuntes/bitacora-dia7-18feb.md) | [Web](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-02/apuntes/bitacora-dia7-18feb.html)
+* 🍳 [Reporte Urban Toast](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-02/apuntes/reporte-urban-toast.md)
 
 ---
 
-# 📅 Semana 8: Portfolio Avanzado y DOM
+## 📅 Semana 3: CSS y Proyectos {#semana-3}
 
-En esta etapa hemos consolidado el manejo de eventos, la lógica de juegos y la manipulación dinámica del árbol de nodos (DOM).
+**Objetivos:** Dominio de CSS, modelo de caja y ejercicios colaborativos con Git.
 
-### 🕹️ Proyectos y Lógica
-* 🧩 **[VER WEB: ESCAPE ROOM](https://anabhernandez.github.io/escape-room/)**
-* 📂 **[VER REPO: ESCAPE ROOM](https://github.com/AnaBHernandez/escape-room)**
-* 📂 **[VER REPO: TECLADO NUMÉRICO](https://github.com/AnaBHernandez/teclado-numerico-dom)**
-
-### 🛠️ Herramientas y Prácticas
-* 🎨 **[VER REPO: SELECTOR DE COLORES JS](https://github.com/AnaBHernandez/js-change-color)**
-* 🔍 **[VER REPO: EJERCICIO SELECTORES DOM](https://github.com/AnaBHernandez/ejercicio-selectores-dom)**
-* 📝 **[VER REPO: CONTROL DE EXAMEN](https://github.com/AnaBHernandez/Ana-Belen-Hernandez-Lopez-Examen)**
-* 📂 **[VER REPO: GESTIÓN DE ALUMNOS JSON Y DOM](https://github.com/AnaBHernandez/ejercicio-json-alumnos.git)**---
-
-# 📅 Semana 9: Fundamentos de TypeScript y Estructura Modular
-
-En esta etapa consolidamos los conceptos avanzados de maquetación modular, la gestión del estado en aplicaciones y las bases lógicas previas a los frameworks.
-
-### 📚 Apuntes y Bitácora
-* 📝 **[VER APUNTES: SELECCIÓN DE CONTENIDOS](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-09/apuntes/greenbyte-json-dom.md)** 
+* 🍳 [Recipe Page: Urban Toast](https://anabhernandez.github.io/the-good-breakfast/) — [Repo](https://github.com/AnaBHernandez/recipe-page)
+* 🤝 [Ejercicio Colaborativo Git](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/ejercicios/ejercicio-colaborativo-git.md)
+* 📦 [Modelo de Caja](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/modelo-caja/index.html) | 📊 [Tablas HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/ejercicio-tablas/index.html)
+* 📚 [Bitácora 01 Marzo](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/apuntes/bitacora-01-marzo-2026.md)
 
 ---
 
-# 📅 Semana 10: Angular Avanzado y Arquitectura de Enrutamiento
+## 📅 Semana 4: Algoritmos y Lógica {#semana-4}
 
-En esta etapa nos adentramos a fondo en el ecosistema de Angular v21, dominando el enrutamiento perezoso (*Lazy Loading*) mediante importaciones dinámicas, la gestión profesional de dependencias con `pnpm` y la auditoría clínica de repositorios desde la terminal de Ubuntu.
+**Objetivos:** Pseudocódigo, diagramas de flujo y aplicaciones lógicas con JavaScript.
 
-### 📚 Apuntes y Bitácora
-* 📝 **[VER APUNTES: MANUAL DE ROUTING Y LAZY LOADING](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-10/apuntes/apuntes-angular-avanzado.md)**
-
-### 🛠️ Herramientas y Prácticas
-* 📂 **[VER REPO: PROYECTO BIBLIOTECH (ROUTING)](https://github.com/AnaBHernandez/bibliotech-ana-belen)**
-
+* 🍰 [Gijón Sweet - Calculadora](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-04/ejercicios/ejercicio-05-pasteleria/index.html)
+* 📝 [Algoritmos y Diagramas](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/algoritmos-pseudocodigo-diagrama-flujo.md)
+* 📂 [Ejercicios 01-03](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-04/ejercicios)
 
 ---
-**Autora:** [AnaBHernandez](https://github.com/AnaBHernandez)
 
+## 📅 Semana 5: Lógica de Programación {#semana-5}
 
+**Objetivos:** JavaScript puro, manipulación del DOM y estructuras de control.
+
+* 📚 [Apuntes: Clases](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-clases.md) | [Ejercicios](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-ejercicios.md)
+* 🕹️ [Calculadora Pro](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-dom-logica/index.html)
+* 🧮 [Operaciones Aritméticas](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-aritmetica/ejercicios-aritmetica.html)
+* 🔄 [Retos Bucles](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-bucles/ejercicios-bucles.html)
+
+---
+
+## 📅 Semana 6: Objetos y TypeScript {#semana-6}
+
+**Objetivos:** Programación orientada a objetos e inmutabilidad.
+
+* 💎 [Simulador de Objetos](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/pildora-objetos/index.html) | [Código](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/pildora-objetos)
+* 🖼️ [A Tu Aire - Web](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/repaso-html-css/index_AnaBelenHernandez.html) | [Código](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/repaso-html-css)
+
+---
+
+## 📅 Semana 7: XML y Lenguajes de Marcas {#semana-7}
+
+**Objetivos:** Semántica HTML y estructura XML.
+
+* 🎪 [Festival Tech 2026](https://anabhernandez.github.io/festival-tech/) — [Repo](https://github.com/AnaBHernandez/festival-tech)
+
+---
+
+## 📅 Semana 8: DOM Avanzado {#semana-8}
+
+**Objetivos:** Manipulación dinámica del DOM, eventos y lógica de juegos.
+
+* 🧩 [Escape Room](https://anabhernandez.github.io/escape-room/) — [Repo](https://github.com/AnaBHernandez/escape-room)
+* 📂 [Teclado Numérico](https://github.com/AnaBHernandez/teclado-numerico-dom) | [Selector Colores](https://github.com/AnaBHernandez/js-change-color)
+* 📝 [Gestión Alumnos JSON](https://github.com/AnaBHernandez/ejercicio-json-alumnos)
+
+---
+
+## 📅 Semana 9: TypeScript y Modularidad {#semana-9}
+
+**Objetivos:** Fundamentos de TypeScript y gestión del estado.
+
+* 📝 [GreenByte - Selección de Contenidos](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-09/apuntes/greenbyte-json-dom.md)
+
+---
+
+## 📅 Semana 10: Angular v21 y Routing {#semana-10}
+
+**Objetivos:** Enrutamiento perezoso, pnpm y auditoría de repositorios.
+
+* 📝 [Apuntes: Angular Avanzado](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-10/apuntes/semana-10/# 🚀 Formación Full Stack 2026 | Factoría F5
+
+> Repositorio centralizado de apuntes, proyectos y ejercicios de la formación en Confección Web y Frontend Avanzado.
+
+**Autora:** [Ana Belén Hernández](https://github.com/AnaBHernandez) | Full Stack Developer en formación
+
+---
+
+## 📑 Índice de Contenidos
+
+| Semana | Tema | Tecnologías |
+|--------|------|-------------|
+| [S1](#semana-1) | Entorno e Investigaciones | HTML, Node.js, npm |
+| [S2](#semana-2) | Bitácora y Gestión | Git, Markdown |
+| [S3](#semana-3) | CSS y Proyectos | HTML, CSS, Git |
+| [S4](#semana-4) | Algoritmos y Lógica | Pseudocódigo, JS |
+| [S5](#semana-5) | Lógica de Programación | JavaScript, DOM |
+| [S6](#semana-6) | Objetos y TypeScript | TypeScript, OOP |
+| [S7](#semana-7) | XML y Lenguajes de Marcas | XML, Semántica |
+| [S8](#semana-8) | DOM Avanzado | JavaScript, Eventos |
+| [S9](#semana-9) | Fundamentos TS | TypeScript, Módulos |
+| [S10](#semana-10) | Angular v21 | Angular, Routing, pnpm |
+
+---
+
+## 📅 Semana 1: Entorno e Investigaciones {#semana-1}
+
+**Objetivos:** Configuración del entorno, primeras aplicaciones Node.js e investigación de conceptos clave.
+
+* 👋 [Primera APP](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/Primera%20app/index.html)
+* 💻 [Explicación Hola Mundo](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/proyectos/explicacion-hola-mundo.html)
+* 📚 Investigaciones: [Package.json](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/package-json.html) | [Cloud Hosting](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-01/investigaciones/resumen-cloud-hosting.html)
+
+---
+
+## 📅 Semana 2: Bitácora y Gestión {#semana-2}
+
+**Objetivos:** Documentación técnica y buenas prácticas en gestión de proyectos.
+
+* 📝 [Bitácora Día 7 (MD)](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-02/apuntes/bitacora-dia7-18feb.md) | [Web](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-02/apuntes/bitacora-dia7-18feb.html)
+* 🍳 [Reporte Urban Toast](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-02/apuntes/reporte-urban-toast.md)
+
+---
+
+## 📅 Semana 3: CSS y Proyectos {#semana-3}
+
+**Objetivos:** Dominio de CSS, modelo de caja y ejercicios colaborativos con Git.
+
+* 🍳 [Recipe Page: Urban Toast](https://anabhernandez.github.io/the-good-breakfast/) — [Repo](https://github.com/AnaBHernandez/recipe-page)
+* 🤝 [Ejercicio Colaborativo Git](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/ejercicios/ejercicio-colaborativo-git.md)
+* 📦 [Modelo de Caja](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/modelo-caja/index.html) | 📊 [Tablas HTML](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-03/ejercicios/ejercicio-tablas/index.html)
+* 📚 [Bitácora 01 Marzo](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-03/apuntes/bitacora-01-marzo-2026.md)
+
+---
+
+## 📅 Semana 4: Algoritmos y Lógica {#semana-4}
+
+**Objetivos:** Pseudocódigo, diagramas de flujo y aplicaciones lógicas con JavaScript.
+
+* 🍰 [Gijón Sweet - Calculadora](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-04/ejercicios/ejercicio-05-pasteleria/index.html)
+* 📝 [Algoritmos y Diagramas](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/algoritmos-pseudocodigo-diagrama-flujo.md)
+* 📂 [Ejercicios 01-03](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-04/ejercicios)
+
+---
+
+## 📅 Semana 5: Lógica de Programación {#semana-5}
+
+**Objetivos:** JavaScript puro, manipulación del DOM y estructuras de control.
+
+* 📚 [Apuntes: Clases](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-clases.md) | [Ejercicios](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-05/apuntes/Apuntes-ejercicios.md)
+* 🕹️ [Calculadora Pro](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-dom-logica/index.html)
+* 🧮 [Operaciones Aritméticas](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-aritmetica/ejercicios-aritmetica.html)
+* 🔄 [Retos Bucles](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-05/ejercicios/ejercicios-bucles/ejercicios-bucles.html)
+
+---
+
+## 📅 Semana 6: Objetos y TypeScript {#semana-6}
+
+**Objetivos:** Programación orientada a objetos e inmutabilidad.
+
+* 💎 [Simulador de Objetos](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/pildora-objetos/index.html) | [Código](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/pildora-objetos)
+* 🖼️ [A Tu Aire - Web](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/repaso-html-css/index_AnaBelenHernandez.html) | [Código](https://github.com/AnaBHernandez/confeccion-web-2026/tree/main/semanas/semana-06/repaso-html-css)
+
+---
+
+## 📅 Semana 7: XML y Lenguajes de Marcas {#semana-7}
+
+**Objetivos:** Semántica HTML y estructura XML.
+
+* 🎪 [Festival Tech 2026](https://anabhernandez.github.io/festival-tech/) — [Repo](https://github.com/AnaBHernandez/festival-tech)
+
+---
+
+## 📅 Semana 8: DOM Avanzado {#semana-8}
+
+**Objetivos:** Manipulación dinámica del DOM, eventos y lógica de juegos.
+
+* 🧩 [Escape Room](https://anabhernandez.github.io/escape-room/) — [Repo](https://github.com/AnaBHernandez/escape-room)
+* 📂 [Teclado Numérico](https://github.com/AnaBHernandez/teclado-numerico-dom) | [Selector Colores](https://github.com/AnaBHernandez/js-change-color)
+* 📝 [Gestión Alumnos JSON](https://github.com/AnaBHernandez/ejercicio-json-alumnos)
+
+---
+
+## 📅 Semana 9: TypeScript y Modularidad {#semana-9}
+
+**Objetivos:** Fundamentos de TypeScript y gestión del estado.
+
+* 📝 [GreenByte - Selección de Contenidos](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-09/apuntes/greenbyte-json-dom.md)
+
+---
+
+## 📅 Semana 10: Angular v21 y Routing {#semana-10}
+
+**Objetivos:** Enrutamiento perezoso, pnpm y auditoría de repositorios.
+
+* 📝 [Apuntes: Angular Avanzado](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-10/apuntes/semana-10/apuntes-angular-avanzado.md)
+* 📂 [BiblioTech - Routing](https://github.com/AnaBHernandez/bibliotech-ana-belen)
+
+---
+
+## 📞 Contacto
+
+* 🐙 [GitHub](https://github.com/AnaBHernandez)
+* 💼 [LinkedIn](https://linkedin.com/in/anabelen-hernandez)
+
+**Última actualización:** Mayo 2026 | Formación Factoría F5
