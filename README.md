@@ -31,7 +31,7 @@ Repositorio centralizado de apuntes y proyectos.
 
 ## 📅 Semana 4: Algoritmos y Recipe Page
 
-* 🍰 **Gijón Sweet (Web)** | [Repo](https://github.com/AnaBHernandez/the-good-breakfast) | [Web](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-04/ejercicios/ejercicio-05-pasteleria/index.html) | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/Proyecto:%20Gij%C3%B3n%20Sweet%20-%20Actividad%205.md)
+* 🍰 **Gijón Sweet (Web)** | [Web](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-04/ejercicios/ejercicio-05-pasteleria/index.html) | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/Proyecto:%20Gij%C3%B3n%20Sweet%20-%20Actividad%205.md)
 
 * 📝 **Ejercicios** | [Ejercicio 01: Algoritmo y Diagrama](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-01-algoritmo-pseudocodigo/ejercicio-01-algoritmo-pseudocodigo.md) | [Ejercicio 02: Diagrama y Pseudocódigo](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-02-diagrama-flujo-pseudocodigo/actividad-02-diagrama-flujo-pseudocodigo.md) | [Ejercicio 03: Pseudocódigo y Bucles](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/ejercicios/ejercicio-02-diagrama-flujo-pseudocodigo/actividad-03-pseudocodigo-bucles.md) | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-04/apuntes/algoritmos-pseudocodigo-diagrama-flujo.md) 
  
@@ -47,9 +47,8 @@ Repositorio centralizado de apuntes y proyectos.
 
 * 🥡 **Píldora Técnica: Objetos e Inmutabilidad (Píldora)** | [Web](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/pildora-objetos/index.html) | [Apuntes](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/apuntes/Pildora-Objetos-TS.html)
 * 🌳 **Maquetación A Tu Aire (Web)** | [Web](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/repaso-html-css/index_AnaBelenHernandez.html) | [Apuntes](https://anabhernandez.github.io/confeccion-web-2026/semanas/semana-06/apuntes/A-tu-aire.html)
-* 🎨 **Image Gallery (Web)** | [Repo](hhttps://github.com/AnaBHernandez/image-gallery/tree/main)
+* 🎨 **Image Gallery (Web)** | [Repo](hhttps://github.com/AnaBHernandez/image-gallery/tree/main) | [Web](**En construcción**)
 
----
 
 ## 📅 Semana 7: Lenguajes de Marcas y Arquitectura XML
 
@@ -77,9 +76,11 @@ Repositorio centralizado de apuntes y proyectos.
 
 ## 📅 Semana 10: Angular Avanzado y Arquitectura de Enrutamiento
 
-* 📖 **BiblioTech (Web)** | [Repo](https://github.com/AnaBHernandez/bibliotech-ana-belen) 
+* 📖 **BiblioTech (Web)** | [Repo](https://github.com/AnaBHernandez/bibliotech-ana-belen) | [Web](**En construcción**) 
 * 🧠 **Angular Avanzado: Routing y Lazy Loading** | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-10/apuntes/apuntes-angular-avanzado.md) 
 
 ---
+## 📅 Semana 11: Revisión proyectos (En construcción)
+
 
 **Autora:** [AnaBHernandez](https://github.com/AnaBHernandez) | **Última actualización:** Mayo 2026
