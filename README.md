@@ -59,13 +59,13 @@ Repositorio centralizado de apuntes y proyectos.
 
 ## 📅 Semana 8: Portfolio Avanzado y DOM
 
-* 🥡 **Selectores DOM** | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-08/apuntes/selectores-dom.md) | [Repo](https://github.com/AnaBHernandez/ejercicio-selectores-dom)[Ejercicio](https://anabhernandez.github.io/ejercicio-selectores-dom/)
-* 🔢 **Teclado Numérico** | [Repo](https://github.com/AnaBHernandez/teclado-numerico-dom) [Apuntes](https://github.com/AnaBHernandez/teclado-numerico-dom)
+* 🥡 **Selectores DOM** | [Repo](https://github.com/AnaBHernandez/ejercicio-selectores-dom) | [Ejercicio](https://anabhernandez.github.io/ejercicio-selectores-dom/) | [Web](https://anabhernandez.github.io/ejercicio-selectores-dom/) | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-08/apuntes/selectores-dom.md)
+* 🔢 **Teclado Numérico** | [Repo](https://github.com/AnaBHernandez/teclado-numerico-dom) [Apuntes] | (https://github.com/AnaBHernandez/teclado-numerico-dom)
 * 📟🔢= **Chage Color** | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-08/apuntes/json-dom.md)
 * 📦 **JSON y DOM** | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-08/apuntes/change-color.md)
 * 🧩 **Escape Room (Web)** | [Repo](https://github.com/AnaBHernandez/escape-room) | [Web](https://anabhernandez.github.io/escape-room/) | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-08/apuntes/escape-room.md)
 * 📽️ **Examen (Web)** | [Repo](https://github.com/AnaBHernandez/Ana-Belen-Hernandez-Lopez-Examen) | [Web](https://anabhernandez.github.io/Ana-Belen-Hernandez-Lopez-Examen/) | [Apuntes](https://github.com/AnaBHernandez/confeccion-web-2026/blob/main/semanas/semana-08/apuntes/examen-control.md)
-* 🧑‍🎓 **Gestión de Alumnos JSON** | [Repo](https://github.com/AnaBHernandez/ejercicio-json-alumnos)
+* 🧑‍🎓 **Gestión de Alumnos JSON** | [Repo](https://github.com/AnaBHernandez/ejercicio-json-alumnos) | [Web](https://anabhernandez.github.io/ejercicio-json-alumnos/) 
 
 ---
 
